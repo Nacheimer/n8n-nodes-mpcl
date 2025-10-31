@@ -1,0 +1,30 @@
+{
+	"node": "n8n-nodes-base.mercadoPublico",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Miscellaneous"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://developers.mercadopublico.cl/"
+			}
+		],
+		"documentation": [
+			{
+				"url": "https://developers.mercadopublico.cl/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://developers.mercadopublico.cl/"
+			}
+		]
+	},
+	"subcategories": {
+		"Miscellaneous": [
+			"miscellaneous"
+		]
+	}
+}

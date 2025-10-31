@@ -1,0 +1,8650 @@
+[
+  {
+    "id": "10171500",
+    "text": "Abonos orgánicos"
+  },
+  {
+    "id": "10171600",
+    "text": "Abonos químicos"
+  },
+  {
+    "id": "31162900",
+    "text": "Abrazaderas"
+  },
+  {
+    "id": "42291800",
+    "text": "Abrazaderas quirúrgicas, fórceps, ligadores quirúrgicos e instrumentos relacionados"
+  },
+  {
+    "id": "53101800",
+    "text": "Abrigos y chaquetas"
+  },
+  {
+    "id": "47131900",
+    "text": "Absorbentes"
+  },
+  {
+    "id": "23201100",
+    "text": "Absorción e intercambio de iones"
+  },
+  {
+    "id": "73121600",
+    "text": "Acabado de metales"
+  },
+  {
+    "id": "72101900",
+    "text": "Acabados de interiores"
+  },
+  {
+    "id": "31211700",
+    "text": "Acabados en general"
+  },
+  {
+    "id": "25172600",
+    "text": "Acabados exteriores para vehículos"
+  },
+  {
+    "id": "83112600",
+    "text": "Acceso de cliente"
+  },
+  {
+    "id": "46101800",
+    "text": "Accesorios de armas y municiones"
+  },
+  {
+    "id": "43211600",
+    "text": "Accesorios de computador"
+  },
+  {
+    "id": "52161600",
+    "text": "Accesorios de equipos audiovisuales"
+  },
+  {
+    "id": "47121900",
+    "text": "Accesorios de equipos de limpieza"
+  },
+  {
+    "id": "43222900",
+    "text": "Accesorios de equipos de telefonía"
+  },
+  {
+    "id": "31162300",
+    "text": "Accesorios de Ferretería"
+  },
+  {
+    "id": "45101700",
+    "text": "Accesorios de imprenta"
+  },
+  {
+    "id": "56121300",
+    "text": "Accesorios de instalaciones educativas generales"
+  },
+  {
+    "id": "23172000",
+    "text": "Accesorios de maquinaria para labrar metal"
+  },
+  {
+    "id": "44102900",
+    "text": "Accesorios de máquinas de oficina"
+  },
+  {
+    "id": "60131800",
+    "text": "Accesorios de música y danza"
+  },
+  {
+    "id": "43212000",
+    "text": "Accesorios de pantallas o monitores de computador"
+  },
+  {
+    "id": "20141400",
+    "text": "Accesorios de producción de barrenas hacia abajo"
+  },
+  {
+    "id": "31163200",
+    "text": "Accesorios de retención"
+  },
+  {
+    "id": "43202100",
+    "text": "Accesorios de soportes de almacenamiento extraíbles"
+  },
+  {
+    "id": "53102500",
+    "text": "Accesorios de vestir"
+  },
+  {
+    "id": "23171900",
+    "text": "Accesorios especiales"
+  },
+  {
+    "id": "42231600",
+    "text": "Accesorios o dispositivos de acceso de jejunostomía y gastrostomía"
+  },
+  {
+    "id": "43211800",
+    "text": "Accesorios o Dispositivos para ingreso de datos al computador"
+  },
+  {
+    "id": "45121600",
+    "text": "Accesorios para cámaras"
+  },
+  {
+    "id": "27121700",
+    "text": "Accesorios para circuitos hidráulicos"
+  },
+  {
+    "id": "27131600",
+    "text": "Accesorios para circuitos neumáticos"
+  },
+  {
+    "id": "49221500",
+    "text": "Accesorios para deportes"
+  },
+  {
+    "id": "31242100",
+    "text": "Accesorios para dispositivos ópticos"
+  },
+  {
+    "id": "53112000",
+    "text": "Accesorios para el calzado"
+  },
+  {
+    "id": "30191600",
+    "text": "Accesorios para escaleras y andamios"
+  },
+  {
+    "id": "44102200",
+    "text": "Accesorios para escáneres"
+  },
+  {
+    "id": "27112800",
+    "text": "Accesorios para herramientas"
+  },
+  {
+    "id": "39111800",
+    "text": "Accesorios para iluminación"
+  },
+  {
+    "id": "44101700",
+    "text": "Accesorios para impresoras, fotocopiadoras y aparatos de fax"
+  },
+  {
+    "id": "45101600",
+    "text": "Accesorios para máquinas de imprenta"
+  },
+  {
+    "id": "31211900",
+    "text": "Accesorios para pintar"
+  },
+  {
+    "id": "31162700",
+    "text": "Accesorios para rodados"
+  },
+  {
+    "id": "30151600",
+    "text": "Accesorios para techumbres"
+  },
+  {
+    "id": "40142300",
+    "text": "Accesorios para tuberías"
+  },
+  {
+    "id": "31162800",
+    "text": "Accesorios varios"
+  },
+  {
+    "id": "26101700",
+    "text": "Accesorios y componentes para motores"
+  },
+  {
+    "id": "43201900",
+    "text": "Accesorios y dispositivos de soporte de almacenamiento"
+  },
+  {
+    "id": "52131700",
+    "text": "Accesorios y ferretería para tratamiento de ventanas"
+  },
+  {
+    "id": "56101800",
+    "text": "Accesorios y muebles de bebé y niño"
+  },
+  {
+    "id": "10111300",
+    "text": "Accesorios y tratamientos para mascotas"
+  },
+  {
+    "id": "42221500",
+    "text": "Accesorios, catéteres y cánulas intravenosas y arteriales"
+  },
+  {
+    "id": "32131000",
+    "text": "Accesorios, materias primas y piezas de componentes electrónicos"
+  },
+  {
+    "id": "12181600",
+    "text": "Aceites"
+  },
+  {
+    "id": "50151500",
+    "text": "Aceites vegetales y grasas comestibles"
+  },
+  {
+    "id": "42203000",
+    "text": "Aceleradores médicos lineales y productos relacionados"
+  },
+  {
+    "id": "11171500",
+    "text": "Aceros básicos"
+  },
+  {
+    "id": "11171700",
+    "text": "Aceros rápidos"
+  },
+  {
+    "id": "24141600",
+    "text": "Acolchados para embalaje"
+  },
+  {
+    "id": "50192600",
+    "text": "Acompañamientos preparados"
+  },
+  {
+    "id": "82151700",
+    "text": "Actores"
+  },
+  {
+    "id": "90131500",
+    "text": "Actuaciones en directo"
+  },
+  {
+    "id": "31251500",
+    "text": "Actuadores"
+  },
+  {
+    "id": "70101900",
+    "text": "Acuicultura"
+  },
+  {
+    "id": "25202700",
+    "text": "Acumuladores para aviones"
+  },
+  {
+    "id": "60101300",
+    "text": "Adhesivos educativos y suministros"
+  },
+  {
+    "id": "31201600",
+    "text": "Adhesivos y selladores"
+  },
+  {
+    "id": "12164500",
+    "text": "Aditivos para alimentos y fármacos"
+  },
+  {
+    "id": "15111700",
+    "text": "Aditivos para carburante"
+  },
+  {
+    "id": "12162700",
+    "text": "Aditivos para pérdida de fluido"
+  },
+  {
+    "id": "31211600",
+    "text": "Aditivos para pinturas"
+  },
+  {
+    "id": "102102000",
+    "text": "Administración"
+  },
+  {
+    "id": "102102010",
+    "text": "Administración 2.1 Estudios Administrativos."
+  },
+  {
+    "id": "102102020",
+    "text": "Administración 2.2 Estudios Económicos, Financieros y Tarifarios."
+  },
+  {
+    "id": "102102030",
+    "text": "Administración 2.3 Auditoría."
+  },
+  {
+    "id": "102102040",
+    "text": "Administración 2.4 Estudios Legales."
+  },
+  {
+    "id": "70141700",
+    "text": "Administración de cultivos"
+  },
+  {
+    "id": "70151500",
+    "text": "Administración de cultivos forestales"
+  },
+  {
+    "id": "81141800",
+    "text": "Administración de edificios e instalaciones"
+  },
+  {
+    "id": "71161100",
+    "text": "Administración de la ingeniería de producción del campo petrolífero"
+  },
+  {
+    "id": "71161200",
+    "text": "Administración de las operaciones de producción del campo petrolífero"
+  },
+  {
+    "id": "81111800",
+    "text": "Administración de sistemas"
+  },
+  {
+    "id": "70131700",
+    "text": "Administración del terreno y del suelo"
+  },
+  {
+    "id": "93151500",
+    "text": "Administración pública"
+  },
+  {
+    "id": "93161700",
+    "text": "Administración tributaria"
+  },
+  {
+    "id": "25131500",
+    "text": "Aeronave de ala fija con motor"
+  },
+  {
+    "id": "25131700",
+    "text": "Aeronave de ala fija militar"
+  },
+  {
+    "id": "25131600",
+    "text": "Aeronave de ala rotatoria civil y comercial"
+  },
+  {
+    "id": "25131900",
+    "text": "Aeronave de ala rotatoria militar"
+  },
+  {
+    "id": "25131800",
+    "text": "Aeronave especial"
+  },
+  {
+    "id": "25132000",
+    "text": "Aeronave para recreación"
+  },
+  {
+    "id": "53141500",
+    "text": "Afianzadores de costura"
+  },
+  {
+    "id": "42293800",
+    "text": "Agarradores, buscadores, horadores y desmoldadores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "84141700",
+    "text": "Agencias de crédito comercial"
+  },
+  {
+    "id": "82101800",
+    "text": "Agencias de publicidad"
+  },
+  {
+    "id": "44111500",
+    "text": "Agendas y accesorios"
+  },
+  {
+    "id": "51191700",
+    "text": "Agentes alcalinizadores"
+  },
+  {
+    "id": "51111500",
+    "text": "Agentes alquilizantes"
+  },
+  {
+    "id": "51121500",
+    "text": "Agentes antiarrítmicos"
+  },
+  {
+    "id": "51181500",
+    "text": "Agentes antidiabéticos y agentes hiperglicémicos"
+  },
+  {
+    "id": "51121800",
+    "text": "Agentes antihiperlipidémicos / hipocolesterolémicos"
+  },
+  {
+    "id": "51141700",
+    "text": "Agentes antipsicóticos"
+  },
+  {
+    "id": "51171800",
+    "text": "Agentes antivértigo, antinauseantes y antieméticos"
+  },
+  {
+    "id": "51151800",
+    "text": "Agentes bloqueadores adrenérgicos"
+  },
+  {
+    "id": "51151600",
+    "text": "Agentes bloqueadores colinérgicos"
+  },
+  {
+    "id": "51152000",
+    "text": "Agentes bloqueadores neuromusculares"
+  },
+  {
+    "id": "51122300",
+    "text": "Agentes cardioplégicos"
+  },
+  {
+    "id": "12162900",
+    "text": "Agentes de control asfalteno"
+  },
+  {
+    "id": "12163200",
+    "text": "Agentes de escape anti gas"
+  },
+  {
+    "id": "12163300",
+    "text": "Agentes de expansión"
+  },
+  {
+    "id": "51201900",
+    "text": "Agentes de la esclerosis múltiple (EM)"
+  },
+  {
+    "id": "90121500",
+    "text": "Agentes de viajes"
+  },
+  {
+    "id": "51241200",
+    "text": "Agentes dermatológicos"
+  },
+  {
+    "id": "51132000",
+    "text": "Agentes hemorreológicos"
+  },
+  {
+    "id": "51131800",
+    "text": "Agentes hemostáticos sistémicos y coagulantes"
+  },
+  {
+    "id": "42311600",
+    "text": "Agentes hemostáticos tópicos exógenos"
+  },
+  {
+    "id": "51201800",
+    "text": "Agentes inmunoestimulantes"
+  },
+  {
+    "id": "51241100",
+    "text": "Agentes oftálmicos"
+  },
+  {
+    "id": "42142500",
+    "text": "Agujas clínicas"
+  },
+  {
+    "id": "83101900",
+    "text": "Ahorro de energía"
+  },
+  {
+    "id": "25172700",
+    "text": "Aire acondicionado"
+  },
+  {
+    "id": "30141600",
+    "text": "Aislamiento especial"
+  },
+  {
+    "id": "30141500",
+    "text": "Aislamiento térmico"
+  },
+  {
+    "id": "31151800",
+    "text": "Alambre mecánico"
+  },
+  {
+    "id": "72102500",
+    "text": "Albañilería, mampostería y colocación de azulejos"
+  },
+  {
+    "id": "60105700",
+    "text": "Álbumes o libros de recuerdos y suministros"
+  },
+  {
+    "id": "11171600",
+    "text": "Aleaciones de acero inoxidable"
+  },
+  {
+    "id": "11172000",
+    "text": "Aleaciones de aluminio"
+  },
+  {
+    "id": "52101500",
+    "text": "Alfombras y felpudos"
+  },
+  {
+    "id": "10121600",
+    "text": "Alimento para aves de corral"
+  },
+  {
+    "id": "10121500",
+    "text": "Alimento para ganado"
+  },
+  {
+    "id": "10121700",
+    "text": "Alimento para peces"
+  },
+  {
+    "id": "10121800",
+    "text": "Alimento para perros y gatos"
+  },
+  {
+    "id": "10122000",
+    "text": "Alimento para reptiles"
+  },
+  {
+    "id": "10121900",
+    "text": "Alimento para roedores"
+  },
+  {
+    "id": "30103500",
+    "text": "Alma de panal"
+  },
+  {
+    "id": "78131700",
+    "text": "Almacenaje a granel"
+  },
+  {
+    "id": "78131600",
+    "text": "Almacenaje de mercancía en general"
+  },
+  {
+    "id": "78131500",
+    "text": "Almacenaje de productos agrícolas"
+  },
+  {
+    "id": "45131700",
+    "text": "Almacenamiento para soportes audiovisuales"
+  },
+  {
+    "id": "91101800",
+    "text": "Alquiler de ropa"
+  },
+  {
+    "id": "85101500",
+    "text": "Ambulatorios"
+  },
+  {
+    "id": "51101600",
+    "text": "Amebicidas, tricomonacidas y antiprotozoarios"
+  },
+  {
+    "id": "12161700",
+    "text": "Amortiguadores químicos"
+  },
+  {
+    "id": "39101600",
+    "text": "Ampolletas, focos y lámparas"
+  },
+  {
+    "id": "51142200",
+    "text": "Analgésicos narcóticos"
+  },
+  {
+    "id": "51142300",
+    "text": "Analgésicos narcóticos"
+  },
+  {
+    "id": "51142000",
+    "text": "Analgésicos no narcóticos / antipiréticos"
+  },
+  {
+    "id": "93171800",
+    "text": "Análisis comercial"
+  },
+  {
+    "id": "81121500",
+    "text": "Análisis económico"
+  },
+  {
+    "id": "41113100",
+    "text": "Analizadores de gases"
+  },
+  {
+    "id": "41113300",
+    "text": "Analizadores de líquidos, sólidos y otros elementos"
+  },
+  {
+    "id": "41115800",
+    "text": "Analizadores, accesorios y suministros clínicos y de diagnósticos"
+  },
+  {
+    "id": "31162100",
+    "text": "Anclajes"
+  },
+  {
+    "id": "20141300",
+    "text": "Anclas y bombas de chorro de barrenas hacia abajo"
+  },
+  {
+    "id": "51182000",
+    "text": "Andrógenos e inhibidores androgénicos"
+  },
+  {
+    "id": "30101500",
+    "text": "Ángulos"
+  },
+  {
+    "id": "10101500",
+    "text": "Animales domésticos"
+  },
+  {
+    "id": "10102000",
+    "text": "Animales salvajes"
+  },
+  {
+    "id": "12163100",
+    "text": "Anti sedimentos"
+  },
+  {
+    "id": "12162200",
+    "text": "Anti-oxidantes"
+  },
+  {
+    "id": "51171500",
+    "text": "Antiácidos y antiflatulentos"
+  },
+  {
+    "id": "51161500",
+    "text": "Antiasmáticos"
+  },
+  {
+    "id": "51101500",
+    "text": "Antibióticos"
+  },
+  {
+    "id": "51111700",
+    "text": "Antibióticos antineoplásticos"
+  },
+  {
+    "id": "51102600",
+    "text": "Antibióticos veterinarios"
+  },
+  {
+    "id": "51131600",
+    "text": "Anticoagulantes"
+  },
+  {
+    "id": "51141500",
+    "text": "Anticonvulsivos"
+  },
+  {
+    "id": "15121800",
+    "text": "Anticorrosivos"
+  },
+  {
+    "id": "51141600",
+    "text": "Antidepresivos"
+  },
+  {
+    "id": "51171700",
+    "text": "Antidiarreicos"
+  },
+  {
+    "id": "51211600",
+    "text": "Antídotos y eméticos"
+  },
+  {
+    "id": "12164400",
+    "text": "Antiemulsionante"
+  },
+  {
+    "id": "51172100",
+    "text": "Antiespasmódicos"
+  },
+  {
+    "id": "51102500",
+    "text": "Antihelmínticos veterinarios"
+  },
+  {
+    "id": "51101700",
+    "text": "Antihelmínticos y otros antiparasitarios"
+  },
+  {
+    "id": "51161600",
+    "text": "Antihistamínicos o bloqueadores H10"
+  },
+  {
+    "id": "51102200",
+    "text": "Antiinfecciosos y analgésicos urinarios"
+  },
+  {
+    "id": "51111600",
+    "text": "Antimetabolitos"
+  },
+  {
+    "id": "51102700",
+    "text": "Antisépticos"
+  },
+  {
+    "id": "52141700",
+    "text": "Aparatos de baño domésticos"
+  },
+  {
+    "id": "42221800",
+    "text": "Aparatos para posicionar agujas y catéteres intravenosos o arteriales"
+  },
+  {
+    "id": "42272500",
+    "text": "Aparatos, accesorios y suministros de anestesia"
+  },
+  {
+    "id": "49131500",
+    "text": "Aparejos de pesca"
+  },
+  {
+    "id": "71122900",
+    "text": "Aparejos del campo petrolífero"
+  },
+  {
+    "id": "23231600",
+    "text": "Apiladoras de maderos y accesorios"
+  },
+  {
+    "id": "86111500",
+    "text": "Aprendizaje a distancia"
+  },
+  {
+    "id": "42292200",
+    "text": "Aproximadores, compresores, depresores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "10161500",
+    "text": "Árboles y arbustos"
+  },
+  {
+    "id": "11111800",
+    "text": "Arcillas"
+  },
+  {
+    "id": "24112000",
+    "text": "Arcones y cestas"
+  },
+  {
+    "id": "11111700",
+    "text": "Arena"
+  },
+  {
+    "id": "42191900",
+    "text": "Armarios o muebles clínicos"
+  },
+  {
+    "id": "46101500",
+    "text": "Armas de fuego"
+  },
+  {
+    "id": "46111800",
+    "text": "Armas de la específicas de la Armada"
+  },
+  {
+    "id": "10141600",
+    "text": "Arneses"
+  },
+  {
+    "id": "26121700",
+    "text": "Arneses eléctricos"
+  },
+  {
+    "id": "102106000",
+    "text": "Arquitectura y Urbanismo"
+  },
+  {
+    "id": "102106010",
+    "text": "Arquitectura y Urbanismo 6.1 Obras de Arquitectura."
+  },
+  {
+    "id": "102106020",
+    "text": "Arquitectura y Urbanismo 6.2 Cálculo estructural de edificios."
+  },
+  {
+    "id": "102106030",
+    "text": "Arquitectura y Urbanismo 6.3 Urbanismo."
+  },
+  {
+    "id": "102106040",
+    "text": "Arquitectura y Urbanismo 6.4 Monumentos Nacionales."
+  },
+  {
+    "id": "80131500",
+    "text": "Arriendo de propiedades o edificios"
+  },
+  {
+    "id": "60121000",
+    "text": "Arte"
+  },
+  {
+    "id": "60123000",
+    "text": "Artesanía de espuma"
+  },
+  {
+    "id": "82151500",
+    "text": "Artesanos"
+  },
+  {
+    "id": "42203800",
+    "text": "Artículos de apoyo para posicionamiento radiológico"
+  },
+  {
+    "id": "42211500",
+    "text": "Artículos de ayuda para desplazamiento de discapacitados"
+  },
+  {
+    "id": "42211800",
+    "text": "Artículos de ayuda para el aseado y vestido de discapacitados"
+  },
+  {
+    "id": "42211600",
+    "text": "Artículos de ayuda para el baño de discapacitados"
+  },
+  {
+    "id": "42211700",
+    "text": "Artículos de ayuda para la comunicación de discapacitados"
+  },
+  {
+    "id": "53131600",
+    "text": "Artículos de baño y cuerpo"
+  },
+  {
+    "id": "10141500",
+    "text": "Artículos de talabartería"
+  },
+  {
+    "id": "42202300",
+    "text": "Artículos del acelerador lineal de terapia de radiación de intensidad modulada (IMRT) l"
+  },
+  {
+    "id": "53131500",
+    "text": "Artículos dentales"
+  },
+  {
+    "id": "42203600",
+    "text": "Artículos para archivar información e imágenes radiológicas"
+  },
+  {
+    "id": "42183000",
+    "text": "Artículos para examen oftalmológico"
+  },
+  {
+    "id": "42201700",
+    "text": "Artículos para imágenes de ultrasonido, doppler y eco"
+  },
+  {
+    "id": "42203400",
+    "text": "Artículos para imágenes vasculares, cardiología intervencional y laboratorio de cateterización cardiaca"
+  },
+  {
+    "id": "42192200",
+    "text": "Artículos para transporte de paciente"
+  },
+  {
+    "id": "42201800",
+    "text": "Artículos radiográficos de diagnóstico médico"
+  },
+  {
+    "id": "41121800",
+    "text": "Artículos y suministros de vidrio y plástico para laboratorio"
+  },
+  {
+    "id": "91101900",
+    "text": "Asesores de moda"
+  },
+  {
+    "id": "84111800",
+    "text": "Asesoría tributarias"
+  },
+  {
+    "id": "84121700",
+    "text": "Asesorías de inversiones"
+  },
+  {
+    "id": "30121600",
+    "text": "Asfaltos"
+  },
+  {
+    "id": "56112100",
+    "text": "Asientos"
+  },
+  {
+    "id": "25174600",
+    "text": "Asientos para vehículos"
+  },
+  {
+    "id": "42192100",
+    "text": "Asientos y taburetes clínicos y productos relacionados"
+  },
+  {
+    "id": "90121600",
+    "text": "Asistencia de documentación para viajes"
+  },
+  {
+    "id": "42212200",
+    "text": "Asistencia en el manejo de medicamentos para discapacitados físicos"
+  },
+  {
+    "id": "84101500",
+    "text": "Asistencia para el desarrollo"
+  },
+  {
+    "id": "91111600",
+    "text": "Asistencia y cuidado doméstico"
+  },
+  {
+    "id": "94132000",
+    "text": "Asociaciones de defensa y promoción de los derechos humanos"
+  },
+  {
+    "id": "94101700",
+    "text": "Asociaciones de empleados"
+  },
+  {
+    "id": "94131900",
+    "text": "Asociaciones de protección de animales"
+  },
+  {
+    "id": "94131700",
+    "text": "Asociaciones ecologistas"
+  },
+  {
+    "id": "94101500",
+    "text": "Asociaciones empresariales y gremiales"
+  },
+  {
+    "id": "94101600",
+    "text": "Asociaciones y colegios profesionales"
+  },
+  {
+    "id": "21101800",
+    "text": "Aspersores para agricultura, parques y/o jardines"
+  },
+  {
+    "id": "51241300",
+    "text": "Astringentes"
+  },
+  {
+    "id": "60104300",
+    "text": "Astronomía"
+  },
+  {
+    "id": "81121600",
+    "text": "Asuntos relativos a sistemas monetarios"
+  },
+  {
+    "id": "90151500",
+    "text": "Atracciones turísticas"
+  },
+  {
+    "id": "45111500",
+    "text": "Atriles, sistemas de sonido y accesorios"
+  },
+  {
+    "id": "77101800",
+    "text": "Auditoría medioambiental"
+  },
+  {
+    "id": "10101600",
+    "text": "Aves de corral"
+  },
+  {
+    "id": "42211900",
+    "text": "Ayuda para preparación de comidas, bebidas y alimentos para discapacitados físicos"
+  },
+  {
+    "id": "42301500",
+    "text": "Ayudas para la formación médica"
+  },
+  {
+    "id": "30131700",
+    "text": "Azulejos y baldosas"
+  },
+  {
+    "id": "12164000",
+    "text": "Bactericidas"
+  },
+  {
+    "id": "91101500",
+    "text": "Balnearios, instalaciones de entrenamiento y clubes de salud"
+  },
+  {
+    "id": "84121900",
+    "text": "Banca hipotecaria"
+  },
+  {
+    "id": "30101600",
+    "text": "Barras"
+  },
+  {
+    "id": "31231100",
+    "text": "Barras labradas"
+  },
+  {
+    "id": "20102100",
+    "text": "Barrenas para rocas"
+  },
+  {
+    "id": "42182800",
+    "text": "Básculas o balanzas médicas"
+  },
+  {
+    "id": "92112300",
+    "text": "Bases militares"
+  },
+  {
+    "id": "53102100",
+    "text": "Batas y overoles"
+  },
+  {
+    "id": "52151800",
+    "text": "Batería de cocina doméstica"
+  },
+  {
+    "id": "26111700",
+    "text": "Baterías, pilas y accesorios"
+  },
+  {
+    "id": "50202200",
+    "text": "Bebidas alcohólicas"
+  },
+  {
+    "id": "50202300",
+    "text": "Bebidas no alcohólicas"
+  },
+  {
+    "id": "50193000",
+    "text": "Bebidas y comidas infantiles"
+  },
+  {
+    "id": "86131500",
+    "text": "Bellas artes"
+  },
+  {
+    "id": "83121500",
+    "text": "Bibliotecas"
+  },
+  {
+    "id": "41105900",
+    "text": "Bibliotecas técnicas y material relacionado"
+  },
+  {
+    "id": "25101800",
+    "text": "Bicicletas con motor"
+  },
+  {
+    "id": "60104000",
+    "text": "Biotecnología, bioquímica, genética, microbiología y materiales relacionados"
+  },
+  {
+    "id": "54101600",
+    "text": "Bisutería"
+  },
+  {
+    "id": "30131500",
+    "text": "Bloques"
+  },
+  {
+    "id": "24111500",
+    "text": "Bolsas"
+  },
+  {
+    "id": "42221700",
+    "text": "Bolsas de infusión, recipientes y productos relacionados intravenosos y arteriales"
+  },
+  {
+    "id": "20142700",
+    "text": "Bombas"
+  },
+  {
+    "id": "40151500",
+    "text": "Bombas"
+  },
+  {
+    "id": "20141500",
+    "text": "Bombas de barrenas hacia abajo"
+  },
+  {
+    "id": "20141600",
+    "text": "Bombas de exportación"
+  },
+  {
+    "id": "41105100",
+    "text": "Bombas y conductos de laboratorio"
+  },
+  {
+    "id": "46111500",
+    "text": "Bombas y granadas"
+  },
+  {
+    "id": "42222000",
+    "text": "Bombas, analizadores, sensores y accesorios de infusión intravenosa"
+  },
+  {
+    "id": "92101600",
+    "text": "Bomberos"
+  },
+  {
+    "id": "53111500",
+    "text": "Botas"
+  },
+  {
+    "id": "24122000",
+    "text": "Botellas"
+  },
+  {
+    "id": "42293600",
+    "text": "Bougies quirúrgicos, sondas, obturadores y productos relacionados"
+  },
+  {
+    "id": "31241900",
+    "text": "Bóvedas ópticas industriales"
+  },
+  {
+    "id": "20121600",
+    "text": "Brocas de barrena"
+  },
+  {
+    "id": "31152000",
+    "text": "Cable de seguridad"
+  },
+  {
+    "id": "31151700",
+    "text": "Cable mecánico"
+  },
+  {
+    "id": "26121600",
+    "text": "Cables eléctricos y accesorios"
+  },
+  {
+    "id": "31151600",
+    "text": "Cadenas"
+  },
+  {
+    "id": "50201700",
+    "text": "Café y té"
+  },
+  {
+    "id": "84122000",
+    "text": "Cajas de seguridad"
+  },
+  {
+    "id": "39121300",
+    "text": "Cajas y accesorios eléctricos"
+  },
+  {
+    "id": "24121500",
+    "text": "Cajas, bolsas y sacos para envasado"
+  },
+  {
+    "id": "40102000",
+    "text": "Calderas"
+  },
+  {
+    "id": "20142200",
+    "text": "Calefactores de línea"
+  },
+  {
+    "id": "20142100",
+    "text": "Calefactores para pozo"
+  },
+  {
+    "id": "46181600",
+    "text": "Calzado de seguridad"
+  },
+  {
+    "id": "45121500",
+    "text": "Cámaras"
+  },
+  {
+    "id": "42202000",
+    "text": "Cámaras gamma de diagnóstico y artículos relacionados"
+  },
+  {
+    "id": "42191800",
+    "text": "Camas para pacientes y accesorios"
+  },
+  {
+    "id": "25102100",
+    "text": "Camiones"
+  },
+  {
+    "id": "24101500",
+    "text": "Camiones, carros y carretillas industriales"
+  },
+  {
+    "id": "53101600",
+    "text": "Camisas y blusas"
+  },
+  {
+    "id": "53103000",
+    "text": "Camisetas"
+  },
+  {
+    "id": "53103100",
+    "text": "Camisetas"
+  },
+  {
+    "id": "30151700",
+    "text": "Canales para techumbre y accesorios"
+  },
+  {
+    "id": "23231300",
+    "text": "Canteadoras y accesorios"
+  },
+  {
+    "id": "42293500",
+    "text": "Cánulas, puntas y estiletes de irrigación, succión quirúrgica y productos relacionados"
+  },
+  {
+    "id": "40141900",
+    "text": "Cañerías y flexibles"
+  },
+  {
+    "id": "83112500",
+    "text": "Capacidades del eje troncal de telecomunicaciones"
+  },
+  {
+    "id": "92101700",
+    "text": "Cárceles"
+  },
+  {
+    "id": "90151800",
+    "text": "Carnavales y ferias"
+  },
+  {
+    "id": "50112000",
+    "text": "Carnes procesadas y preparadas"
+  },
+  {
+    "id": "50111500",
+    "text": "Carnes y aves de corral"
+  },
+  {
+    "id": "44122000",
+    "text": "Carpetas de archivo y separadores"
+  },
+  {
+    "id": "72102600",
+    "text": "Carpintería"
+  },
+  {
+    "id": "30161900",
+    "text": "Carpintería de terminaciones"
+  },
+  {
+    "id": "30101900",
+    "text": "Carrete"
+  },
+  {
+    "id": "47121500",
+    "text": "Carros y accesorios para limpieza"
+  },
+  {
+    "id": "53121700",
+    "text": "Carteras"
+  },
+  {
+    "id": "81151600",
+    "text": "Cartografía"
+  },
+  {
+    "id": "24112500",
+    "text": "Cartón corrugado y otros materiales para embalaje"
+  },
+  {
+    "id": "14121500",
+    "text": "Cartón y papel para embalaje"
+  },
+  {
+    "id": "12161600",
+    "text": "Catalizadores"
+  },
+  {
+    "id": "13101500",
+    "text": "Caucho natural"
+  },
+  {
+    "id": "13101600",
+    "text": "Caucho sintético"
+  },
+  {
+    "id": "20131300",
+    "text": "Cemento para pozo petrolero"
+  },
+  {
+    "id": "30111600",
+    "text": "Cemento y cal"
+  },
+  {
+    "id": "26131500",
+    "text": "Centrales eléctricas"
+  },
+  {
+    "id": "41103900",
+    "text": "Centrifugadoras de laboratorio"
+  },
+  {
+    "id": "90111600",
+    "text": "Centros de eventos y reuniones"
+  },
+  {
+    "id": "83121600",
+    "text": "Centros y servicios de información"
+  },
+  {
+    "id": "23231900",
+    "text": "Cepilladoras y accesorios"
+  },
+  {
+    "id": "27113000",
+    "text": "Cepillos"
+  },
+  {
+    "id": "12181500",
+    "text": "Ceras"
+  },
+  {
+    "id": "30152000",
+    "text": "Cercos"
+  },
+  {
+    "id": "50221100",
+    "text": "Cereales"
+  },
+  {
+    "id": "50221200",
+    "text": "Cereales procesados"
+  },
+  {
+    "id": "46171500",
+    "text": "Cerraduras, elementos de seguridad y accesorios"
+  },
+  {
+    "id": "31162400",
+    "text": "Cerrojos"
+  },
+  {
+    "id": "30102500",
+    "text": "Chapa"
+  },
+  {
+    "id": "30161800",
+    "text": "Chapistería"
+  },
+  {
+    "id": "25181600",
+    "text": "Chasis para automóviles"
+  },
+  {
+    "id": "11191600",
+    "text": "Chatarra metálica"
+  },
+  {
+    "id": "92111700",
+    "text": "Ciencia e investigación militar"
+  },
+  {
+    "id": "60103500",
+    "text": "Ciencias políticas"
+  },
+  {
+    "id": "42312000",
+    "text": "Cierres médicos de tejidos y productos relacionados"
+  },
+  {
+    "id": "27131700",
+    "text": "Cilindros neumáticos y componentes"
+  },
+  {
+    "id": "31201500",
+    "text": "Cinta adhesiva"
+  },
+  {
+    "id": "42311700",
+    "text": "Cintas adhesivas médicas y quirúrgicas y productos relacionados"
+  },
+  {
+    "id": "25202300",
+    "text": "Cinturones y arneses de seguridad para pasajeros de avión"
+  },
+  {
+    "id": "82151600",
+    "text": "Circenses"
+  },
+  {
+    "id": "32101600",
+    "text": "Circuitos integrados, memorias y microprocesadores"
+  },
+  {
+    "id": "30171800",
+    "text": "Claraboyas"
+  },
+  {
+    "id": "23231500",
+    "text": "Clasificadoras de maderos y accesorios"
+  },
+  {
+    "id": "31162000",
+    "text": "Clavos"
+  },
+  {
+    "id": "51151500",
+    "text": "Clorinérgicos e inhibidores de la colinesterasa"
+  },
+  {
+    "id": "94121700",
+    "text": "Clubes de aficionados y talleres artísticos"
+  },
+  {
+    "id": "94121600",
+    "text": "Clubes de ocio y pasatiempos"
+  },
+  {
+    "id": "94121500",
+    "text": "Clubes deportivos"
+  },
+  {
+    "id": "90152000",
+    "text": "Clubes nocturnos y salas de baile"
+  },
+  {
+    "id": "94121800",
+    "text": "Clubes sociales"
+  },
+  {
+    "id": "10131500",
+    "text": "Cobertizos para animales"
+  },
+  {
+    "id": "24112400",
+    "text": "Cofres, armarios y baúles para almacenaje"
+  },
+  {
+    "id": "60105100",
+    "text": "Cohetes, materiales de vuelo y suministros"
+  },
+  {
+    "id": "49101600",
+    "text": "Coleccionismo"
+  },
+  {
+    "id": "13111100",
+    "text": "Colofonia"
+  },
+  {
+    "id": "12171600",
+    "text": "Colorantes"
+  },
+  {
+    "id": "15131600",
+    "text": "Combustible de fisión"
+  },
+  {
+    "id": "15131500",
+    "text": "Combustible nuclear"
+  },
+  {
+    "id": "78180300",
+    "text": "Combustible para vehículos de transporte, estacionamiento y otros servicios de apoyo"
+  },
+  {
+    "id": "15111500",
+    "text": "Combustibles gaseosos"
+  },
+  {
+    "id": "15101600",
+    "text": "Combustibles sólidos"
+  },
+  {
+    "id": "26101900",
+    "text": "Combustión interna"
+  },
+  {
+    "id": "93171600",
+    "text": "Comercio internacional"
+  },
+  {
+    "id": "10122100",
+    "text": "Comida para animales varios"
+  },
+  {
+    "id": "39101800",
+    "text": "Componentes de ampolletas"
+  },
+  {
+    "id": "43201600",
+    "text": "Componentes de gabinete, rack o chasis"
+  },
+  {
+    "id": "31132000",
+    "text": "Componentes de metal en polvo"
+  },
+  {
+    "id": "31251600",
+    "text": "Componentes de robot"
+  },
+  {
+    "id": "25172100",
+    "text": "Componentes de seguridad para vehículos"
+  },
+  {
+    "id": "25202600",
+    "text": "Componentes del control ambiental para aviones"
+  },
+  {
+    "id": "32121700",
+    "text": "Componentes discretos"
+  },
+  {
+    "id": "25173900",
+    "text": "Componentes eléctricos"
+  },
+  {
+    "id": "25174400",
+    "text": "Componentes interiores para vehículos"
+  },
+  {
+    "id": "31242200",
+    "text": "Componentes ópticos varios"
+  },
+  {
+    "id": "25174700",
+    "text": "Componentes para bicicletas"
+  },
+  {
+    "id": "26101800",
+    "text": "Componentes para generadores"
+  },
+  {
+    "id": "22101700",
+    "text": "Componentes para maquinaria pesada"
+  },
+  {
+    "id": "26111800",
+    "text": "Componentes para transmisión de energía"
+  },
+  {
+    "id": "25111900",
+    "text": "Componentes y accesorios para embarcaciones"
+  },
+  {
+    "id": "23153100",
+    "text": "Componentes y accesorios para maquinaria industrial"
+  },
+  {
+    "id": "43223100",
+    "text": "Componentes y equipos de infraestructura de redes móviles y digitales"
+  },
+  {
+    "id": "25174100",
+    "text": "Componentes y sistemas para el techo"
+  },
+  {
+    "id": "43221600",
+    "text": "Componentes, accesorios y equipos de acceso de línea de abonado digital (DSL)"
+  },
+  {
+    "id": "40151600",
+    "text": "Compresores"
+  },
+  {
+    "id": "12352000",
+    "text": "Compuestos aromáticos y alifáticos"
+  },
+  {
+    "id": "12171700",
+    "text": "Compuestos de colores y dispersiones"
+  },
+  {
+    "id": "60124300",
+    "text": "Compuestos de modelado y arcilla, equipos de cerámica y accesorios"
+  },
+  {
+    "id": "12352300",
+    "text": "Compuestos inorgánicos"
+  },
+  {
+    "id": "31371200",
+    "text": "Compuestos para moldear"
+  },
+  {
+    "id": "43211500",
+    "text": "Computadores"
+  },
+  {
+    "id": "83121700",
+    "text": "Comunicación social y de masas"
+  },
+  {
+    "id": "83111600",
+    "text": "Comunicaciones móviles"
+  },
+  {
+    "id": "32121500",
+    "text": "Condensadores"
+  },
+  {
+    "id": "86131700",
+    "text": "Conducción, vuelo y vela"
+  },
+  {
+    "id": "26121500",
+    "text": "Conductores eléctricos"
+  },
+  {
+    "id": "30101800",
+    "text": "Conductos"
+  },
+  {
+    "id": "31163100",
+    "text": "Conectores"
+  },
+  {
+    "id": "39121400",
+    "text": "Conectores, enchufes y terminales"
+  },
+  {
+    "id": "40142600",
+    "text": "Conexiones para tuberías"
+  },
+  {
+    "id": "92112400",
+    "text": "Conflictos e incidentes armados"
+  },
+  {
+    "id": "24131600",
+    "text": "Congeladores industriales"
+  },
+  {
+    "id": "31321700",
+    "text": "Conjuntos apernados de material en barras"
+  },
+  {
+    "id": "31321600",
+    "text": "Conjuntos con soldadura sónica de material en barras"
+  },
+  {
+    "id": "31341200",
+    "text": "Conjuntos d planchas remachadas"
+  },
+  {
+    "id": "31321500",
+    "text": "Conjuntos de barras soldadas por ultra violeta"
+  },
+  {
+    "id": "32101500",
+    "text": "Conjuntos de circuitos y componentes de radiofrecuencia (RF)"
+  },
+  {
+    "id": "31341700",
+    "text": "Conjuntos de láminas apernadas"
+  },
+  {
+    "id": "31341600",
+    "text": "Conjuntos de láminas con acabado pegado"
+  },
+  {
+    "id": "31341400",
+    "text": "Conjuntos de láminas con soldadura sónica"
+  },
+  {
+    "id": "31341500",
+    "text": "Conjuntos de láminas soldada por solvente"
+  },
+  {
+    "id": "31341300",
+    "text": "Conjuntos de láminas soldadas con ultra violeta"
+  },
+  {
+    "id": "31361200",
+    "text": "Conjuntos de placas apernadas"
+  },
+  {
+    "id": "31361600",
+    "text": "Conjuntos de placas con soldadura sónica"
+  },
+  {
+    "id": "31361100",
+    "text": "Conjuntos de placas pegadas"
+  },
+  {
+    "id": "31361700",
+    "text": "Conjuntos de placas remachadas"
+  },
+  {
+    "id": "31361400",
+    "text": "Conjuntos de placas soldadas"
+  },
+  {
+    "id": "31361300",
+    "text": "Conjuntos de placas soldadas por solvente"
+  },
+  {
+    "id": "31361500",
+    "text": "Conjuntos de placas soldadas por ultra violeta"
+  },
+  {
+    "id": "31341100",
+    "text": "Conjuntos de planchas soldadas con latón"
+  },
+  {
+    "id": "31311300",
+    "text": "Conjuntos de tubería apernada"
+  },
+  {
+    "id": "31351500",
+    "text": "Conjuntos de tubería apernadas"
+  },
+  {
+    "id": "31311600",
+    "text": "Conjuntos de tubería con soldadura sónica"
+  },
+  {
+    "id": "31351700",
+    "text": "Conjuntos de tubería con soldadura sónica"
+  },
+  {
+    "id": "31351400",
+    "text": "Conjuntos de tubería pegada"
+  },
+  {
+    "id": "31311200",
+    "text": "Conjuntos de tubería remachada"
+  },
+  {
+    "id": "31351300",
+    "text": "Conjuntos de tubería remachada"
+  },
+  {
+    "id": "31351200",
+    "text": "Conjuntos de tubería soldada"
+  },
+  {
+    "id": "31311500",
+    "text": "Conjuntos de tubería soldada con latón"
+  },
+  {
+    "id": "31311100",
+    "text": "Conjuntos de tubería soldada por solvente"
+  },
+  {
+    "id": "31351600",
+    "text": "Conjuntos de tubería soldada por solvente"
+  },
+  {
+    "id": "31311700",
+    "text": "Conjuntos de tubería unida"
+  },
+  {
+    "id": "31311400",
+    "text": "Conjuntos de tuberías soldadas por ultra violeta"
+  },
+  {
+    "id": "31351100",
+    "text": "Conjuntos de tubos soldados por ultravioleta"
+  },
+  {
+    "id": "31331200",
+    "text": "Conjuntos estructurales apernados"
+  },
+  {
+    "id": "31331100",
+    "text": "Conjuntos estructurales con acabado pegado"
+  },
+  {
+    "id": "31331700",
+    "text": "Conjuntos estructurales remachados con acero al carbono"
+  },
+  {
+    "id": "31331300",
+    "text": "Conjuntos estructurales soldados con Inconel ultra violeta"
+  },
+  {
+    "id": "31331400",
+    "text": "Conjuntos estructurales soldados con Inconel ultra violeta"
+  },
+  {
+    "id": "31331600",
+    "text": "Conjuntos estructurales soldados de acero carbono"
+  },
+  {
+    "id": "31331500",
+    "text": "Conjuntos estructurales soldados de solvente de acero de aleación baja"
+  },
+  {
+    "id": "31321300",
+    "text": "Conjuntos remachados de material en barras"
+  },
+  {
+    "id": "31321400",
+    "text": "Conjuntos soldados en fuerte de material en barras"
+  },
+  {
+    "id": "31321200",
+    "text": "Conjuntos soldados por solvente de material en barras"
+  },
+  {
+    "id": "31321100",
+    "text": "Conjuntos unidos de material en barras"
+  },
+  {
+    "id": "72131600",
+    "text": "Construcción comercial o industrial"
+  },
+  {
+    "id": "72131700",
+    "text": "Construcción de obras civiles y infraestructuras"
+  },
+  {
+    "id": "72131500",
+    "text": "Construcción residencial"
+  },
+  {
+    "id": "30201500",
+    "text": "Construcciones agrícolas prefabricadas"
+  },
+  {
+    "id": "30201700",
+    "text": "Construcciones comerciales e industriales prefabricadas"
+  },
+  {
+    "id": "30221000",
+    "text": "Construcciones comerciales y de recreación"
+  },
+  {
+    "id": "30222600",
+    "text": "Construcciones deportivas y sanitarias"
+  },
+  {
+    "id": "30222400",
+    "text": "Construcciones hospitalarias"
+  },
+  {
+    "id": "30222700",
+    "text": "Construcciones industriales"
+  },
+  {
+    "id": "30201900",
+    "text": "Construcciones médicas prefabricadas"
+  },
+  {
+    "id": "30222800",
+    "text": "Construcciones para agricultura, pesca y ganadería"
+  },
+  {
+    "id": "30222500",
+    "text": "Construcciones para alojamiento"
+  },
+  {
+    "id": "30222900",
+    "text": "Construcciones para defensa"
+  },
+  {
+    "id": "30222300",
+    "text": "Construcciones para educación e investigación"
+  },
+  {
+    "id": "30222200",
+    "text": "Construcciones para servicios"
+  },
+  {
+    "id": "30222000",
+    "text": "Construcciones para trasporte permanentes"
+  },
+  {
+    "id": "30201800",
+    "text": "Construcciones prefabricadas para emergencias"
+  },
+  {
+    "id": "30222100",
+    "text": "Construcciones públicas permanentes"
+  },
+  {
+    "id": "30223000",
+    "text": "Construcciones religiosas"
+  },
+  {
+    "id": "30201600",
+    "text": "Construcciones residenciales prefabricadas"
+  },
+  {
+    "id": "102000000",
+    "text": "Consultoria"
+  },
+  {
+    "id": "80111500",
+    "text": "Consultorías para el desarrollo de recursos humanos"
+  },
+  {
+    "id": "47101600",
+    "text": "Consumibles para el tratamiento de agua"
+  },
+  {
+    "id": "20141800",
+    "text": "Contadores para medir flujo del pozo"
+  },
+  {
+    "id": "31261700",
+    "text": "Contenedores anti ruido"
+  },
+  {
+    "id": "42171900",
+    "text": "Contenedores de almacenaje para servicios médicos de urgencia"
+  },
+  {
+    "id": "41104100",
+    "text": "Contenedores para especímenes de laboratorio"
+  },
+  {
+    "id": "24112600",
+    "text": "Contenedores para líquidos"
+  },
+  {
+    "id": "41123300",
+    "text": "Contenedores y armarios de almacenamiento general para laboratorio"
+  },
+  {
+    "id": "80111700",
+    "text": "Contratación de personal"
+  },
+  {
+    "id": "80111800",
+    "text": "Contratistas en tecnologías de la información"
+  },
+  {
+    "id": "81141500",
+    "text": "Control de calidad"
+  },
+  {
+    "id": "40101900",
+    "text": "Control de humedad"
+  },
+  {
+    "id": "77131600",
+    "text": "Control de la contaminación acústica"
+  },
+  {
+    "id": "77131700",
+    "text": "Control de la contaminación de sustancias tóxicas"
+  },
+  {
+    "id": "77121700",
+    "text": "Control de la contaminación del agua"
+  },
+  {
+    "id": "77121500",
+    "text": "Control de la contaminación del aire"
+  },
+  {
+    "id": "77121600",
+    "text": "Control de la contaminación del suelo"
+  },
+  {
+    "id": "77131500",
+    "text": "Control de la contaminación por petróleo"
+  },
+  {
+    "id": "85111700",
+    "text": "Control de organismos portadores de enfermedades"
+  },
+  {
+    "id": "72102100",
+    "text": "Control de plagas"
+  },
+  {
+    "id": "46161500",
+    "text": "Control de tráfico"
+  },
+  {
+    "id": "12164300",
+    "text": "Controladores de hierro"
+  },
+  {
+    "id": "42281800",
+    "text": "Controles e indicadores de esterilización"
+  },
+  {
+    "id": "41122500",
+    "text": "Corchos, tapones y tapas para laboratorio"
+  },
+  {
+    "id": "31151900",
+    "text": "Correas"
+  },
+  {
+    "id": "42142900",
+    "text": "Corrección de la visión, gafas, anteojos y productos relacionados"
+  },
+  {
+    "id": "51181700",
+    "text": "Corticosteroides"
+  },
+  {
+    "id": "52131500",
+    "text": "Cortinas y ropaje"
+  },
+  {
+    "id": "70141900",
+    "text": "Cosecha de cultivos"
+  },
+  {
+    "id": "70151700",
+    "text": "Cosecha forestal"
+  },
+  {
+    "id": "84141600",
+    "text": "Crédito para personas naturales"
+  },
+  {
+    "id": "20101600",
+    "text": "Cribas y equipos de alimentación"
+  },
+  {
+    "id": "52152100",
+    "text": "Cristalería de uso doméstico"
+  },
+  {
+    "id": "31241600",
+    "text": "Cristales ópticos industriales"
+  },
+  {
+    "id": "52151700",
+    "text": "Cubertería y cuchillería de uso doméstico"
+  },
+  {
+    "id": "41122300",
+    "text": "Cubiertas de banco para laboratorio"
+  },
+  {
+    "id": "31261500",
+    "text": "Cubiertas y cajas"
+  },
+  {
+    "id": "53112100",
+    "text": "Cubre calzados o botas de goma"
+  },
+  {
+    "id": "60122900",
+    "text": "Cuentas o accesorios de enhebrado de cuentas"
+  },
+  {
+    "id": "31151500",
+    "text": "Cuerdas y cables"
+  },
+  {
+    "id": "11131500",
+    "text": "Cuero, pieles y subproductos animales"
+  },
+  {
+    "id": "11162300",
+    "text": "Cueros"
+  },
+  {
+    "id": "11191500",
+    "text": "Cuerpos sólidos de metal"
+  },
+  {
+    "id": "91111900",
+    "text": "Cuidado de niños, personas enfermas y ancianos"
+  },
+  {
+    "id": "91101700",
+    "text": "Cuidado del cabello"
+  },
+  {
+    "id": "42212000",
+    "text": "Cuidado o ayuda para el cuidado de la casa para discapacitados físicos"
+  },
+  {
+    "id": "91101600",
+    "text": "Cuidado y adornos facial y corporales"
+  },
+  {
+    "id": "91111800",
+    "text": "Cuidado y almacenaje de artículos personales"
+  },
+  {
+    "id": "93141700",
+    "text": "Cultura"
+  },
+  {
+    "id": "85141500",
+    "text": "Curanderos o sanadores"
+  },
+  {
+    "id": "60111400",
+    "text": "Decoraciones especiales para la sala de clases y accesorios decorativos"
+  },
+  {
+    "id": "90141700",
+    "text": "Deportes para la recreación"
+  },
+  {
+    "id": "78131800",
+    "text": "Depósito y almacenaje especializado"
+  },
+  {
+    "id": "80121700",
+    "text": "Derecho civil y del trabajo"
+  },
+  {
+    "id": "80121600",
+    "text": "Derecho comercial"
+  },
+  {
+    "id": "80121800",
+    "text": "Derecho de la familia"
+  },
+  {
+    "id": "80121500",
+    "text": "Derecho penal"
+  },
+  {
+    "id": "30121500",
+    "text": "Derivados bituminosos"
+  },
+  {
+    "id": "12352100",
+    "text": "Derivados y compuestos orgánicos"
+  },
+  {
+    "id": "92111600",
+    "text": "Desarme"
+  },
+  {
+    "id": "70171500",
+    "text": "Desarrollo de recursos hidráulicos"
+  },
+  {
+    "id": "86101800",
+    "text": "Desarrollo de recursos humanos"
+  },
+  {
+    "id": "93142100",
+    "text": "Desarrollo regional"
+  },
+  {
+    "id": "93141900",
+    "text": "Desarrollo rural"
+  },
+  {
+    "id": "93141500",
+    "text": "Desarrollo social"
+  },
+  {
+    "id": "93142000",
+    "text": "Desarrollo urbano"
+  },
+  {
+    "id": "51161900",
+    "text": "Descongestionantes nasales"
+  },
+  {
+    "id": "76101600",
+    "text": "Descontaminación de materiales peligrosos"
+  },
+  {
+    "id": "23231000",
+    "text": "Descortezadoras y accesorios"
+  },
+  {
+    "id": "41123000",
+    "text": "Desecadores y desecantes de laboratorio"
+  },
+  {
+    "id": "11141600",
+    "text": "Desechos no metálicos"
+  },
+  {
+    "id": "76101500",
+    "text": "Desinfección"
+  },
+  {
+    "id": "20142300",
+    "text": "Deslizaderos de inyección de producción"
+  },
+  {
+    "id": "11141700",
+    "text": "Desperdicios orgánicos y de tabaco"
+  },
+  {
+    "id": "42292600",
+    "text": "Dilatadores, sondas, ranuras quirúrgicas y productos relacionados"
+  },
+  {
+    "id": "32111500",
+    "text": "Diodos"
+  },
+  {
+    "id": "93121500",
+    "text": "Diplomacia"
+  },
+  {
+    "id": "60101600",
+    "text": "Diplomas o certificados educativos"
+  },
+  {
+    "id": "42292700",
+    "text": "Disectores, elevadores, puntas y ganchos quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "82141500",
+    "text": "Diseño"
+  },
+  {
+    "id": "31211800",
+    "text": "Disolventes para pinturas"
+  },
+  {
+    "id": "43191500",
+    "text": "Dispositivos de comunicación personal"
+  },
+  {
+    "id": "41123400",
+    "text": "Dispositivos de dosificación"
+  },
+  {
+    "id": "23153000",
+    "text": "Dispositivos de guía, posicionamiento y sujeción"
+  },
+  {
+    "id": "42182700",
+    "text": "Dispositivos de medición de talla"
+  },
+  {
+    "id": "43221800",
+    "text": "Dispositivos de red óptica"
+  },
+  {
+    "id": "46182500",
+    "text": "Dispositivos de seguridad personal"
+  },
+  {
+    "id": "43201800",
+    "text": "Dispositivos de soporte de almacenamiento"
+  },
+  {
+    "id": "42294100",
+    "text": "Dispositivos esqueléticos quirúrgicos de tracción y productos relacionados"
+  },
+  {
+    "id": "43211700",
+    "text": "Dispositivos informáticos de entrada de datos"
+  },
+  {
+    "id": "10191700",
+    "text": "Dispositivos para control de plagas"
+  },
+  {
+    "id": "42293000",
+    "text": "Dispositivos quirúrgicos de medir y productos relacionados"
+  },
+  {
+    "id": "39121600",
+    "text": "Dispositivos y accesorios para protección de circuitos"
+  },
+  {
+    "id": "42242000",
+    "text": "Dispositivos, accesorios y suministros protésicos"
+  },
+  {
+    "id": "42293300",
+    "text": "Distractores, extendedores, separadores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "80141700",
+    "text": "Distribución"
+  },
+  {
+    "id": "39121200",
+    "text": "Distribución de cableado y barras colectoras"
+  },
+  {
+    "id": "78141500",
+    "text": "Distribución de transportes y carga"
+  },
+  {
+    "id": "48101700",
+    "text": "Distribuidores automáticos de comida y bebida"
+  },
+  {
+    "id": "51191500",
+    "text": "Diuréticos"
+  },
+  {
+    "id": "55121800",
+    "text": "Documentos de identificación"
+  },
+  {
+    "id": "42192600",
+    "text": "Dosificadores y medidores de medicamentos y suministros"
+  },
+  {
+    "id": "42311900",
+    "text": "Drenajes médicos de incisión, bolsas de drenaje, depósitos y productos relacionados"
+  },
+  {
+    "id": "60122200",
+    "text": "Ebanistería"
+  },
+  {
+    "id": "70161700",
+    "text": "Ecosistemas"
+  },
+  {
+    "id": "86111600",
+    "text": "Educación de adultos"
+  },
+  {
+    "id": "86131800",
+    "text": "Educación militar"
+  },
+  {
+    "id": "30103000",
+    "text": "Ejes"
+  },
+  {
+    "id": "73131500",
+    "text": "Elaboración de bebidas"
+  },
+  {
+    "id": "73131600",
+    "text": "Elaboración de carne, aves y pescado"
+  },
+  {
+    "id": "70142000",
+    "text": "Elaboración de cultivos posterior a la cosecha"
+  },
+  {
+    "id": "73131700",
+    "text": "Elaboración de frutas y verduras"
+  },
+  {
+    "id": "73131900",
+    "text": "Elaboración de granos, azúcar, aceites y grasas"
+  },
+  {
+    "id": "73141600",
+    "text": "Elaboración de hebras e hilos"
+  },
+  {
+    "id": "73131800",
+    "text": "Elaboración de lácteos y huevos"
+  },
+  {
+    "id": "73111600",
+    "text": "Elaboración de pulpa y papel"
+  },
+  {
+    "id": "13101700",
+    "text": "Elastómeros"
+  },
+  {
+    "id": "52141500",
+    "text": "Electrodomésticos para cocina"
+  },
+  {
+    "id": "51191600",
+    "text": "Electrolitos"
+  },
+  {
+    "id": "12141900",
+    "text": "Elementos no metálicos y gases puros"
+  },
+  {
+    "id": "22101800",
+    "text": "Elevadores"
+  },
+  {
+    "id": "42192300",
+    "text": "Elevadores para pacientes"
+  },
+  {
+    "id": "76121600",
+    "text": "Eliminación de residuos no peligrosos"
+  },
+  {
+    "id": "76121900",
+    "text": "Eliminación de residuos peligrosos"
+  },
+  {
+    "id": "25111500",
+    "text": "Embarcaciones comerciales"
+  },
+  {
+    "id": "25111600",
+    "text": "Embarcaciones de rescate y salvataje"
+  },
+  {
+    "id": "25111700",
+    "text": "Embarcaciones militares"
+  },
+  {
+    "id": "25111800",
+    "text": "Embarcaciones para recreación"
+  },
+  {
+    "id": "26111900",
+    "text": "Embragues"
+  },
+  {
+    "id": "23232200",
+    "text": "Empalmadoras por entalladura múltiple y accesorios"
+  },
+  {
+    "id": "50192800",
+    "text": "Empanadas, tartas y pies"
+  },
+  {
+    "id": "44102300",
+    "text": "Empaquetadoras"
+  },
+  {
+    "id": "93141800",
+    "text": "Empleo"
+  },
+  {
+    "id": "82121900",
+    "text": "Encuadernación"
+  },
+  {
+    "id": "42294800",
+    "text": "Endoscopios, accesorios y productos relacionados"
+  },
+  {
+    "id": "12162300",
+    "text": "Endurecedores"
+  },
+  {
+    "id": "85101600",
+    "text": "Enfermería y paramédicos"
+  },
+  {
+    "id": "40101700",
+    "text": "Enfriamiento"
+  },
+  {
+    "id": "31171700",
+    "text": "Engranajes"
+  },
+  {
+    "id": "60121400",
+    "text": "Enmarcado de cuadro"
+  },
+  {
+    "id": "50193200",
+    "text": "Ensaladas preparadas"
+  },
+  {
+    "id": "23153400",
+    "text": "Ensambladoras"
+  },
+  {
+    "id": "41106200",
+    "text": "Entornos, kits y equipo de propagación y transformación de microorganismos"
+  },
+  {
+    "id": "78121500",
+    "text": "Envasado y embalaje"
+  },
+  {
+    "id": "47121700",
+    "text": "Envases y accesorios para residuos"
+  },
+  {
+    "id": "25191500",
+    "text": "Equipamiento de apoyo para transporte aéreo"
+  },
+  {
+    "id": "25191600",
+    "text": "Equipamiento de apoyo para transporte espacial"
+  },
+  {
+    "id": "20121400",
+    "text": "Equipamiento de terminación"
+  },
+  {
+    "id": "21111600",
+    "text": "Equipamiento para acuicultura"
+  },
+  {
+    "id": "21101900",
+    "text": "Equipamiento para aves de corral y ganado"
+  },
+  {
+    "id": "25202500",
+    "text": "Equipamiento para aviones"
+  },
+  {
+    "id": "39121000",
+    "text": "Equipamiento para distribución y transformación eléctrica"
+  },
+  {
+    "id": "21111500",
+    "text": "Equipamiento para pesca comercial"
+  },
+  {
+    "id": "26141800",
+    "text": "Equipamiento para recintos radiactivos"
+  },
+  {
+    "id": "20121000",
+    "text": "Equipo acidificante"
+  },
+  {
+    "id": "41103400",
+    "text": "Equipo de aire acondicionado para laboratorio"
+  },
+  {
+    "id": "46182200",
+    "text": "Equipo de apoyo ergonómico"
+  },
+  {
+    "id": "25121700",
+    "text": "Equipo de apoyo ferroviario"
+  },
+  {
+    "id": "49211700",
+    "text": "Equipo de bolos, accesorios y suministros"
+  },
+  {
+    "id": "20141000",
+    "text": "Equipo de cabeza de pozo"
+  },
+  {
+    "id": "41102400",
+    "text": "Equipo de calefacción y secadores para laboratorio"
+  },
+  {
+    "id": "45111700",
+    "text": "Equipo de composición y presentación de sonido, hardware y controladores"
+  },
+  {
+    "id": "20101500",
+    "text": "Equipo de corte"
+  },
+  {
+    "id": "23131700",
+    "text": "Equipo de corte y pulido de piedras"
+  },
+  {
+    "id": "41102700",
+    "text": "Equipo de cristalografía"
+  },
+  {
+    "id": "42161500",
+    "text": "Equipo de diálisis peritoneal"
+  },
+  {
+    "id": "45121700",
+    "text": "Equipo de elaboración fotográfica"
+  },
+  {
+    "id": "42141800",
+    "text": "Equipo de electroterapia"
+  },
+  {
+    "id": "24101600",
+    "text": "Equipo de elevación"
+  },
+  {
+    "id": "44103600",
+    "text": "Equipo de eliminación de casetes y accesorios"
+  },
+  {
+    "id": "41103000",
+    "text": "Equipo de enfriamiento para laboratorio"
+  },
+  {
+    "id": "49201600",
+    "text": "Equipo de entrenamiento de pesas y resistencia"
+  },
+  {
+    "id": "49201500",
+    "text": "Equipo de entrenamiento para aeróbic"
+  },
+  {
+    "id": "41111800",
+    "text": "Equipo de examen no invasivo"
+  },
+  {
+    "id": "23131600",
+    "text": "Equipo de facetaje"
+  },
+  {
+    "id": "41104300",
+    "text": "Equipo de fermentación"
+  },
+  {
+    "id": "23152100",
+    "text": "Equipo de filtrado"
+  },
+  {
+    "id": "41101800",
+    "text": "Equipo de física de electrones y de estado sólido para laboratorio"
+  },
+  {
+    "id": "41115300",
+    "text": "Equipo de generación y medición de luz y ondas"
+  },
+  {
+    "id": "41115500",
+    "text": "Equipo de generación y medición de sonido"
+  },
+  {
+    "id": "49211600",
+    "text": "Equipo de golf"
+  },
+  {
+    "id": "42161600",
+    "text": "Equipo de hemodiálisis extracorpórea y suministros"
+  },
+  {
+    "id": "42161700",
+    "text": "Equipo de hemofiltración y suministros"
+  },
+  {
+    "id": "41102900",
+    "text": "Equipo de histología"
+  },
+  {
+    "id": "41104400",
+    "text": "Equipo de incubación para laboratorio"
+  },
+  {
+    "id": "26142000",
+    "text": "Equipo de irradiación"
+  },
+  {
+    "id": "41103200",
+    "text": "Equipo de lavado para laboratorio"
+  },
+  {
+    "id": "47111700",
+    "text": "Equipo de limpieza en seco"
+  },
+  {
+    "id": "41103300",
+    "text": "Equipo de mecánica de fluidos"
+  },
+  {
+    "id": "41114000",
+    "text": "Equipo de medición de rocas y estratos"
+  },
+  {
+    "id": "41112600",
+    "text": "Equipo de monitorización y comprobación higiénica"
+  },
+  {
+    "id": "49241500",
+    "text": "Equipo de parques infantiles"
+  },
+  {
+    "id": "20122100",
+    "text": "Equipo de perforación"
+  },
+  {
+    "id": "20121800",
+    "text": "Equipo de perforación direccional"
+  },
+  {
+    "id": "41101700",
+    "text": "Equipo de perforación, amoladura, corte, trituración y prensado para laboratorio"
+  },
+  {
+    "id": "42294700",
+    "text": "Equipo de perfusión de corazón abierto, monitores, accesorios y productos relacionados"
+  },
+  {
+    "id": "47111600",
+    "text": "Equipo de planchado"
+  },
+  {
+    "id": "45111800",
+    "text": "Equipo de presentación y mezcla de video y sonido, hardware y controladores"
+  },
+  {
+    "id": "20122400",
+    "text": "Equipo de producción"
+  },
+  {
+    "id": "20111500",
+    "text": "Equipo de prospección y perforación"
+  },
+  {
+    "id": "20122000",
+    "text": "Equipo de prueba"
+  },
+  {
+    "id": "20122200",
+    "text": "Equipo de prueba de pozo"
+  },
+  {
+    "id": "49241600",
+    "text": "Equipo de recreo"
+  },
+  {
+    "id": "20122900",
+    "text": "Equipo de registro de superficie"
+  },
+  {
+    "id": "23201200",
+    "text": "Equipo de secado industrial"
+  },
+  {
+    "id": "46151600",
+    "text": "Equipo de seguridad y control"
+  },
+  {
+    "id": "20122300",
+    "text": "Equipo de Slickline/ película oleosa"
+  },
+  {
+    "id": "43223000",
+    "text": "Equipo de teletipo"
+  },
+  {
+    "id": "41105200",
+    "text": "Equipo de teñido de portaobjetos para laboratorio"
+  },
+  {
+    "id": "41104000",
+    "text": "Equipo de toma de muestras"
+  },
+  {
+    "id": "42202500",
+    "text": "Equipo de tomografía computarizada por emisión de fotones simples (SPECT) y productos relacionados"
+  },
+  {
+    "id": "42202400",
+    "text": "Equipo de tomografía por emisión de positrones (PET) y productos relacionados"
+  },
+  {
+    "id": "20141900",
+    "text": "Equipo de tratamiento de gas"
+  },
+  {
+    "id": "23131500",
+    "text": "Equipo de trituración, lijado y pulido"
+  },
+  {
+    "id": "46171600",
+    "text": "Equipo de vigilancia y detección"
+  },
+  {
+    "id": "41112900",
+    "text": "Equipo e instrumentos de navegación"
+  },
+  {
+    "id": "41112800",
+    "text": "Equipo e instrumentos relacionados con el transporte"
+  },
+  {
+    "id": "42295000",
+    "text": "Equipo endoscópico, accesorios y productos relacionados"
+  },
+  {
+    "id": "41115400",
+    "text": "Equipo espectroscópico"
+  },
+  {
+    "id": "43221700",
+    "text": "Equipo fijo de red y componentes"
+  },
+  {
+    "id": "46151700",
+    "text": "Equipo forense, accesorios y suministros"
+  },
+  {
+    "id": "41101900",
+    "text": "Equipo iónico de laboratorio"
+  },
+  {
+    "id": "20123000",
+    "text": "Equipo multilateral"
+  },
+  {
+    "id": "24102100",
+    "text": "Equipo para almacenaje"
+  },
+  {
+    "id": "20121100",
+    "text": "Equipo para cementar"
+  },
+  {
+    "id": "26142200",
+    "text": "Equipo para combustible nuclear"
+  },
+  {
+    "id": "26141600",
+    "text": "Equipo para conjunto subcrítico"
+  },
+  {
+    "id": "20121300",
+    "text": "Equipo para control de arena"
+  },
+  {
+    "id": "46151500",
+    "text": "Equipo para control de disturbios"
+  },
+  {
+    "id": "26131800",
+    "text": "Equipo para control de producción de energía"
+  },
+  {
+    "id": "21102400",
+    "text": "Equipo para crianza y producción de insectos"
+  },
+  {
+    "id": "20141200",
+    "text": "Equipo para desarenar"
+  },
+  {
+    "id": "26141700",
+    "text": "Equipo para dosimetría"
+  },
+  {
+    "id": "20142400",
+    "text": "Equipo para fondo oceánico"
+  },
+  {
+    "id": "20121200",
+    "text": "Equipo para fracturación"
+  },
+  {
+    "id": "21102300",
+    "text": "Equipo para invernadero"
+  },
+  {
+    "id": "24101900",
+    "text": "Equipo para manejo de tambores"
+  },
+  {
+    "id": "25191700",
+    "text": "Equipo para mantenimiento de vehículos"
+  },
+  {
+    "id": "41113900",
+    "text": "Equipo para medición de suelos"
+  },
+  {
+    "id": "26142400",
+    "text": "Equipo para residuos radiactivos"
+  },
+  {
+    "id": "41112700",
+    "text": "Equipo para semillas y alimentación"
+  },
+  {
+    "id": "42251800",
+    "text": "Equipo para trabajo de endurecimiento o fortalecimiento para rehabilitación o terapia"
+  },
+  {
+    "id": "20142500",
+    "text": "Equipo para tratar agua residual"
+  },
+  {
+    "id": "20122500",
+    "text": "Equipo para tubería enrollada"
+  },
+  {
+    "id": "24101800",
+    "text": "Equipo portuario"
+  },
+  {
+    "id": "42295200",
+    "text": "Equipo quirúrgico de energía, accesorios y productos relacionados"
+  },
+  {
+    "id": "42295100",
+    "text": "Equipo quirúrgico, accesorios y productos relacionados"
+  },
+  {
+    "id": "42202900",
+    "text": "Equipo radiográfico médico de bajo consumo eléctrico"
+  },
+  {
+    "id": "20122600",
+    "text": "Equipo sísmico"
+  },
+  {
+    "id": "43222700",
+    "text": "Equipo telegráfico"
+  },
+  {
+    "id": "42121500",
+    "text": "Equipo veterinario"
+  },
+  {
+    "id": "60122000",
+    "text": "Equipo y accesorios de tejido, pespunteado y cosido"
+  },
+  {
+    "id": "41102600",
+    "text": "Equipo y accesorios para animales de laboratorio"
+  },
+  {
+    "id": "41102500",
+    "text": "Equipo y accesorios para laboratorios entomológicos"
+  },
+  {
+    "id": "42251600",
+    "text": "Equipo y dispositivos para ejercicios de rehabilitación"
+  },
+  {
+    "id": "20122800",
+    "text": "Equipo y plataformas de perforación"
+  },
+  {
+    "id": "46182100",
+    "text": "Equipo y suministros antiestáticos"
+  },
+  {
+    "id": "42143400",
+    "text": "Equipo y suministros de control de hiperhidrosis"
+  },
+  {
+    "id": "41104900",
+    "text": "Equipo y suministros de filtrado para laboratorio"
+  },
+  {
+    "id": "42231900",
+    "text": "Equipo y suministros de lactancia materna"
+  },
+  {
+    "id": "42143100",
+    "text": "Equipo y suministros de obstetricia y ginecología"
+  },
+  {
+    "id": "41104200",
+    "text": "Equipo y suministros de purificación de agua para laboratorio"
+  },
+  {
+    "id": "42143300",
+    "text": "Equipo y suministros de quimioterapia"
+  },
+  {
+    "id": "41105000",
+    "text": "Equipo y suministros de tamizado y cribado para laboratorio"
+  },
+  {
+    "id": "42161800",
+    "text": "Equipo y suministros de terapia renal sustitutoria continua (CRRT)"
+  },
+  {
+    "id": "42152200",
+    "text": "Equipo y suministros dentales de laboratorio y de esterilización"
+  },
+  {
+    "id": "42152100",
+    "text": "Equipo y suministros dentales para impresión"
+  },
+  {
+    "id": "42261900",
+    "text": "Equipo y suministros forenses clínicos"
+  },
+  {
+    "id": "42262100",
+    "text": "Equipo y suministros funerarios"
+  },
+  {
+    "id": "42152700",
+    "text": "Equipo y suministros ortodónticos y prostodónticos"
+  },
+  {
+    "id": "42242300",
+    "text": "Equipo y suministros ortopédicos"
+  },
+  {
+    "id": "42262000",
+    "text": "Equipo y suministros para embalsamar"
+  },
+  {
+    "id": "42151900",
+    "text": "Equipo y suministros para higiene dental y cuidado preventivo"
+  },
+  {
+    "id": "42152000",
+    "text": "Equipo y suministros para imágenes dentales"
+  },
+  {
+    "id": "41101500",
+    "text": "Equipo y suministros para mezcla, dispersión y homogeneización en laboratorio"
+  },
+  {
+    "id": "41103800",
+    "text": "Equipo y suministros para mezcladores de laboratorio"
+  },
+  {
+    "id": "41121500",
+    "text": "Equipo y suministros para pipetas y manipulación de líquidos"
+  },
+  {
+    "id": "41104800",
+    "text": "Equipo y suministros para vertido, destilación, evaporación y extracción"
+  },
+  {
+    "id": "42152800",
+    "text": "Equipo y suministros periodontales"
+  },
+  {
+    "id": "52161500",
+    "text": "Equipos audiovisuales y de electrónica menor"
+  },
+  {
+    "id": "49171600",
+    "text": "Equipos de boxeo"
+  },
+  {
+    "id": "45101800",
+    "text": "Equipos de cosido y encuadernación de libros y accesorios"
+  },
+  {
+    "id": "60106300",
+    "text": "Equipos de enseñanza de ciencia forense y suministros"
+  },
+  {
+    "id": "60106400",
+    "text": "Equipos de enseñanza de electrónica y suministros"
+  },
+  {
+    "id": "49151500",
+    "text": "Equipos de esquí y snowboard"
+  },
+  {
+    "id": "49171500",
+    "text": "Equipos de gimnasia"
+  },
+  {
+    "id": "60141200",
+    "text": "Equipos de juegos activos y accesorios"
+  },
+  {
+    "id": "47111500",
+    "text": "Equipos de lavado y secado"
+  },
+  {
+    "id": "47121800",
+    "text": "Equipos de limpieza"
+  },
+  {
+    "id": "49151600",
+    "text": "Equipos de patinaje y hockey sobre hielo"
+  },
+  {
+    "id": "22101600",
+    "text": "Equipos de pavimentación"
+  },
+  {
+    "id": "23153500",
+    "text": "Equipos de pintura"
+  },
+  {
+    "id": "46191500",
+    "text": "Equipos de prevención de incendios"
+  },
+  {
+    "id": "46182300",
+    "text": "Equipos de protección anticaida"
+  },
+  {
+    "id": "26131600",
+    "text": "Equipos de protección y estructuras de alivio"
+  },
+  {
+    "id": "20121900",
+    "text": "Equipos de registro y medición de pozo"
+  },
+  {
+    "id": "43222500",
+    "text": "Equipos de seguridad de red"
+  },
+  {
+    "id": "43222600",
+    "text": "Equipos de servicio de red"
+  },
+  {
+    "id": "43222800",
+    "text": "Equipos de telefonía"
+  },
+  {
+    "id": "26131700",
+    "text": "Equipos de vigilancia para producción de energía"
+  },
+  {
+    "id": "42212300",
+    "text": "Equipos o accesorios de ayuda al traslado o sujeción para discapacitados físicos"
+  },
+  {
+    "id": "49121500",
+    "text": "Equipos para acampar"
+  },
+  {
+    "id": "48101500",
+    "text": "Equipos para cocinar o calentar"
+  },
+  {
+    "id": "46191600",
+    "text": "Equipos para combatir incendios"
+  },
+  {
+    "id": "49161700",
+    "text": "Equipos para deportes de pista"
+  },
+  {
+    "id": "49161600",
+    "text": "Equipos para deportes de raqueta y pista"
+  },
+  {
+    "id": "49161500",
+    "text": "Equipos para deportes en cancha"
+  },
+  {
+    "id": "49211800",
+    "text": "Equipos para educación física"
+  },
+  {
+    "id": "47101500",
+    "text": "Equipos para el tratamiento y suministro de agua"
+  },
+  {
+    "id": "46182400",
+    "text": "Equipos para limpieza de seguridad y descontaminación"
+  },
+  {
+    "id": "48101600",
+    "text": "Equipos para preparado de alimentos"
+  },
+  {
+    "id": "26142100",
+    "text": "Equipos para reactores nucleares"
+  },
+  {
+    "id": "60141400",
+    "text": "Equipos para representación teatral y accesorios"
+  },
+  {
+    "id": "26142300",
+    "text": "Equipos protectores contra la radiación"
+  },
+  {
+    "id": "42281500",
+    "text": "Equipos y accesorios de esterilizadores y autoclaves"
+  },
+  {
+    "id": "45101900",
+    "text": "Equipos y accesorios de laboratorio de imprenta"
+  },
+  {
+    "id": "42182200",
+    "text": "Equipos y accesorios médicos"
+  },
+  {
+    "id": "46181700",
+    "text": "Equipos y accesorios para protección de cara y cabeza"
+  },
+  {
+    "id": "46181800",
+    "text": "Equipos y accesorios para protección de la visión y los ojos"
+  },
+  {
+    "id": "42212100",
+    "text": "Equipos y accesorios para tiempo libre y recreo para discapacitados físicos"
+  },
+  {
+    "id": "49141600",
+    "text": "Equipos y accesorios para windsurf y natación"
+  },
+  {
+    "id": "49181500",
+    "text": "Equipos y juegos de mesa"
+  },
+  {
+    "id": "49181600",
+    "text": "Equipos y juegos de tiro al blanco"
+  },
+  {
+    "id": "45112000",
+    "text": "Equipos y suministros de microfilm"
+  },
+  {
+    "id": "45121800",
+    "text": "Equipos y suministros de producción de microfilmes"
+  },
+  {
+    "id": "42261800",
+    "text": "Equipos y suministros para el transporte y almacenaje de cadáveres"
+  },
+  {
+    "id": "49241700",
+    "text": "Equipos y suministros para piscinas y spa"
+  },
+  {
+    "id": "46161600",
+    "text": "Equipos y suministros para seguridad en el mar, lagos, ríos y piscinas"
+  },
+  {
+    "id": "45111900",
+    "text": "Equipos, hardware y controladores para sistemas de teleconferencia y videoconferencia"
+  },
+  {
+    "id": "42241600",
+    "text": "Equipos, piezas y accesorios para enyesado"
+  },
+  {
+    "id": "49141500",
+    "text": "Escafandras autónomas y tubos de respiración"
+  },
+  {
+    "id": "30191500",
+    "text": "Escaleras y andamios"
+  },
+  {
+    "id": "47131600",
+    "text": "Escobas, traperos, cepillos y accesorios"
+  },
+  {
+    "id": "82111700",
+    "text": "Escritura creativa"
+  },
+  {
+    "id": "82111600",
+    "text": "Escritura no técnica"
+  },
+  {
+    "id": "82111500",
+    "text": "Escritura técnica"
+  },
+  {
+    "id": "86121600",
+    "text": "Escuela para graduados"
+  },
+  {
+    "id": "86121500",
+    "text": "Escuelas de educación primaria y secundaria"
+  },
+  {
+    "id": "86111700",
+    "text": "Escuelas de idiomas"
+  },
+  {
+    "id": "86131900",
+    "text": "Escuelas para personas discapacitadas"
+  },
+  {
+    "id": "86121800",
+    "text": "Escuelas profesionales"
+  },
+  {
+    "id": "31163300",
+    "text": "Espaciadores"
+  },
+  {
+    "id": "42294000",
+    "text": "Espátulas, cucharas y cucharones quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "85121600",
+    "text": "Especialidades médicas"
+  },
+  {
+    "id": "85121700",
+    "text": "Especialistas no médicos"
+  },
+  {
+    "id": "41123200",
+    "text": "Especímenes preservados para laboratorio"
+  },
+  {
+    "id": "90151600",
+    "text": "Espectáculos ambulantes"
+  },
+  {
+    "id": "42182000",
+    "text": "Espéculos y accesorios para auscultación médica"
+  },
+  {
+    "id": "31241700",
+    "text": "Espejos industriales"
+  },
+  {
+    "id": "42292000",
+    "text": "Espejos quirúrgicos"
+  },
+  {
+    "id": "13111300",
+    "text": "Espumas"
+  },
+  {
+    "id": "12162600",
+    "text": "Estabilizadores de arcilla"
+  },
+  {
+    "id": "90101500",
+    "text": "Establecimientos de comidas y bebidas"
+  },
+  {
+    "id": "90151900",
+    "text": "Establecimientos de juegos y apuestas"
+  },
+  {
+    "id": "56111500",
+    "text": "Estaciones de trabajo y muebles para oficina"
+  },
+  {
+    "id": "25172400",
+    "text": "Estanques y sistemas de combustible"
+  },
+  {
+    "id": "24102000",
+    "text": "Estantes y almacenamiento"
+  },
+  {
+    "id": "41122800",
+    "text": "Estantes, soportes y bandejas de laboratorio"
+  },
+  {
+    "id": "42182100",
+    "text": "Estetoscopio y artículos relacionados"
+  },
+  {
+    "id": "51142600",
+    "text": "Estimulantes / anoréxicos"
+  },
+  {
+    "id": "51181800",
+    "text": "Estrógenos, progesteronas y anticonceptivos internos"
+  },
+  {
+    "id": "102103000",
+    "text": "Estudios De Ingeniería Básica"
+  },
+  {
+    "id": "102103010",
+    "text": "Estudios De Ingeniería Básica 3.1 Mecánica de Suelos y de Rocas."
+  },
+  {
+    "id": "102103020",
+    "text": "Estudios De Ingeniería Básica 3.2 Geología, Prospecciones y Geofísica."
+  },
+  {
+    "id": "102103030",
+    "text": "Estudios De Ingeniería Básica 3.3 Geomensura y Topografía."
+  },
+  {
+    "id": "102103040",
+    "text": "Estudios De Ingeniería Básica 3.4 Estudios del Uso del Agua y del Suelo."
+  },
+  {
+    "id": "102103050",
+    "text": "Estudios De Ingeniería Básica 3.5 Modelos Hidráulicos."
+  },
+  {
+    "id": "102103060",
+    "text": "Estudios De Ingeniería Básica 3.6 Ingeniería de Tránsito."
+  },
+  {
+    "id": "102103070",
+    "text": "Estudios De Ingeniería Básica 3.7 Estudios Hidrológicos, Hidrogeológicos y Meteorológicos."
+  },
+  {
+    "id": "80131700",
+    "text": "Estudios de títulos"
+  },
+  {
+    "id": "102108000",
+    "text": "Estudios varios"
+  },
+  {
+    "id": "102108010",
+    "text": "Estudios varios 8.1 Economía Agraria."
+  },
+  {
+    "id": "102108020",
+    "text": "Estudios varios 8.2 Suelos y Cultivos."
+  },
+  {
+    "id": "102108030",
+    "text": "Estudios varios 8.3 Catastros."
+  },
+  {
+    "id": "102108040",
+    "text": "Estudios varios 8.4 Climas Artificiales."
+  },
+  {
+    "id": "102108050",
+    "text": "Estudios varios 8.5 Ingeniería de Sistemas, Computación e Informática."
+  },
+  {
+    "id": "102108060",
+    "text": "Estudios varios 8.6 Derechos de Aguas."
+  },
+  {
+    "id": "85131600",
+    "text": "Ética médica"
+  },
+  {
+    "id": "55121700",
+    "text": "Etiquetado"
+  },
+  {
+    "id": "44102400",
+    "text": "Etiquetadoras"
+  },
+  {
+    "id": "55121500",
+    "text": "Etiquetas"
+  },
+  {
+    "id": "55121600",
+    "text": "Etiquetas"
+  },
+  {
+    "id": "41122700",
+    "text": "Etiquetas de laboratorio"
+  },
+  {
+    "id": "42181500",
+    "text": "Evaluación de diagnóstico y productos para examen de uso general"
+  },
+  {
+    "id": "77101500",
+    "text": "Evaluación de impacto ambiental"
+  },
+  {
+    "id": "80101900",
+    "text": "Evaluación de Programas"
+  },
+  {
+    "id": "85122200",
+    "text": "Evaluaciones de salud individuales"
+  },
+  {
+    "id": "90141500",
+    "text": "Eventos deportivos profesionales"
+  },
+  {
+    "id": "12131500",
+    "text": "Explosivos"
+  },
+  {
+    "id": "70101500",
+    "text": "Explotaciones pesqueras"
+  },
+  {
+    "id": "71101700",
+    "text": "Extracción minera"
+  },
+  {
+    "id": "31221600",
+    "text": "Extractos para teñidos o curtidos"
+  },
+  {
+    "id": "31111500",
+    "text": "Extrusiones de perfiles"
+  },
+  {
+    "id": "31111700",
+    "text": "Extrusiones en frío"
+  },
+  {
+    "id": "31111600",
+    "text": "Extrusiones por percusión"
+  },
+  {
+    "id": "73161600",
+    "text": "Fabricación de equipos de transporte"
+  },
+  {
+    "id": "73171600",
+    "text": "Fabricación de instrumentos de precisión"
+  },
+  {
+    "id": "73161500",
+    "text": "Fabricación de maquinarias"
+  },
+  {
+    "id": "23152200",
+    "text": "Fabricación de mesas y estantes"
+  },
+  {
+    "id": "73171500",
+    "text": "Fabricación de productos eléctricos"
+  },
+  {
+    "id": "85121900",
+    "text": "Farmacéuticos"
+  },
+  {
+    "id": "51211900",
+    "text": "Fármacos anestésicos veterinarios"
+  },
+  {
+    "id": "51142900",
+    "text": "Fármacos anestésicos, complementos relacionados y analépticos"
+  },
+  {
+    "id": "51142100",
+    "text": "Fármacos antiinflamatorios no esteroideos (NSAID)"
+  },
+  {
+    "id": "51142700",
+    "text": "Fármacos antiinflamatorios no esteroideos veterinarios (VNSAID)"
+  },
+  {
+    "id": "51171900",
+    "text": "Fármacos antiúlcera y otros fármacos gastrointestinales relacionados"
+  },
+  {
+    "id": "51122200",
+    "text": "Fármacos contra la hipotensión"
+  },
+  {
+    "id": "51212200",
+    "text": "Fármacos contra las adicciones"
+  },
+  {
+    "id": "51142800",
+    "text": "Fármacos de tratamiento de la esclerosis lateral amiotrófica (ELA)"
+  },
+  {
+    "id": "51212000",
+    "text": "Fármacos herbales"
+  },
+  {
+    "id": "51212100",
+    "text": "Fármacos herbales"
+  },
+  {
+    "id": "51212400",
+    "text": "Fármacos para tratar la disfunción sexual"
+  },
+  {
+    "id": "70161500",
+    "text": "Fauna"
+  },
+  {
+    "id": "80141900",
+    "text": "Ferias comerciales y exposiciones"
+  },
+  {
+    "id": "11151500",
+    "text": "Fibras"
+  },
+  {
+    "id": "11121800",
+    "text": "Fibras vegetales"
+  },
+  {
+    "id": "12352500",
+    "text": "Fijadores"
+  },
+  {
+    "id": "40161500",
+    "text": "Filtros"
+  },
+  {
+    "id": "31241800",
+    "text": "Filtros ópticos industriales"
+  },
+  {
+    "id": "84101600",
+    "text": "Financiamiento de ayudas para el desarrollo"
+  },
+  {
+    "id": "84111700",
+    "text": "Finanzas de empresas"
+  },
+  {
+    "id": "93151600",
+    "text": "Finanzas públicas"
+  },
+  {
+    "id": "70161600",
+    "text": "Flora"
+  },
+  {
+    "id": "10161700",
+    "text": "Flores cortadas"
+  },
+  {
+    "id": "20131200",
+    "text": "Fluidos para completar"
+  },
+  {
+    "id": "84131800",
+    "text": "Fondos de jubilación"
+  },
+  {
+    "id": "84131700",
+    "text": "Fondos de pensiones"
+  },
+  {
+    "id": "42231800",
+    "text": "Fórmulas y productos para apoyo nutritivo"
+  },
+  {
+    "id": "82121700",
+    "text": "Fotocopiado"
+  },
+  {
+    "id": "82131600",
+    "text": "Fotógrafos y camarógrafos"
+  },
+  {
+    "id": "60103000",
+    "text": "Fracciones, pentominos y materiales de enseñanza de decimales"
+  },
+  {
+    "id": "50101600",
+    "text": "Frutas"
+  },
+  {
+    "id": "50101700",
+    "text": "Frutos secos"
+  },
+  {
+    "id": "44103000",
+    "text": "Fuibles o fusores y accesorios"
+  },
+  {
+    "id": "93101600",
+    "text": "Funcionarios políticos"
+  },
+  {
+    "id": "31121100",
+    "text": "Fundiciones a presión mecanizadas"
+  },
+  {
+    "id": "31121700",
+    "text": "Fundiciones centrifugas mecanizadas"
+  },
+  {
+    "id": "31121600",
+    "text": "Fundiciones de inversión mecanizadas"
+  },
+  {
+    "id": "31121200",
+    "text": "Fundiciones en arena mecanizadas"
+  },
+  {
+    "id": "31121400",
+    "text": "Fundiciones en molde de yeso mecanizadas"
+  },
+  {
+    "id": "31121300",
+    "text": "Fundiciones en molde permanente mecanizadas"
+  },
+  {
+    "id": "31121800",
+    "text": "Fundiciones labradas de molde de cerámica mecanizadas"
+  },
+  {
+    "id": "31121900",
+    "text": "Fundiciones labradas de molde de grafito mecanizadas"
+  },
+  {
+    "id": "31102400",
+    "text": "Fundiciones moldeadas al vacío por proceso V"
+  },
+  {
+    "id": "31121500",
+    "text": "Fundiciones moldeadas en cáscara mecanizadas"
+  },
+  {
+    "id": "31121000",
+    "text": "Fundiciones por proceso V mecanizadas"
+  },
+  {
+    "id": "51101800",
+    "text": "Fungicidas"
+  },
+  {
+    "id": "25201500",
+    "text": "Fuselajes y componentes para aviones"
+  },
+  {
+    "id": "31162600",
+    "text": "Ganchos"
+  },
+  {
+    "id": "42191700",
+    "text": "Gas de uso hospitalario"
+  },
+  {
+    "id": "12142100",
+    "text": "Gases naturales y mixtos"
+  },
+  {
+    "id": "12142000",
+    "text": "Gases nobles"
+  },
+  {
+    "id": "72102300",
+    "text": "Gasfitería, calefacción y aire acondicionado"
+  },
+  {
+    "id": "15101700",
+    "text": "Gasoil"
+  },
+  {
+    "id": "81151900",
+    "text": "Geofísica"
+  },
+  {
+    "id": "81151700",
+    "text": "Geología"
+  },
+  {
+    "id": "60104400",
+    "text": "Geología y ciencias de la tierra"
+  },
+  {
+    "id": "81141600",
+    "text": "Gestión de cadena de suministro o abastecimiento"
+  },
+  {
+    "id": "84101700",
+    "text": "Gestión de deudas"
+  },
+  {
+    "id": "48121300",
+    "text": "Gestión de juegos y sistemas de apuestas en red"
+  },
+  {
+    "id": "80101600",
+    "text": "Gestión de proyectos"
+  },
+  {
+    "id": "70121700",
+    "text": "Gestión ganadera"
+  },
+  {
+    "id": "80101700",
+    "text": "Gestión industrial"
+  },
+  {
+    "id": "31161800",
+    "text": "Golillas"
+  },
+  {
+    "id": "82121600",
+    "text": "Grabado"
+  },
+  {
+    "id": "15121900",
+    "text": "Grasas"
+  },
+  {
+    "id": "50151600",
+    "text": "Grasas y aceites animales comestibles"
+  },
+  {
+    "id": "104101000",
+    "text": "Grupo 1"
+  },
+  {
+    "id": "104101020",
+    "text": "Grupo 1 Edificios que no constituyen viviendas"
+  },
+  {
+    "id": "104101010",
+    "text": "Grupo 1 Viviendas"
+  },
+  {
+    "id": "104102000",
+    "text": "Grupo 2"
+  },
+  {
+    "id": "104102020",
+    "text": "Grupo 2 Obras Sanitarias"
+  },
+  {
+    "id": "104102010",
+    "text": "Grupo 2 Obras Viales"
+  },
+  {
+    "id": "104103000",
+    "text": "Grupo 3"
+  },
+  {
+    "id": "104103040",
+    "text": "Grupo 3 a), b), c), d), m), ñ), p), q) y r)"
+  },
+  {
+    "id": "104103030",
+    "text": "Grupo 3 Instalaciones Electricas Domiciliarias"
+  },
+  {
+    "id": "104103020",
+    "text": "Grupo 3 Instalaciones Sanitarias Domiciliarias"
+  },
+  {
+    "id": "104103010",
+    "text": "Grupo 3 Obras de Electrificación"
+  },
+  {
+    "id": "104104000",
+    "text": "Grupo 4"
+  },
+  {
+    "id": "104104010",
+    "text": "Grupo 4 e), f), g), h), i), j), k), l), n), y o)"
+  },
+  {
+    "id": "26111600",
+    "text": "Grupos electrógenos"
+  },
+  {
+    "id": "42132200",
+    "text": "Guantes médicos y accesorios"
+  },
+  {
+    "id": "92121500",
+    "text": "Guardaespaldas y seguridad personal"
+  },
+  {
+    "id": "92112100",
+    "text": "Guerra nuclear"
+  },
+  {
+    "id": "60106000",
+    "text": "Guías de planes de estudio, proyectos, actividades y lecciones"
+  },
+  {
+    "id": "90121700",
+    "text": "Guías e intérpretes"
+  },
+  {
+    "id": "90111800",
+    "text": "Habitaciones de hotel"
+  },
+  {
+    "id": "10131700",
+    "text": "Hábitats para animales"
+  },
+  {
+    "id": "11151600",
+    "text": "Hebras"
+  },
+  {
+    "id": "10171700",
+    "text": "Herbicidas"
+  },
+  {
+    "id": "27112200",
+    "text": "Herramientas de albañilería"
+  },
+  {
+    "id": "27113100",
+    "text": "Herramientas de arrastre"
+  },
+  {
+    "id": "23153300",
+    "text": "Herramientas de corte"
+  },
+  {
+    "id": "27111500",
+    "text": "Herramientas de corte, estaje y punzones"
+  },
+  {
+    "id": "27111900",
+    "text": "Herramientas de desbaste y acabado"
+  },
+  {
+    "id": "27112400",
+    "text": "Herramientas de inserción y ajuste"
+  },
+  {
+    "id": "27112000",
+    "text": "Herramientas de jardinería"
+  },
+  {
+    "id": "27111800",
+    "text": "Herramientas de medición y trazado"
+  },
+  {
+    "id": "20121500",
+    "text": "Herramientas de perforación"
+  },
+  {
+    "id": "27112900",
+    "text": "Herramientas dosificadoras"
+  },
+  {
+    "id": "27126100",
+    "text": "Herramientas hidráulicas"
+  },
+  {
+    "id": "27112700",
+    "text": "Herramientas mecánicas"
+  },
+  {
+    "id": "27131500",
+    "text": "Herramientas neumáticas"
+  },
+  {
+    "id": "27141000",
+    "text": "Herramientas para carrocerías"
+  },
+  {
+    "id": "27141100",
+    "text": "Herramientas para carrocerías"
+  },
+  {
+    "id": "60122500",
+    "text": "Herramientas para dar forma al papel"
+  },
+  {
+    "id": "24102200",
+    "text": "Herramientas para envasado"
+  },
+  {
+    "id": "27112300",
+    "text": "Herramientas para marcar"
+  },
+  {
+    "id": "27112500",
+    "text": "Herramientas para palanca y curvar"
+  },
+  {
+    "id": "27111600",
+    "text": "Herramientas para perfilar"
+  },
+  {
+    "id": "27112600",
+    "text": "Herramientas para rellenar"
+  },
+  {
+    "id": "54101700",
+    "text": "Herramientas y materiales de joyería"
+  },
+  {
+    "id": "50171500",
+    "text": "Hierbas, especias y extractos"
+  },
+  {
+    "id": "42292300",
+    "text": "Hierros de flexión, herramientas de plegar, tenazas, tensionadores, torcedores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "11151700",
+    "text": "Hilos"
+  },
+  {
+    "id": "51141800",
+    "text": "Hipnóticos"
+  },
+  {
+    "id": "85141700",
+    "text": "Homeopatía"
+  },
+  {
+    "id": "30111500",
+    "text": "Hormigón y morteros"
+  },
+  {
+    "id": "51182100",
+    "text": "Hormonas de la pituitaria posterior"
+  },
+  {
+    "id": "51182300",
+    "text": "Hormonas del crecimiento y sus inhibidores"
+  },
+  {
+    "id": "51181900",
+    "text": "Hormonas gonadotrópicas y estimulantes e inhibidores ováricos"
+  },
+  {
+    "id": "51111800",
+    "text": "Hormonas y antihormonas"
+  },
+  {
+    "id": "41104500",
+    "text": "Hornos de laboratorio y accesorios"
+  },
+  {
+    "id": "41104600",
+    "text": "Hornos de laboratorio y accesorios"
+  },
+  {
+    "id": "90111500",
+    "text": "Hoteles, moteles y hostales"
+  },
+  {
+    "id": "50131600",
+    "text": "Huevos y sustitutos"
+  },
+  {
+    "id": "39111700",
+    "text": "Iluminación de emergencia"
+  },
+  {
+    "id": "39111500",
+    "text": "Iluminación de interiores"
+  },
+  {
+    "id": "39111600",
+    "text": "Iluminación de interiores"
+  },
+  {
+    "id": "39111900",
+    "text": "Iluminación de seguridad"
+  },
+  {
+    "id": "25172900",
+    "text": "Iluminación exterior para vehículos"
+  },
+  {
+    "id": "25173000",
+    "text": "Iluminación interior para vehículos"
+  },
+  {
+    "id": "39112000",
+    "text": "Iluminación móvil"
+  },
+  {
+    "id": "31381000",
+    "text": "Imanes"
+  },
+  {
+    "id": "42295500",
+    "text": "Implantes quirúrgicos, ensanchadores, extensores, alambres quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "82121500",
+    "text": "Impresión"
+  },
+  {
+    "id": "43212100",
+    "text": "Impresoras"
+  },
+  {
+    "id": "93161500",
+    "text": "Impuesto a la renta"
+  },
+  {
+    "id": "93161600",
+    "text": "Impuestos que no sean de renta"
+  },
+  {
+    "id": "12164100",
+    "text": "In situ"
+  },
+  {
+    "id": "60101200",
+    "text": "Incentivos educativos"
+  },
+  {
+    "id": "12161500",
+    "text": "Indicadores o reactivos"
+  },
+  {
+    "id": "70121800",
+    "text": "Industria de animales domésticos"
+  },
+  {
+    "id": "70151600",
+    "text": "Industria forestal"
+  },
+  {
+    "id": "70121600",
+    "text": "Industria ganadera"
+  },
+  {
+    "id": "70121500",
+    "text": "Industria lechera"
+  },
+  {
+    "id": "70101700",
+    "text": "Industria y tecnología pesquera"
+  },
+  {
+    "id": "81102300",
+    "text": "Ingeniería aeronáutica"
+  },
+  {
+    "id": "102104000",
+    "text": "Ingeniería Civil"
+  },
+  {
+    "id": "81101500",
+    "text": "Ingeniería civil"
+  },
+  {
+    "id": "102104010",
+    "text": "Ingeniería Civil 4.1 Estructuras."
+  },
+  {
+    "id": "102104100",
+    "text": "Ingeniería Civil 4.10 Seguridad Vial"
+  },
+  {
+    "id": "102104020",
+    "text": "Ingeniería Civil 4.2 Aeropuertos."
+  },
+  {
+    "id": "102104030",
+    "text": "Ingeniería Civil 4.3 Obras Hidráulicas y de Riego."
+  },
+  {
+    "id": "102104040",
+    "text": "Ingeniería Civil 4.4 Obras Portuarias."
+  },
+  {
+    "id": "102104050",
+    "text": "Ingeniería Civil 4.5 Obras Fluviales."
+  },
+  {
+    "id": "102104060",
+    "text": "Ingeniería Civil 4.6 Túneles."
+  },
+  {
+    "id": "102104070",
+    "text": "Ingeniería Civil 4.7 Grandes Presas."
+  },
+  {
+    "id": "102104080",
+    "text": "Ingeniería Civil 4.8 Obras Sanitarias."
+  },
+  {
+    "id": "102104090",
+    "text": "Ingeniería Civil 4.9 Obras Viales. (Urbanas y Rurales)"
+  },
+  {
+    "id": "102105000",
+    "text": "Ingeniería Civil Mecánica y Eléctrica"
+  },
+  {
+    "id": "102105010",
+    "text": "Ingeniería Civil Mecánica y Eléctrica 5.1 Equipos Mecánicos y Eléctricos."
+  },
+  {
+    "id": "102105020",
+    "text": "Ingeniería Civil Mecánica y Eléctrica 5.2 Elementos Metálicos y de Calderería."
+  },
+  {
+    "id": "102105030",
+    "text": "Ingeniería Civil Mecánica y Eléctrica 5.3 Instalaciones Eléctricas."
+  },
+  {
+    "id": "102105040",
+    "text": "Ingeniería Civil Mecánica y Eléctrica 5.4 Telecomunicaciones y Electrónica."
+  },
+  {
+    "id": "81102000",
+    "text": "Ingeniería de minas"
+  },
+  {
+    "id": "81101900",
+    "text": "Ingeniería de petróleo y gas"
+  },
+  {
+    "id": "81102200",
+    "text": "Ingeniería de transportes"
+  },
+  {
+    "id": "81101700",
+    "text": "Ingeniería eléctrica y electrónica"
+  },
+  {
+    "id": "81111500",
+    "text": "Ingeniería en computación e informática"
+  },
+  {
+    "id": "81101600",
+    "text": "Ingeniería mecánica"
+  },
+  {
+    "id": "81102100",
+    "text": "Ingeniería oceánica"
+  },
+  {
+    "id": "81101800",
+    "text": "Ingeniería química"
+  },
+  {
+    "id": "12163600",
+    "text": "Inhibidores de corrosión"
+  },
+  {
+    "id": "12131700",
+    "text": "Iniciadores"
+  },
+  {
+    "id": "41106400",
+    "text": "Iniciadores, enlaces y adaptadores"
+  },
+  {
+    "id": "51201500",
+    "text": "Inmunodepresores"
+  },
+  {
+    "id": "10101900",
+    "text": "Insectos"
+  },
+  {
+    "id": "82101900",
+    "text": "Inserciones publicitarias en medios"
+  },
+  {
+    "id": "42292100",
+    "text": "Insertadores, extractores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "78141600",
+    "text": "Inspección"
+  },
+  {
+    "id": "102107000",
+    "text": "Inspecciones"
+  },
+  {
+    "id": "102107010",
+    "text": "Inspecciones 7.1 Obras Viales y Aeropuertos."
+  },
+  {
+    "id": "102107100",
+    "text": "Inspecciones 7.10 Seguridad Vial."
+  },
+  {
+    "id": "102107020",
+    "text": "Inspecciones 7.2 Obras Hidráulicas, de Riego y Sanitarias."
+  },
+  {
+    "id": "102107030",
+    "text": "Inspecciones 7.3 Obras de Edificación."
+  },
+  {
+    "id": "102107040",
+    "text": "Inspecciones 7.4 Obras Portuarias, Marítimas, Fluviales y Lacustres."
+  },
+  {
+    "id": "102107050",
+    "text": "Inspecciones 7.5 Túneles."
+  },
+  {
+    "id": "102107060",
+    "text": "Inspecciones 7.6 Inspección de Montajes Electromecánicos."
+  },
+  {
+    "id": "102107070",
+    "text": "Inspecciones 7.7 Inspección de Fabricaciones Mecánicas y Metálicas."
+  },
+  {
+    "id": "102107080",
+    "text": "Inspecciones 7.8 Laboratorio para Obras Civiles."
+  },
+  {
+    "id": "102107090",
+    "text": "Inspecciones 7.9 Laboratorio para Obras Mecánicas y/o Eléctricas."
+  },
+  {
+    "id": "84121500",
+    "text": "Instituciones bancarias"
+  },
+  {
+    "id": "20142600",
+    "text": "Instrumentación de control de producción"
+  },
+  {
+    "id": "41114200",
+    "text": "Instrumentos de agrimensura"
+  },
+  {
+    "id": "60131300",
+    "text": "Instrumentos de cuerda"
+  },
+  {
+    "id": "44121700",
+    "text": "Instrumentos de escritura"
+  },
+  {
+    "id": "42294500",
+    "text": "Instrumentos de especialidad oftálmica y productos relacionados"
+  },
+  {
+    "id": "42142000",
+    "text": "Instrumentos de grado bajo \"floor grade\""
+  },
+  {
+    "id": "41122400",
+    "text": "Instrumentos de laboratorio"
+  },
+  {
+    "id": "41112300",
+    "text": "Instrumentos de medición de humedad"
+  },
+  {
+    "id": "41116400",
+    "text": "Instrumentos de medición de la aceleración y la vibración"
+  },
+  {
+    "id": "41111500",
+    "text": "Instrumentos de medición de peso"
+  },
+  {
+    "id": "41113600",
+    "text": "Instrumentos de medición eléctrica"
+  },
+  {
+    "id": "41113400",
+    "text": "Instrumentos de medición nuclear"
+  },
+  {
+    "id": "42182500",
+    "text": "Instrumentos de medición olifática"
+  },
+  {
+    "id": "41113700",
+    "text": "Instrumentos de medición para componentes de comunicación electrónica"
+  },
+  {
+    "id": "41114600",
+    "text": "Instrumentos de medición para metales, metalurgia y materiales estructurales"
+  },
+  {
+    "id": "41114700",
+    "text": "Instrumentos de medición para papel, madera y tejidos"
+  },
+  {
+    "id": "41112500",
+    "text": "Instrumentos de medición y observación de caudal y fluidos"
+  },
+  {
+    "id": "41112400",
+    "text": "Instrumentos de medida y control de presión"
+  },
+  {
+    "id": "60131100",
+    "text": "Instrumentos de metal"
+  },
+  {
+    "id": "60131400",
+    "text": "Instrumentos de percusión"
+  },
+  {
+    "id": "60131000",
+    "text": "Instrumentos de teclado"
+  },
+  {
+    "id": "60131200",
+    "text": "Instrumentos de viento de madera"
+  },
+  {
+    "id": "25202100",
+    "text": "Instrumentos de vuelo"
+  },
+  {
+    "id": "42294900",
+    "text": "Instrumentos endoscópicos, suministros, accesorios y productos relacionados"
+  },
+  {
+    "id": "41113800",
+    "text": "Instrumentos geofísicos, geotécnicos e hidrológicos"
+  },
+  {
+    "id": "41114300",
+    "text": "Instrumentos hidrológicos"
+  },
+  {
+    "id": "41114500",
+    "text": "Instrumentos mecánicos"
+  },
+  {
+    "id": "41114400",
+    "text": "Instrumentos meteorológicos"
+  },
+  {
+    "id": "60131700",
+    "text": "Instrumentos musicales de sonidos alternativos"
+  },
+  {
+    "id": "26141900",
+    "text": "Instrumentos nucleónicos industriales"
+  },
+  {
+    "id": "41114800",
+    "text": "Instrumentos para comprobación de cerámica y vidrio"
+  },
+  {
+    "id": "41115100",
+    "text": "Instrumentos para comprobación de cerámica y vidrio"
+  },
+  {
+    "id": "41111600",
+    "text": "Instrumentos para medición de longitud"
+  },
+  {
+    "id": "42182400",
+    "text": "Instrumentos para medir la audición"
+  },
+  {
+    "id": "41112200",
+    "text": "Instrumentos para medir temperatura y calor"
+  },
+  {
+    "id": "42291600",
+    "text": "Instrumentos quirúrgicos de corte, trampas y productos relacionados"
+  },
+  {
+    "id": "42292800",
+    "text": "Instrumentos quirúrgicos de marcar"
+  },
+  {
+    "id": "42293200",
+    "text": "Instrumentos quirúrgicos de mioma"
+  },
+  {
+    "id": "42292900",
+    "text": "Instrumentos quirúrgicos para el cierre de tejidos, suturas y productos relacionados"
+  },
+  {
+    "id": "42293900",
+    "text": "Instrumentos quirúrgicos para empaque de heridas y productos relacionados"
+  },
+  {
+    "id": "42291500",
+    "text": "Instrumentos quirúrgicos y productos relacionados para biopsia de los huesos"
+  },
+  {
+    "id": "42203100",
+    "text": "Instrumentos radio biológicos"
+  },
+  {
+    "id": "41114100",
+    "text": "Instrumentos sismológicos"
+  },
+  {
+    "id": "41115700",
+    "text": "Instrumentos y accesorios de medición cromatográfica"
+  },
+  {
+    "id": "41111700",
+    "text": "Instrumentos y accesorios de observación"
+  },
+  {
+    "id": "41115600",
+    "text": "Instrumentos y accesorios para mediciones electroquímicas"
+  },
+  {
+    "id": "42151600",
+    "text": "Instrumentos y dispositivos dentales y de sub-especialidad"
+  },
+  {
+    "id": "41111900",
+    "text": "Instrumentos y equipos de grabación y registro"
+  },
+  {
+    "id": "41113000",
+    "text": "Instrumentos y suministros de evaluación química"
+  },
+  {
+    "id": "42294300",
+    "text": "Instrumentos, suministros y equipos de biopsia de mama mínimamente invasiva"
+  },
+  {
+    "id": "86111800",
+    "text": "Intercambios educativos"
+  },
+  {
+    "id": "40142500",
+    "text": "Interceptores y coladores"
+  },
+  {
+    "id": "39121500",
+    "text": "Interruptores, controles y releés"
+  },
+  {
+    "id": "50121700",
+    "text": "Invertebrados acuáticos"
+  },
+  {
+    "id": "80141500",
+    "text": "Investigación de mercado"
+  },
+  {
+    "id": "85131700",
+    "text": "Investigación en ciencias médicas"
+  },
+  {
+    "id": "12142200",
+    "text": "Isótopos"
+  },
+  {
+    "id": "50192400",
+    "text": "Jaleas, gelatinas, mermeladas, pastas de untar, dulces y conservas de frutas"
+  },
+  {
+    "id": "41122000",
+    "text": "Jeringas de muestreo para laboratorio"
+  },
+  {
+    "id": "42142600",
+    "text": "Jeringas y accesorios"
+  },
+  {
+    "id": "54101500",
+    "text": "Joyería fina"
+  },
+  {
+    "id": "60141100",
+    "text": "Juegos"
+  },
+  {
+    "id": "27113200",
+    "text": "Juegos de herramientas"
+  },
+  {
+    "id": "42294200",
+    "text": "Juegos de instrumentos, sistemas y bandejas quirúrgicos"
+  },
+  {
+    "id": "53121800",
+    "text": "Juegos y accesorios de viaje"
+  },
+  {
+    "id": "60141000",
+    "text": "Juguetes"
+  },
+  {
+    "id": "31181500",
+    "text": "Juntas"
+  },
+  {
+    "id": "41106100",
+    "text": "Kits de análisis de ácido desoxirribonucleico (ADN)"
+  },
+  {
+    "id": "47132100",
+    "text": "Kits de limpieza"
+  },
+  {
+    "id": "60101000",
+    "text": "Kits de matemáticas"
+  },
+  {
+    "id": "41116100",
+    "text": "Kits para ensayos manuales, controles de calidad, calibradores y normativas"
+  },
+  {
+    "id": "42172000",
+    "text": "Kits para urgencias en terreno"
+  },
+  {
+    "id": "41105500",
+    "text": "Kits y componentes de extracción, purificación y cuantificación de ácidos nucleícos"
+  },
+  {
+    "id": "85121800",
+    "text": "Laboratorios clínicos"
+  },
+  {
+    "id": "30131600",
+    "text": "Ladrillos"
+  },
+  {
+    "id": "31371100",
+    "text": "Ladrillos refractarios"
+  },
+  {
+    "id": "30102000",
+    "text": "Lámina"
+  },
+  {
+    "id": "42182600",
+    "text": "Lámparas para examen médico"
+  },
+  {
+    "id": "46141500",
+    "text": "Lanzadores de misiles y cohetes"
+  },
+  {
+    "id": "42152300",
+    "text": "Láseres, equipo de iluminación y fibra óptica para odontología"
+  },
+  {
+    "id": "24121800",
+    "text": "Latas para envasado"
+  },
+  {
+    "id": "24112200",
+    "text": "Latas y cubos"
+  },
+  {
+    "id": "52152200",
+    "text": "Lavado de vajilla y accesorios para almacenamiento de platos"
+  },
+  {
+    "id": "52141600",
+    "text": "Lavadoras, secadoras, planchas y suministros de uso doméstico"
+  },
+  {
+    "id": "51171600",
+    "text": "Laxantes"
+  },
+  {
+    "id": "50221000",
+    "text": "Legumbres"
+  },
+  {
+    "id": "60123900",
+    "text": "Lentejuelas y ribetes"
+  },
+  {
+    "id": "31241500",
+    "text": "Lentes y prismas industriales"
+  },
+  {
+    "id": "51102100",
+    "text": "Leprostáticos"
+  },
+  {
+    "id": "60111300",
+    "text": "Letras y números decorativos"
+  },
+  {
+    "id": "60102300",
+    "text": "Libros de lectura y recursos"
+  },
+  {
+    "id": "60121100",
+    "text": "Lienzos, películas, tableros y papeles para el artista"
+  },
+  {
+    "id": "12163800",
+    "text": "Limpiadores químicos"
+  },
+  {
+    "id": "25171500",
+    "text": "Limpiaparabrisas"
+  },
+  {
+    "id": "76111700",
+    "text": "Limpieza de terrenos para edificar"
+  },
+  {
+    "id": "76111800",
+    "text": "Limpieza de vehículos de transporte"
+  },
+  {
+    "id": "76131700",
+    "text": "Limpieza de vertidos o derramamientos de petróleo"
+  },
+  {
+    "id": "76131600",
+    "text": "Limpieza de vertidos o derramamientos tóxicos"
+  },
+  {
+    "id": "72101800",
+    "text": "Limpieza exterior"
+  },
+  {
+    "id": "30103400",
+    "text": "Lingotes"
+  },
+  {
+    "id": "42202800",
+    "text": "Litotriptores y productos relacionados"
+  },
+  {
+    "id": "25171900",
+    "text": "Llantas y accesorios"
+  },
+  {
+    "id": "27111700",
+    "text": "Llaves, destornilladores y guías"
+  },
+  {
+    "id": "25121500",
+    "text": "Locomotoras y vagonetas eléctricas"
+  },
+  {
+    "id": "20131000",
+    "text": "Lodo de perforación"
+  },
+  {
+    "id": "31371400",
+    "text": "Losas refractarias"
+  },
+  {
+    "id": "30181500",
+    "text": "Loza sanitaria"
+  },
+  {
+    "id": "15121500",
+    "text": "Lubricantes"
+  },
+  {
+    "id": "42293700",
+    "text": "Machacadoras, excavadoras y fragmentadoras quirúrgicas y productos relacionados"
+  },
+  {
+    "id": "42292400",
+    "text": "Machos de roscar, impulsores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "11121600",
+    "text": "Madera"
+  },
+  {
+    "id": "53121500",
+    "text": "Maletas"
+  },
+  {
+    "id": "42191500",
+    "text": "Manejo de materiales y equipo de distribución clínica"
+  },
+  {
+    "id": "40142000",
+    "text": "Mangueras"
+  },
+  {
+    "id": "42293400",
+    "text": "Manipuladores y posicionadores quirúrgicos de implante y productos relacionados"
+  },
+  {
+    "id": "42171700",
+    "text": "Mantas médicas para urgencia"
+  },
+  {
+    "id": "52121600",
+    "text": "Mantelerías de cocina, de mesa y accesorios"
+  },
+  {
+    "id": "78180100",
+    "text": "Mantención o reparación de vehículos"
+  },
+  {
+    "id": "92111500",
+    "text": "Mantenimiento de la paz y seguridad internacionales"
+  },
+  {
+    "id": "81112200",
+    "text": "Mantenimiento y soporte de software"
+  },
+  {
+    "id": "21101700",
+    "text": "Maquinaria agrícola para cosechar"
+  },
+  {
+    "id": "21102000",
+    "text": "Maquinaria agrícola para limpieza, selección o clasificación"
+  },
+  {
+    "id": "21101500",
+    "text": "Maquinaria agrícola para preparación del suelo"
+  },
+  {
+    "id": "21101600",
+    "text": "Maquinaria agrícola para siembra"
+  },
+  {
+    "id": "20102200",
+    "text": "Maquinaria de carga de explosivos"
+  },
+  {
+    "id": "23152000",
+    "text": "Maquinaria de control para tratamiento de telas"
+  },
+  {
+    "id": "22102000",
+    "text": "Maquinaria de demolición de edificios"
+  },
+  {
+    "id": "23211000",
+    "text": "Maquinaria de ensamblaje electrónico"
+  },
+  {
+    "id": "23221200",
+    "text": "Maquinaria de eviscerado"
+  },
+  {
+    "id": "23111600",
+    "text": "Maquinaria de hidrotratamiento"
+  },
+  {
+    "id": "20111600",
+    "text": "Maquinaria de perforación y explotación"
+  },
+  {
+    "id": "20111700",
+    "text": "Maquinaria de perforación y explotación"
+  },
+  {
+    "id": "23171700",
+    "text": "Maquinaria de pliegue y modelado de metales"
+  },
+  {
+    "id": "23211100",
+    "text": "Maquinaria de procesamiento y fabricación electrónica"
+  },
+  {
+    "id": "23221000",
+    "text": "Maquinaria de recepción"
+  },
+  {
+    "id": "23181800",
+    "text": "Maquinaria industrial para elaboración de bebidas"
+  },
+  {
+    "id": "23181700",
+    "text": "Maquinaria para cocinar o ahumar alimentos"
+  },
+  {
+    "id": "22101900",
+    "text": "Maquinaria para construcción de edificios"
+  },
+  {
+    "id": "23181600",
+    "text": "Maquinaria para corte de alimentos"
+  },
+  {
+    "id": "23151500",
+    "text": "Maquinaria para elaboración de caucho y plástico"
+  },
+  {
+    "id": "23151600",
+    "text": "Maquinaria para elaboración de cemento, cerámica y vidrio"
+  },
+  {
+    "id": "23152900",
+    "text": "Maquinaria para envasar"
+  },
+  {
+    "id": "23161500",
+    "text": "Maquinaria para fundición"
+  },
+  {
+    "id": "23181500",
+    "text": "Maquinaria para la elaboración de alimentos"
+  },
+  {
+    "id": "23151900",
+    "text": "Maquinaria para la elaboración de papel"
+  },
+  {
+    "id": "23151800",
+    "text": "Maquinaria para la industria farmacéutica"
+  },
+  {
+    "id": "23151700",
+    "text": "Maquinaria para la industria óptica"
+  },
+  {
+    "id": "23221100",
+    "text": "Maquinaria para matanza y desplumamiento"
+  },
+  {
+    "id": "23141600",
+    "text": "Maquinaria para preparación del cuero"
+  },
+  {
+    "id": "23111500",
+    "text": "Maquinaria para procesamiento del petróleo"
+  },
+  {
+    "id": "21102200",
+    "text": "Maquinaria para silvicultura"
+  },
+  {
+    "id": "23171500",
+    "text": "Maquinaria para soldadura directa o indirecta"
+  },
+  {
+    "id": "23141700",
+    "text": "Maquinaria para trabajar el cuero"
+  },
+  {
+    "id": "23101500",
+    "text": "Maquinaria para trabajar madera, piedra, cerámica y similares"
+  },
+  {
+    "id": "23121600",
+    "text": "Maquinaria para trabajo textil"
+  },
+  {
+    "id": "21102100",
+    "text": "Maquinaria para transformación agrícola"
+  },
+  {
+    "id": "23121500",
+    "text": "Maquinaria para transformación textil"
+  },
+  {
+    "id": "22101500",
+    "text": "Maquinaria pesada"
+  },
+  {
+    "id": "45101500",
+    "text": "Maquinarias y equipos de imprenta"
+  },
+  {
+    "id": "44101800",
+    "text": "Máquinas calculadoras y accesorios"
+  },
+  {
+    "id": "44102500",
+    "text": "Máquinas clasificadoras"
+  },
+  {
+    "id": "44102100",
+    "text": "Máquinas de correo"
+  },
+  {
+    "id": "44102600",
+    "text": "Máquinas de escribir y accesorios"
+  },
+  {
+    "id": "48121100",
+    "text": "Máquinas de juegos operadas con monedas o fichas"
+  },
+  {
+    "id": "44102800",
+    "text": "Máquinas encuadernadoras y plastificadoras"
+  },
+  {
+    "id": "48111300",
+    "text": "Máquinas expendedoras de boletos, estampillas o comprobantes"
+  },
+  {
+    "id": "48111200",
+    "text": "Máquinas expendedoras de comida rápida"
+  },
+  {
+    "id": "48111000",
+    "text": "Máquinas expendedoras de líquidos"
+  },
+  {
+    "id": "48111400",
+    "text": "Máquinas expendedoras de monedas y billetes"
+  },
+  {
+    "id": "48111100",
+    "text": "Máquinas expendedoras de productos"
+  },
+  {
+    "id": "44101900",
+    "text": "Máquinas para endosar y extender cheques"
+  },
+  {
+    "id": "24131900",
+    "text": "Máquinas para hacer hielo"
+  },
+  {
+    "id": "44101600",
+    "text": "Máquinas para procesamiento de papel y accesorios"
+  },
+  {
+    "id": "45102000",
+    "text": "Máquinas y accesorios de composición"
+  },
+  {
+    "id": "44103200",
+    "text": "Máquinas y accesorios para registro de hora y asistencia en la oficina"
+  },
+  {
+    "id": "47121600",
+    "text": "Máquinas y accesorios para suelos"
+  },
+  {
+    "id": "23171600",
+    "text": "Máquinas-herramientas"
+  },
+  {
+    "id": "42203500",
+    "text": "Marcapasos cardiacos y productos relacionados"
+  },
+  {
+    "id": "30171900",
+    "text": "Marcos de ventanas"
+  },
+  {
+    "id": "60111200",
+    "text": "Marcos para diarios murales"
+  },
+  {
+    "id": "50121600",
+    "text": "Mariscos frescos"
+  },
+  {
+    "id": "10101800",
+    "text": "Mariscos, moluscos y crustáceos acuáticos"
+  },
+  {
+    "id": "42292500",
+    "text": "Martillos, mazos, impactores, prensas quirúrgicas y productos relacionados"
+  },
+  {
+    "id": "60122800",
+    "text": "Máscaras"
+  },
+  {
+    "id": "55111600",
+    "text": "Material de referencia o manuales de software electrónico"
+  },
+  {
+    "id": "60123200",
+    "text": "Materiales de artesanía de cintas"
+  },
+  {
+    "id": "60123500",
+    "text": "Materiales de artesanía de cuero"
+  },
+  {
+    "id": "60123700",
+    "text": "Materiales de artesanía de macramé y accesorios"
+  },
+  {
+    "id": "60106200",
+    "text": "Materiales de enseñanza de tecnología"
+  },
+  {
+    "id": "60106100",
+    "text": "Materiales de enseñanza vocacional"
+  },
+  {
+    "id": "60121600",
+    "text": "Materiales de estudio"
+  },
+  {
+    "id": "60104900",
+    "text": "Materiales de física de electricidad"
+  },
+  {
+    "id": "60104700",
+    "text": "Materiales de física de energía y electricidad"
+  },
+  {
+    "id": "60104800",
+    "text": "Materiales de física del sonido y las ondas"
+  },
+  {
+    "id": "60104600",
+    "text": "Materiales de física mecánica"
+  },
+  {
+    "id": "60105000",
+    "text": "Materiales de física nuclear"
+  },
+  {
+    "id": "60124100",
+    "text": "Materiales de proyecto multicultural y accesorios"
+  },
+  {
+    "id": "42152400",
+    "text": "Materiales dentales"
+  },
+  {
+    "id": "60102900",
+    "text": "Materiales didácticos o recursos educativos de dinero y hora"
+  },
+  {
+    "id": "60105300",
+    "text": "Materiales educativos de aptitudes laborales"
+  },
+  {
+    "id": "60105800",
+    "text": "Materiales educativos de diseño de vestuario y textil"
+  },
+  {
+    "id": "60105500",
+    "text": "Materiales educativos de diseño del hogar e interiores"
+  },
+  {
+    "id": "60105600",
+    "text": "Materiales educativos de preparación de alimentos, nutrición y educación sobre la salud"
+  },
+  {
+    "id": "60105400",
+    "text": "Materiales educativos de vida independiente, administración del dinero y economía doméstica"
+  },
+  {
+    "id": "60105900",
+    "text": "Materiales educativos sobre las relaciones de pareja y sexuales, embarazo precoz, maternidad y desarrollo del niño"
+  },
+  {
+    "id": "60101100",
+    "text": "Materiales electrónicos de aprendizaje"
+  },
+  {
+    "id": "60103200",
+    "text": "Materiales o recursos educativos de álgebra"
+  },
+  {
+    "id": "60103100",
+    "text": "Materiales o recursos educativos de geometría"
+  },
+  {
+    "id": "60103300",
+    "text": "Materiales o recursos educativos de pre cálculo y cálculo"
+  },
+  {
+    "id": "30151900",
+    "text": "Materiales para acabado"
+  },
+  {
+    "id": "30161500",
+    "text": "Materiales para acabados de paredes"
+  },
+  {
+    "id": "30161600",
+    "text": "Materiales para cielo falso"
+  },
+  {
+    "id": "31181700",
+    "text": "Materiales para juntas y empaquetaduras"
+  },
+  {
+    "id": "30151800",
+    "text": "Materiales para revestimiento interior y exterior"
+  },
+  {
+    "id": "30151500",
+    "text": "Materiales para techumbres"
+  },
+  {
+    "id": "40141700",
+    "text": "Materiales y accesorios de gasfitería"
+  },
+  {
+    "id": "50193100",
+    "text": "Materiales y mezclas instantáneas"
+  },
+  {
+    "id": "60102100",
+    "text": "Materiales y recursos de lenguaje"
+  },
+  {
+    "id": "60121900",
+    "text": "Materiales y suministros para decoración de telas y arte textil"
+  },
+  {
+    "id": "14101500",
+    "text": "Materias primas"
+  },
+  {
+    "id": "93161800",
+    "text": "Materias tributarias"
+  },
+  {
+    "id": "41105700",
+    "text": "Matrices génicas"
+  },
+  {
+    "id": "31163000",
+    "text": "Mecanismos"
+  },
+  {
+    "id": "53102400",
+    "text": "Medias, calcetines, pantys y mallas"
+  },
+  {
+    "id": "51131500",
+    "text": "Medicamentos antianémicos"
+  },
+  {
+    "id": "51121600",
+    "text": "Medicamentos antiangina"
+  },
+  {
+    "id": "51211500",
+    "text": "Medicamentos antigota"
+  },
+  {
+    "id": "51121700",
+    "text": "Medicamentos antihipertensivos"
+  },
+  {
+    "id": "51102300",
+    "text": "Medicamentos antivirales"
+  },
+  {
+    "id": "51142500",
+    "text": "Medicamentos contra el Parkinson"
+  },
+  {
+    "id": "51101900",
+    "text": "Medicamentos contra la malaria"
+  },
+  {
+    "id": "51102000",
+    "text": "Medicamentos contra la malaria"
+  },
+  {
+    "id": "51161700",
+    "text": "Medicamentos para alteraciones del tracto respiratorio"
+  },
+  {
+    "id": "51142400",
+    "text": "Medicamentos para dolores de cabeza vasculares y migraña"
+  },
+  {
+    "id": "51172000",
+    "text": "Medicamentos para enfermedades de la vesícula biliar"
+  },
+  {
+    "id": "51182200",
+    "text": "Medicamentos para la inducción del parto"
+  },
+  {
+    "id": "51181600",
+    "text": "Medicamentos tiroideas y antitiroideas"
+  },
+  {
+    "id": "51121900",
+    "text": "Medicamentos usados para la insuficiencia cardíaca congestiva"
+  },
+  {
+    "id": "42183100",
+    "text": "Medidores de la capacidad gustativa"
+  },
+  {
+    "id": "42183200",
+    "text": "Medidores de la capacidad gustativa"
+  },
+  {
+    "id": "41116300",
+    "text": "Medidores de punto de ignición para laboratorio"
+  },
+  {
+    "id": "102109000",
+    "text": "Medio Ambiente"
+  },
+  {
+    "id": "102109010",
+    "text": "Medio Ambiente 9.1 Estudio de Impacto Ambiental (EIA)"
+  },
+  {
+    "id": "102109020",
+    "text": "Medio Ambiente 9.2 Estudio específico arqueológico"
+  },
+  {
+    "id": "102109030",
+    "text": "Medio Ambiente 9.3 Estudio específico del medio socio-cultural"
+  },
+  {
+    "id": "102109040",
+    "text": "Medio Ambiente 9.4 Estudio específico del medio físico-químico"
+  },
+  {
+    "id": "102109050",
+    "text": "Medio Ambiente 9.5 Estudio específico de medio biótico"
+  },
+  {
+    "id": "102109060",
+    "text": "Medio Ambiente 9.6 Estudio específico referente a legislación ambiental"
+  },
+  {
+    "id": "102109070",
+    "text": "Medio Ambiente 9.7 Monitoreo y vigilancia ambiental"
+  },
+  {
+    "id": "102109080",
+    "text": "Medio Ambiente 9.8 Gestión Ambiental"
+  },
+  {
+    "id": "45131600",
+    "text": "Medios cinematográficos"
+  },
+  {
+    "id": "44121800",
+    "text": "Medios de corrección"
+  },
+  {
+    "id": "40161800",
+    "text": "Medios de filtrado"
+  },
+  {
+    "id": "60121200",
+    "text": "Medios, aplicadores y accesorios para artes plásticas y pinturas"
+  },
+  {
+    "id": "48101800",
+    "text": "Menaje y utensilios de cocina"
+  },
+  {
+    "id": "42192000",
+    "text": "Mesas de examen o procedimiento clínico"
+  },
+  {
+    "id": "42182900",
+    "text": "Mesas de exámenes específicos y productos relacionados"
+  },
+  {
+    "id": "48121200",
+    "text": "Mesas y equipos para juegos"
+  },
+  {
+    "id": "51251000",
+    "text": "Metabolitos"
+  },
+  {
+    "id": "11101600",
+    "text": "Metales"
+  },
+  {
+    "id": "12141800",
+    "text": "Metales alcalinos"
+  },
+  {
+    "id": "11101700",
+    "text": "Metales base"
+  },
+  {
+    "id": "12141700",
+    "text": "Metales de transición"
+  },
+  {
+    "id": "60124400",
+    "text": "Metales para artesanía"
+  },
+  {
+    "id": "11101800",
+    "text": "Metales preciosos"
+  },
+  {
+    "id": "81151500",
+    "text": "Meteorología"
+  },
+  {
+    "id": "81131500",
+    "text": "Metodología y análisis estadístico"
+  },
+  {
+    "id": "23191100",
+    "text": "Mezcladores continuos"
+  },
+  {
+    "id": "23191000",
+    "text": "Mezcladores por etapa"
+  },
+  {
+    "id": "12352400",
+    "text": "Mezclas"
+  },
+  {
+    "id": "12163000",
+    "text": "Mezclas para quitar barro"
+  },
+  {
+    "id": "11101500",
+    "text": "Minerales"
+  },
+  {
+    "id": "46121500",
+    "text": "Misiles teledirigidos"
+  },
+  {
+    "id": "42121700",
+    "text": "Mobiliario clínico veterinario"
+  },
+  {
+    "id": "56121000",
+    "text": "Mobiliario de biblioteca"
+  },
+  {
+    "id": "56121400",
+    "text": "Mobiliario de cafetería y comedor"
+  },
+  {
+    "id": "56121100",
+    "text": "Mobiliario de clases de arte"
+  },
+  {
+    "id": "56121900",
+    "text": "Mobiliario de demostración"
+  },
+  {
+    "id": "48102000",
+    "text": "Mobiliario de restaurantes"
+  },
+  {
+    "id": "56121200",
+    "text": "Mobiliario de sala de primeros auxilios"
+  },
+  {
+    "id": "56121500",
+    "text": "Mobiliario general de aula"
+  },
+  {
+    "id": "56121700",
+    "text": "Mobiliario para el almacenamiento de libros y artículos en general de las sala de clases y colegios"
+  },
+  {
+    "id": "56121600",
+    "text": "Mobiliario para jardines infantiles, salas cunas y guarderías"
+  },
+  {
+    "id": "56121800",
+    "text": "Mobiliario y accesorios de aulas vocacionales"
+  },
+  {
+    "id": "43201500",
+    "text": "Módulos, interfaces, procesadores y placas de sistema"
+  },
+  {
+    "id": "23171800",
+    "text": "Moldes de metal para fabricación"
+  },
+  {
+    "id": "30103300",
+    "text": "Molduras"
+  },
+  {
+    "id": "93151700",
+    "text": "Monedas"
+  },
+  {
+    "id": "53121600",
+    "text": "Monederos, bolsos de mano y bolsas"
+  },
+  {
+    "id": "101102000",
+    "text": "Montaje"
+  },
+  {
+    "id": "101102010",
+    "text": "Montaje 1.m. Montaje de equipos eléctricos"
+  },
+  {
+    "id": "60122600",
+    "text": "Mosaicos"
+  },
+  {
+    "id": "26101500",
+    "text": "Motores"
+  },
+  {
+    "id": "26101600",
+    "text": "Motores"
+  },
+  {
+    "id": "93111500",
+    "text": "Movimientos políticos"
+  },
+  {
+    "id": "94131800",
+    "text": "Movimientos sociales"
+  },
+  {
+    "id": "56101500",
+    "text": "Muebles"
+  },
+  {
+    "id": "42261700",
+    "text": "Muebles de autopsia"
+  },
+  {
+    "id": "49121600",
+    "text": "Muebles de camping"
+  },
+  {
+    "id": "56112000",
+    "text": "Muebles de computación"
+  },
+  {
+    "id": "56122000",
+    "text": "Muebles de laboratorio"
+  },
+  {
+    "id": "56101700",
+    "text": "Muebles de oficina"
+  },
+  {
+    "id": "56111800",
+    "text": "Muebles independientes"
+  },
+  {
+    "id": "56111900",
+    "text": "Muebles industriales"
+  },
+  {
+    "id": "56101600",
+    "text": "Muebles para el exterior"
+  },
+  {
+    "id": "42151700",
+    "text": "Muebles para la clínica dental"
+  },
+  {
+    "id": "56111700",
+    "text": "Muebles, escritorios y sistemas no modulares"
+  },
+  {
+    "id": "44101500",
+    "text": "Multicopistas, fotocopiadoras, fax y multifuncionales"
+  },
+  {
+    "id": "46101600",
+    "text": "Municiones"
+  },
+  {
+    "id": "86131600",
+    "text": "Música y teatro"
+  },
+  {
+    "id": "25151500",
+    "text": "Naves espaciales"
+  },
+  {
+    "id": "42201900",
+    "text": "Negatoscopios y accesorios"
+  },
+  {
+    "id": "25172500",
+    "text": "Neumáticos y cámaras de neumáticos"
+  },
+  {
+    "id": "85151600",
+    "text": "Nutrición"
+  },
+  {
+    "id": "101101000",
+    "text": "Obra Civil"
+  },
+  {
+    "id": "101101010",
+    "text": "Obra Civil 1.o.c Obras de Movimiento de Tierra"
+  },
+  {
+    "id": "101101100",
+    "text": "Obra Civil 10.O.C. Fundaciones"
+  },
+  {
+    "id": "101101110",
+    "text": "Obra Civil 11.O.C. Enrocados Marítimos"
+  },
+  {
+    "id": "101101120",
+    "text": "Obra Civil 12.O.C Hormigones Marítimos"
+  },
+  {
+    "id": "101101130",
+    "text": "Obra Civil 13.O.C. Obras de Defensas Fluviales"
+  },
+  {
+    "id": "101101140",
+    "text": "Obra Civil 14.O.C. Revestimiento de Canales"
+  },
+  {
+    "id": "101101150",
+    "text": "Obra Civil 15.O.C. Puentes y Cruces Desnivelados"
+  },
+  {
+    "id": "101101160",
+    "text": "Obra Civil 16.O.C. Reparación de puentes y cruces desnivelados"
+  },
+  {
+    "id": "101101170",
+    "text": "Obra Civil 17.O.C. Señalización vertical de seguridad vial"
+  },
+  {
+    "id": "101101180",
+    "text": "Obra Civil 18.O.C. Señalización Horizontal de Seguridad"
+  },
+  {
+    "id": "101101190",
+    "text": "Obra Civil 19.O.C. Barrera de Seguridad y Elemento de Contención de Seguridad Vial"
+  },
+  {
+    "id": "101101020",
+    "text": "Obra Civil 2.o.c. Obras de hormigón estructural"
+  },
+  {
+    "id": "101101200",
+    "text": "Obra Civil 20.O.C. Cierres Perimetrales y Vallados de Seguridad Vial"
+  },
+  {
+    "id": "101102020",
+    "text": "Obra Civil 2M. Montaje de equipos Mecánicos"
+  },
+  {
+    "id": "101102030",
+    "text": "Obra Civil 3.m. Montaje de estructuras metálicas y de calderería"
+  },
+  {
+    "id": "101101030",
+    "text": "Obra Civil 3.O.C. Pavimentos"
+  },
+  {
+    "id": "101101040",
+    "text": "Obra Civil 4.o.c Obras de Hinca de Pilotaje y Tablestacas Marítimas"
+  },
+  {
+    "id": "101101050",
+    "text": "Obra Civil 5.O.C. Obras de Colocación de Tuberías"
+  },
+  {
+    "id": "101101060",
+    "text": "Obra Civil 6.O.C. Obras de Arquitectura"
+  },
+  {
+    "id": "101101070",
+    "text": "Obra Civil 7.O.C. Galerías, túneles, piques y cavernas"
+  },
+  {
+    "id": "101101080",
+    "text": "Obra Civil 8.O.C. Sondajes y Prospecciones"
+  },
+  {
+    "id": "101101090",
+    "text": "Obra Civil 9.O.C. Dragados"
+  },
+  {
+    "id": "101111010",
+    "text": "Obra Menor 1.O.M. Movimiento De Tierra Al Exterior"
+  },
+  {
+    "id": "101111100",
+    "text": "Obra Menor 10.O.M. Sondaje Y Prospecciones"
+  },
+  {
+    "id": "101111110",
+    "text": "Obra Menor 11.O.M. Obras Bajo Agua"
+  },
+  {
+    "id": "101111120",
+    "text": "Obra Menor 12.O.M. Instalaciones De Gas"
+  },
+  {
+    "id": "101111130",
+    "text": "Obra Menor 13.O.M. Instalaciones Eléctricas"
+  },
+  {
+    "id": "101111140",
+    "text": "Obra Menor 14.O.M. Montaje De Equipos Eléctricos"
+  },
+  {
+    "id": "101111150",
+    "text": "Obra Menor 15.O.M. Estructuras De Maderas"
+  },
+  {
+    "id": "101111160",
+    "text": "Obra Menor 16.O.M. Montaje De Equipos Mecánicos"
+  },
+  {
+    "id": "101111170",
+    "text": "Obra Menor 17.O.M. Estructuras Metálicas Y De Calderería"
+  },
+  {
+    "id": "101111180",
+    "text": "Obra Menor 18.O.M. Señalización Y Pinturas"
+  },
+  {
+    "id": "101111190",
+    "text": "Obra Menor 19.O.M. Conservación Habitual De Caminos Y Obras De Regadío"
+  },
+  {
+    "id": "101111020",
+    "text": "Obra Menor 2.O.M. Excavaciones Con Explosivos"
+  },
+  {
+    "id": "101111200",
+    "text": "Obra Menor 20.O.M. Hormigón Marítimo"
+  },
+  {
+    "id": "101111210",
+    "text": "Obra Menor 21.O.M. Obras de Defensas Fluviales"
+  },
+  {
+    "id": "101111220",
+    "text": "Obra Menor 22.O.M. Revestimientos de Canales"
+  },
+  {
+    "id": "101111030",
+    "text": "Obra Menor 3.O.M. Bases Y Sub-Bases"
+  },
+  {
+    "id": "101111040",
+    "text": "Obra Menor 4.O.M. Hormigón Estructural Y Albañilerías"
+  },
+  {
+    "id": "101111050",
+    "text": "Obra Menor 5.O.M. Pavimentos"
+  },
+  {
+    "id": "101111060",
+    "text": "Obra Menor 6.O.M. Pilotaje Y Tablestacado"
+  },
+  {
+    "id": "101111070",
+    "text": "Obra Menor 7.O.M. Instalación De Tuberías"
+  },
+  {
+    "id": "101111080",
+    "text": "Obra Menor 8.O.M. Instalaciones De Agua Potable Y Alcantarillado"
+  },
+  {
+    "id": "101111090",
+    "text": "Obra Menor 9.O.M. Obras De Arquitectura"
+  },
+  {
+    "id": "101000000",
+    "text": "Obras"
+  },
+  {
+    "id": "101111000",
+    "text": "Obras Menores"
+  },
+  {
+    "id": "104000000",
+    "text": "Obras MINVU"
+  },
+  {
+    "id": "81151800",
+    "text": "Oceanografía e hidrología"
+  },
+  {
+    "id": "51102400",
+    "text": "Oftálmico"
+  },
+  {
+    "id": "60123400",
+    "text": "Ojos móviles plásticos para manualidades"
+  },
+  {
+    "id": "93101500",
+    "text": "Organismos políticos"
+  },
+  {
+    "id": "60103900",
+    "text": "Organismos vivos, especímenes conservados y materiales relacionados"
+  },
+  {
+    "id": "93101700",
+    "text": "Organismos y práctica legislativa"
+  },
+  {
+    "id": "94131600",
+    "text": "Organizaciones de beneficencia"
+  },
+  {
+    "id": "86141600",
+    "text": "Organizaciones de estudiantes"
+  },
+  {
+    "id": "93121700",
+    "text": "Organizaciones internacionales"
+  },
+  {
+    "id": "94131500",
+    "text": "Organizaciones no gubernamentales"
+  },
+  {
+    "id": "94111800",
+    "text": "Organizaciones y servicios de peregrinaje"
+  },
+  {
+    "id": "52141800",
+    "text": "Otros electrodomésticos"
+  },
+  {
+    "id": "71131300",
+    "text": "Otros servicios de bombeo del campo petrolífero"
+  },
+  {
+    "id": "71112200",
+    "text": "Otros servicios de registración, perforación"
+  },
+  {
+    "id": "11131600",
+    "text": "Otros subproductos animales"
+  },
+  {
+    "id": "12141500",
+    "text": "Oxido de metales"
+  },
+  {
+    "id": "12141600",
+    "text": "Oxido de metales raros"
+  },
+  {
+    "id": "11181500",
+    "text": "Óxidos metálicos no férreos"
+  },
+  {
+    "id": "42181800",
+    "text": "Oxímetros de pulso"
+  },
+  {
+    "id": "42141600",
+    "text": "Palanganas y bacinillas de cama y orinales y equipos de ingreso"
+  },
+  {
+    "id": "50181900",
+    "text": "Pan, galletas y pastelitos dulces"
+  },
+  {
+    "id": "43211900",
+    "text": "Pantallas o monitores de computador"
+  },
+  {
+    "id": "53101500",
+    "text": "Pantalones sport, de vestir y shorts"
+  },
+  {
+    "id": "14111500",
+    "text": "Papel de imprenta y escritura"
+  },
+  {
+    "id": "14111600",
+    "text": "Papel fantasía"
+  },
+  {
+    "id": "14121900",
+    "text": "Papel prensa y offset"
+  },
+  {
+    "id": "14121600",
+    "text": "Papel seda"
+  },
+  {
+    "id": "14121800",
+    "text": "Papeles bañados"
+  },
+  {
+    "id": "14122100",
+    "text": "Papeles base sin bañar"
+  },
+  {
+    "id": "14111800",
+    "text": "Papeles comerciales"
+  },
+  {
+    "id": "14122200",
+    "text": "Papeles especiales de uso industrial"
+  },
+  {
+    "id": "14121700",
+    "text": "Papeles laminados"
+  },
+  {
+    "id": "90151700",
+    "text": "Parques de entretenciones"
+  },
+  {
+    "id": "70111700",
+    "text": "Parques, jardines y huertos"
+  },
+  {
+    "id": "50192900",
+    "text": "Pasta o tallarines naturales"
+  },
+  {
+    "id": "10101700",
+    "text": "Peces"
+  },
+  {
+    "id": "45131500",
+    "text": "Película o rollo para cámara fotográfica"
+  },
+  {
+    "id": "13111200",
+    "text": "Películas"
+  },
+  {
+    "id": "90131600",
+    "text": "Películas"
+  },
+  {
+    "id": "30102300",
+    "text": "Perfiles"
+  },
+  {
+    "id": "54121700",
+    "text": "Perlas"
+  },
+  {
+    "id": "31161600",
+    "text": "Pernos"
+  },
+  {
+    "id": "52131600",
+    "text": "Persianas"
+  },
+  {
+    "id": "92111800",
+    "text": "Personal militar y de combate"
+  },
+  {
+    "id": "50121500",
+    "text": "Pescados"
+  },
+  {
+    "id": "20121700",
+    "text": "Pescantes"
+  },
+  {
+    "id": "10191500",
+    "text": "Pesticidas o repelentes de plagas"
+  },
+  {
+    "id": "15101500",
+    "text": "Petróleo y derivados"
+  },
+  {
+    "id": "11111600",
+    "text": "Piedras"
+  },
+  {
+    "id": "54121500",
+    "text": "Piedras preciosas"
+  },
+  {
+    "id": "54121800",
+    "text": "Piedras preciosas o semipreciosas industriales"
+  },
+  {
+    "id": "54121600",
+    "text": "Piedras semipreciosas"
+  },
+  {
+    "id": "31101600",
+    "text": "Pieza moldeada en arena"
+  },
+  {
+    "id": "31102000",
+    "text": "Piezas de fundición centrífuga"
+  },
+  {
+    "id": "56101900",
+    "text": "Piezas de mobiliario y accesorios"
+  },
+  {
+    "id": "31281500",
+    "text": "Piezas estampadas"
+  },
+  {
+    "id": "31281900",
+    "text": "Piezas estiradas"
+  },
+  {
+    "id": "31131800",
+    "text": "Piezas forjadas a martinete"
+  },
+  {
+    "id": "31131500",
+    "text": "Piezas forjadas con matriz abierta"
+  },
+  {
+    "id": "31131600",
+    "text": "Piezas forjadas con matriz cerrada"
+  },
+  {
+    "id": "31131900",
+    "text": "Piezas forjadas de anillo cilindrado"
+  },
+  {
+    "id": "31131700",
+    "text": "Piezas forjadas en estampa de impresión"
+  },
+  {
+    "id": "31301500",
+    "text": "Piezas forjadas mecanizadas de anillo cilindrado"
+  },
+  {
+    "id": "31301100",
+    "text": "Piezas forjadas mecanizadas de matriz abierta"
+  },
+  {
+    "id": "31301200",
+    "text": "Piezas forjadas mecanizadas de matriz cerrada"
+  },
+  {
+    "id": "31301400",
+    "text": "Piezas forjadas mecanizadas por caída"
+  },
+  {
+    "id": "31301300",
+    "text": "Piezas forjadas mecanizadas por troquel de impresión"
+  },
+  {
+    "id": "31282200",
+    "text": "Piezas formadas con rodillo"
+  },
+  {
+    "id": "31282300",
+    "text": "Piezas formadas por estiramiento por presión"
+  },
+  {
+    "id": "31282400",
+    "text": "Piezas formadas por explosión"
+  },
+  {
+    "id": "31282100",
+    "text": "Piezas formadas por rotación"
+  },
+  {
+    "id": "31101500",
+    "text": "Piezas fundidas a presión"
+  },
+  {
+    "id": "31102100",
+    "text": "Piezas fundidas en molde cerámico"
+  },
+  {
+    "id": "31101900",
+    "text": "Piezas fundidas en molde de cera"
+  },
+  {
+    "id": "31102200",
+    "text": "Piezas fundidas en molde de grafito"
+  },
+  {
+    "id": "31102300",
+    "text": "Piezas fundidas en molde de yeso"
+  },
+  {
+    "id": "31101700",
+    "text": "Piezas fundidas en molde permanente"
+  },
+  {
+    "id": "31101800",
+    "text": "Piezas fundidas moldeadas en cáscara"
+  },
+  {
+    "id": "31282000",
+    "text": "Piezas hidro formadas"
+  },
+  {
+    "id": "31291200",
+    "text": "Piezas labradas por presión de impacto"
+  },
+  {
+    "id": "31291400",
+    "text": "Piezas labradas por presión en caliente"
+  },
+  {
+    "id": "31291300",
+    "text": "Piezas labradas por presión en frío"
+  },
+  {
+    "id": "31291100",
+    "text": "Piezas labradas por presión hidrostática"
+  },
+  {
+    "id": "31141600",
+    "text": "Piezas moldeadas al vacío"
+  },
+  {
+    "id": "31141500",
+    "text": "Piezas moldeadas por inyección"
+  },
+  {
+    "id": "31141700",
+    "text": "Piezas moldeadas por inyección de aire"
+  },
+  {
+    "id": "31141800",
+    "text": "Piezas moldeadas por inyección y reacción (RMI)"
+  },
+  {
+    "id": "43191600",
+    "text": "Piezas o accesorios de dispositivos de comunicación personal"
+  },
+  {
+    "id": "31281800",
+    "text": "Piezas perforadas"
+  },
+  {
+    "id": "31281700",
+    "text": "Piezas soldadas"
+  },
+  {
+    "id": "31271600",
+    "text": "Piezas torneadas"
+  },
+  {
+    "id": "60131500",
+    "text": "Piezas y accesorios de instrumentos musicales"
+  },
+  {
+    "id": "54111700",
+    "text": "Piezas y accesorios de relojes de pulsera, pared o pie"
+  },
+  {
+    "id": "40151700",
+    "text": "Piezas y accesorios para bomba"
+  },
+  {
+    "id": "40101600",
+    "text": "Piezas y accesorios para circulación de aire"
+  },
+  {
+    "id": "40101800",
+    "text": "Piezas y accesorios para equipos de calefacción"
+  },
+  {
+    "id": "41116500",
+    "text": "Piezas y accesorios para equipos e instrumentos"
+  },
+  {
+    "id": "23191200",
+    "text": "Piezas y accesorios para mezcladores"
+  },
+  {
+    "id": "26112000",
+    "text": "Piezas y accesorios para motores"
+  },
+  {
+    "id": "32141100",
+    "text": "Piezas y accesorios para tubos electrónicos"
+  },
+  {
+    "id": "12163400",
+    "text": "Pigmento de extensión"
+  },
+  {
+    "id": "30102900",
+    "text": "Pilares"
+  },
+  {
+    "id": "30102800",
+    "text": "Pilotes"
+  },
+  {
+    "id": "72102400",
+    "text": "Pintura y colocación de papel pintado (empapelado)"
+  },
+  {
+    "id": "31211500",
+    "text": "Pinturas"
+  },
+  {
+    "id": "60122700",
+    "text": "Pinturas de esmaltado y accesorios"
+  },
+  {
+    "id": "12131600",
+    "text": "Pirotécnicos"
+  },
+  {
+    "id": "30161700",
+    "text": "Pisos"
+  },
+  {
+    "id": "27121600",
+    "text": "Pistones y cilindros hidráulicos"
+  },
+  {
+    "id": "31231200",
+    "text": "Placas labradas"
+  },
+  {
+    "id": "30102200",
+    "text": "Plancha"
+  },
+  {
+    "id": "77101600",
+    "text": "Planificación medioambiental"
+  },
+  {
+    "id": "81141700",
+    "text": "Planificación y control de la producción"
+  },
+  {
+    "id": "102101000",
+    "text": "Planificación y Factibilidad"
+  },
+  {
+    "id": "102101010",
+    "text": "Planificación y Factibilidad 1.1 General. (Desarrollo Multidisciplinario)"
+  },
+  {
+    "id": "102101020",
+    "text": "Planificación y Factibilidad 1.2 Urbana y Regional."
+  },
+  {
+    "id": "102101030",
+    "text": "Planificación y Factibilidad 1.3 De Sistemas de Transporte."
+  },
+  {
+    "id": "102101040",
+    "text": "Planificación y Factibilidad 1.4 De Riego y Recursos Hídricos."
+  },
+  {
+    "id": "102101050",
+    "text": "Planificación y Factibilidad 1.5 De Obras Sanitarias."
+  },
+  {
+    "id": "50121800",
+    "text": "Plantas acuáticas"
+  },
+  {
+    "id": "10161600",
+    "text": "Plantas con flor"
+  },
+  {
+    "id": "70111600",
+    "text": "Plantas de flores"
+  },
+  {
+    "id": "10161800",
+    "text": "Plantas sin flor"
+  },
+  {
+    "id": "70111500",
+    "text": "Plantas y árboles ornamentales"
+  },
+  {
+    "id": "13101900",
+    "text": "Plásticos termo estables"
+  },
+  {
+    "id": "13102000",
+    "text": "Plásticos termoplásticos"
+  },
+  {
+    "id": "12162000",
+    "text": "Plastificantes"
+  },
+  {
+    "id": "43223200",
+    "text": "Plataformas de mensajería por móvil"
+  },
+  {
+    "id": "20141700",
+    "text": "Plataformas marítimas"
+  },
+  {
+    "id": "30102600",
+    "text": "Platina"
+  },
+  {
+    "id": "50192700",
+    "text": "Platos combinados empaquetados"
+  },
+  {
+    "id": "52152000",
+    "text": "Platos, utensilios para servir y recipientes para almacenar"
+  },
+  {
+    "id": "93141600",
+    "text": "Población y demografía"
+  },
+  {
+    "id": "93171500",
+    "text": "Política comercial"
+  },
+  {
+    "id": "92111900",
+    "text": "Política militar"
+  },
+  {
+    "id": "85151700",
+    "text": "Política, planificación y ayuda alimenticia"
+  },
+  {
+    "id": "93131600",
+    "text": "Política, planificación y programas de alimentación y nutrición"
+  },
+  {
+    "id": "60123300",
+    "text": "Pompones de artesanía"
+  },
+  {
+    "id": "41122600",
+    "text": "Portaobjetos y suministros de laboratorio"
+  },
+  {
+    "id": "42291900",
+    "text": "Posicionadores y portadores de tubos e instrumentos quirúrgicos"
+  },
+  {
+    "id": "60111000",
+    "text": "Pósters o gráficos para la sala de clases"
+  },
+  {
+    "id": "50192300",
+    "text": "Postres y decoraciones"
+  },
+  {
+    "id": "49101700",
+    "text": "Premios"
+  },
+  {
+    "id": "60101400",
+    "text": "Premios escolares"
+  },
+  {
+    "id": "53102900",
+    "text": "Prendas de deporte"
+  },
+  {
+    "id": "42131700",
+    "text": "Prendas textiles quirúrgicas"
+  },
+  {
+    "id": "27121500",
+    "text": "Prensas hidráulicas"
+  },
+  {
+    "id": "27112100",
+    "text": "Prensas y herramientas especiales"
+  },
+  {
+    "id": "70131600",
+    "text": "Preparación del terreno y del suelo"
+  },
+  {
+    "id": "93131800",
+    "text": "Preparación y asistencia para desastres naturales y emergencias"
+  },
+  {
+    "id": "51241000",
+    "text": "Preparados aurales"
+  },
+  {
+    "id": "85111500",
+    "text": "Prevención y control de enfermedades contagiosas"
+  },
+  {
+    "id": "85111600",
+    "text": "Prevención y control de enfermedades no contagiosas"
+  },
+  {
+    "id": "73121500",
+    "text": "Procesos de fundición, refinado y moldeado del metal"
+  },
+  {
+    "id": "73101800",
+    "text": "Producción de bioquímica o biotecnología"
+  },
+  {
+    "id": "73101900",
+    "text": "Producción de caucho"
+  },
+  {
+    "id": "70141500",
+    "text": "Producción de cultivos"
+  },
+  {
+    "id": "73141500",
+    "text": "Producción de fibra"
+  },
+  {
+    "id": "73101500",
+    "text": "Producción de productos petroquímicos y plásticos"
+  },
+  {
+    "id": "73101600",
+    "text": "Producción de productos químicos o fertilizantes"
+  },
+  {
+    "id": "73141700",
+    "text": "Producción de telas y cueros"
+  },
+  {
+    "id": "73101700",
+    "text": "Producción farmacéutica"
+  },
+  {
+    "id": "31191500",
+    "text": "Productos abrasivos"
+  },
+  {
+    "id": "51111900",
+    "text": "Productos antitumorales naturales"
+  },
+  {
+    "id": "12352200",
+    "text": "Productos bioquímicos"
+  },
+  {
+    "id": "42202600",
+    "text": "Productos de administración de radioisótopos y radioimunoterapia"
+  },
+  {
+    "id": "42294600",
+    "text": "Productos de autotransfusión"
+  },
+  {
+    "id": "42202100",
+    "text": "Productos de braquiterapia"
+  },
+  {
+    "id": "49131600",
+    "text": "Productos de caza"
+  },
+  {
+    "id": "50161500",
+    "text": "Productos de chocolates, azúcares y edulcorantes"
+  },
+  {
+    "id": "42271600",
+    "text": "Productos de comprobación y tratamiento de las funciones pulmonares"
+  },
+  {
+    "id": "50161800",
+    "text": "Productos de confitería"
+  },
+  {
+    "id": "60121300",
+    "text": "Productos de corte para manualidades y arte"
+  },
+  {
+    "id": "42142300",
+    "text": "Productos de documentación médica"
+  },
+  {
+    "id": "42251700",
+    "text": "Productos de entrenamiento para caminar"
+  },
+  {
+    "id": "41106500",
+    "text": "Productos de expresión proteínica"
+  },
+  {
+    "id": "31371000",
+    "text": "Productos de fibra de cerámica"
+  },
+  {
+    "id": "42142200",
+    "text": "Productos de hidroterapia"
+  },
+  {
+    "id": "50131700",
+    "text": "Productos de leche y mantequilla"
+  },
+  {
+    "id": "14111700",
+    "text": "Productos de papel de uso personal"
+  },
+  {
+    "id": "42204000",
+    "text": "Productos de protección y resguardo radiológico médico"
+  },
+  {
+    "id": "42202200",
+    "text": "Productos de radiación gamma"
+  },
+  {
+    "id": "42202700",
+    "text": "Productos de radioterapia y tele terapia"
+  },
+  {
+    "id": "41106300",
+    "text": "Productos de reacción en cadena de la polimerasa (PCR) y reacción en cadena de transcriptasa inversa de la polimerasa (RT PCR)"
+  },
+  {
+    "id": "42221900",
+    "text": "Productos de regulación y medida del flujo intravenoso o arterial"
+  },
+  {
+    "id": "42201600",
+    "text": "Productos de resonancia magnética (MRI) médica"
+  },
+  {
+    "id": "42172100",
+    "text": "Productos de resucitación de emergencia"
+  },
+  {
+    "id": "42142100",
+    "text": "Productos de terapia para frío y calor"
+  },
+  {
+    "id": "42251500",
+    "text": "Productos de terapia y evaluación sensorial, perceptual, cognitiva y de desteridad"
+  },
+  {
+    "id": "42272400",
+    "text": "Productos de toracentesis"
+  },
+  {
+    "id": "41105800",
+    "text": "Productos de transcripción y traducción in vitro"
+  },
+  {
+    "id": "42222300",
+    "text": "Productos de transfusión y administración de sangre"
+  },
+  {
+    "id": "30171700",
+    "text": "Productos de vidrio y cristal"
+  },
+  {
+    "id": "30103600",
+    "text": "Productos estructurales"
+  },
+  {
+    "id": "42171500",
+    "text": "Productos médicos de urgencia para catástrofes"
+  },
+  {
+    "id": "42171600",
+    "text": "Productos médicos de urgencia para catástrofes"
+  },
+  {
+    "id": "42171800",
+    "text": "Productos médicos de urgencia para respiración artificial"
+  },
+  {
+    "id": "42142400",
+    "text": "Productos médicos para vacío y succión"
+  },
+  {
+    "id": "42241800",
+    "text": "Productos ortopédicos blandos para el torso y extremidad superior"
+  },
+  {
+    "id": "42241700",
+    "text": "Productos ortopédicos blandos para la extremidad inferior"
+  },
+  {
+    "id": "42203900",
+    "text": "Productos para controlar y detectar radiación médica"
+  },
+  {
+    "id": "42271500",
+    "text": "Productos para el control respiratorio"
+  },
+  {
+    "id": "42271900",
+    "text": "Productos para el manejo de la vía aérea"
+  },
+  {
+    "id": "42182300",
+    "text": "Productos para examen neurológico"
+  },
+  {
+    "id": "42312300",
+    "text": "Productos para la limpieza de heridas y desbridamiento"
+  },
+  {
+    "id": "42141700",
+    "text": "Productos para la prevención de decúbito"
+  },
+  {
+    "id": "42312400",
+    "text": "Productos para relleno de heridas"
+  },
+  {
+    "id": "42312500",
+    "text": "Productos para sujeción de heridas"
+  },
+  {
+    "id": "42271800",
+    "text": "Productos para terapia respiratoria en aerosol y humidificación"
+  },
+  {
+    "id": "51161800",
+    "text": "Productos para tos, resfriados y antialérgicos"
+  },
+  {
+    "id": "45141500",
+    "text": "Productos químicos para elaboración fotográfica"
+  },
+  {
+    "id": "41105600",
+    "text": "Productos secuenciadores de ácido desoxirribonucleico (ADN)"
+  },
+  {
+    "id": "10161900",
+    "text": "Productos vegetales secos"
+  },
+  {
+    "id": "42121600",
+    "text": "Productos veterinarios"
+  },
+  {
+    "id": "42143500",
+    "text": "Productos y accesorios de otorrinolaringología"
+  },
+  {
+    "id": "50211600",
+    "text": "Productos, suministros y accesorios para tabaco"
+  },
+  {
+    "id": "81111600",
+    "text": "Programadores informáticos"
+  },
+  {
+    "id": "43232400",
+    "text": "Programas de desarrollo"
+  },
+  {
+    "id": "93131500",
+    "text": "Programas de refugiados"
+  },
+  {
+    "id": "93131700",
+    "text": "Programas de salud pública"
+  },
+  {
+    "id": "90141600",
+    "text": "Promoción y patrocinio de eventos deportivos"
+  },
+  {
+    "id": "12131800",
+    "text": "Propelentes"
+  },
+  {
+    "id": "20131100",
+    "text": "Proppants de fracturar el pozo"
+  },
+  {
+    "id": "46131600",
+    "text": "Propulsores"
+  },
+  {
+    "id": "71101500",
+    "text": "Prospección o desarrollo minero"
+  },
+  {
+    "id": "70141600",
+    "text": "Protección de cultivos"
+  },
+  {
+    "id": "70131500",
+    "text": "Protección del terreno y del suelo"
+  },
+  {
+    "id": "46181900",
+    "text": "Protectores auditivos"
+  },
+  {
+    "id": "42192500",
+    "text": "Protectores para equipo médico"
+  },
+  {
+    "id": "46182000",
+    "text": "Protectores respiratorios"
+  },
+  {
+    "id": "45111600",
+    "text": "Proyectores y suministros"
+  },
+  {
+    "id": "60124200",
+    "text": "Proyectos curriculares de artes integradas"
+  },
+  {
+    "id": "60104200",
+    "text": "Pruebas de agua, conservación y ecología"
+  },
+  {
+    "id": "82121800",
+    "text": "Publicación"
+  },
+  {
+    "id": "55111500",
+    "text": "Publicaciones electrónicas y música"
+  },
+  {
+    "id": "55101500",
+    "text": "Publicaciones impresas"
+  },
+  {
+    "id": "82101700",
+    "text": "Publicidad aérea"
+  },
+  {
+    "id": "82101600",
+    "text": "Publicidad en medios no impresos"
+  },
+  {
+    "id": "82101500",
+    "text": "Publicidad impresa"
+  },
+  {
+    "id": "30171500",
+    "text": "Puertas"
+  },
+  {
+    "id": "30172000",
+    "text": "Puertas"
+  },
+  {
+    "id": "25172200",
+    "text": "Puertas para vehículos"
+  },
+  {
+    "id": "41121600",
+    "text": "Puntas de pipeta"
+  },
+  {
+    "id": "40161600",
+    "text": "Purificación"
+  },
+  {
+    "id": "60123600",
+    "text": "Purpurina"
+  },
+  {
+    "id": "50131800",
+    "text": "Quesos"
+  },
+  {
+    "id": "60104500",
+    "text": "Química, electroquímica y microquímica"
+  },
+  {
+    "id": "51212300",
+    "text": "Radiofármacos y agentes de diagnóstico"
+  },
+  {
+    "id": "41116000",
+    "text": "Reactivos de analizadores clínicos y diagnósticos"
+  },
+  {
+    "id": "44121900",
+    "text": "Recambios de tinta y minas de lápices"
+  },
+  {
+    "id": "41103500",
+    "text": "Recintos cerrados para laboratorio"
+  },
+  {
+    "id": "41122200",
+    "text": "Recipientes"
+  },
+  {
+    "id": "76121500",
+    "text": "Recolección y eliminación de desechos"
+  },
+  {
+    "id": "60103800",
+    "text": "Recursos de enseñanza de historia"
+  },
+  {
+    "id": "60103700",
+    "text": "Recursos de lenguas extranjeras"
+  },
+  {
+    "id": "60101800",
+    "text": "Recursos educativos para clases religiosas"
+  },
+  {
+    "id": "70151900",
+    "text": "Recursos forestales"
+  },
+  {
+    "id": "60101900",
+    "text": "Recursos materiales de destreza alfabética"
+  },
+  {
+    "id": "60102500",
+    "text": "Recursos materiales de numeración y operaciones matemáticas básicas"
+  },
+  {
+    "id": "60105200",
+    "text": "Recursos materiales educativos de aptitudes"
+  },
+  {
+    "id": "60101700",
+    "text": "Recursos materiales para el profesor"
+  },
+  {
+    "id": "60102700",
+    "text": "Recursos materiales para el profesor de pensamiento lógico, percepción espacial, identificación de coincidencias y patrones"
+  },
+  {
+    "id": "60102600",
+    "text": "Recursos materiales para el profesor de resolución de problemas, datos, posibilidades y probabilidades"
+  },
+  {
+    "id": "60102800",
+    "text": "Recursos materiales para el profesor de valor de posición y base diez"
+  },
+  {
+    "id": "60102200",
+    "text": "Recursos materiales y accesorios de fonética"
+  },
+  {
+    "id": "60102000",
+    "text": "Recursos materiales y accesorios para la creación de palabras"
+  },
+  {
+    "id": "70101800",
+    "text": "Recursos pesqueros"
+  },
+  {
+    "id": "60102400",
+    "text": "Recursos y accesorios para el aprendizaje inicial de números, cuentas y matemáticas"
+  },
+  {
+    "id": "60103600",
+    "text": "Recursos y actividades multiculturales"
+  },
+  {
+    "id": "60103400",
+    "text": "Recursos, mapas y accesorios para geografía"
+  },
+  {
+    "id": "12162800",
+    "text": "Reductores de fricción"
+  },
+  {
+    "id": "31371300",
+    "text": "Refractarios formados"
+  },
+  {
+    "id": "24131500",
+    "text": "Refrigeradores industriales"
+  },
+  {
+    "id": "10131600",
+    "text": "Refugio para animales"
+  },
+  {
+    "id": "20142000",
+    "text": "Regeneradores de glicol"
+  },
+  {
+    "id": "12163900",
+    "text": "Reguladores de escala"
+  },
+  {
+    "id": "40142200",
+    "text": "Reguladores de gas y fluido"
+  },
+  {
+    "id": "12163700",
+    "text": "Reguladores de hidrato de gas"
+  },
+  {
+    "id": "85122100",
+    "text": "Rehabilitación"
+  },
+  {
+    "id": "77111600",
+    "text": "Rehabilitación medioambiental"
+  },
+  {
+    "id": "30103200",
+    "text": "Rejas"
+  },
+  {
+    "id": "93121600",
+    "text": "Relaciones y cooperación internacional"
+  },
+  {
+    "id": "51151900",
+    "text": "Relajantes músculo-esqueléticos de acción centrada"
+  },
+  {
+    "id": "42151800",
+    "text": "Rellenos y acabados dentales y suministros para pulir"
+  },
+  {
+    "id": "54111500",
+    "text": "Relojes de pulsera o bolsillo"
+  },
+  {
+    "id": "54111600",
+    "text": "Relojes de pulsera o bolsillo"
+  },
+  {
+    "id": "31162200",
+    "text": "Remaches"
+  },
+  {
+    "id": "25181700",
+    "text": "Remolques para carga"
+  },
+  {
+    "id": "93111600",
+    "text": "Representación y participación política"
+  },
+  {
+    "id": "31231400",
+    "text": "Reservas de chapa"
+  },
+  {
+    "id": "94111700",
+    "text": "Residencias religiosas"
+  },
+  {
+    "id": "10152100",
+    "text": "Residuos vegetales no alimentarios"
+  },
+  {
+    "id": "13111000",
+    "text": "Resinas"
+  },
+  {
+    "id": "32121600",
+    "text": "Resistores"
+  },
+  {
+    "id": "31161900",
+    "text": "Resortes"
+  },
+  {
+    "id": "12164200",
+    "text": "Retardadores"
+  },
+  {
+    "id": "12162100",
+    "text": "Retardadores de llama"
+  },
+  {
+    "id": "42293100",
+    "text": "Retractores quirúrgicos y productos relacionados"
+  },
+  {
+    "id": "72102000",
+    "text": "Revestimiento y calafateo"
+  },
+  {
+    "id": "72101600",
+    "text": "Revestimientos de techos, paredes o metalistería"
+  },
+  {
+    "id": "70171700",
+    "text": "Riego"
+  },
+  {
+    "id": "30103100",
+    "text": "Rieles"
+  },
+  {
+    "id": "23153200",
+    "text": "Robótica"
+  },
+  {
+    "id": "31171500",
+    "text": "Rodamientos"
+  },
+  {
+    "id": "31171600",
+    "text": "Rodamientos"
+  },
+  {
+    "id": "12162500",
+    "text": "Rompedores de emulsión"
+  },
+  {
+    "id": "12162400",
+    "text": "Rompedores de polímero"
+  },
+  {
+    "id": "52121500",
+    "text": "Ropa de cama"
+  },
+  {
+    "id": "53102600",
+    "text": "Ropa de dormir"
+  },
+  {
+    "id": "42132100",
+    "text": "Ropa de hospital"
+  },
+  {
+    "id": "53102200",
+    "text": "Ropa folclórica"
+  },
+  {
+    "id": "53102300",
+    "text": "Ropa interior"
+  },
+  {
+    "id": "46181500",
+    "text": "Ropa protectora de seguridad contra materias peligrosas"
+  },
+  {
+    "id": "31191600",
+    "text": "Ruedas abrasivas"
+  },
+  {
+    "id": "31171900",
+    "text": "Ruedas dentadas"
+  },
+  {
+    "id": "31171800",
+    "text": "Ruedas industriales"
+  },
+  {
+    "id": "51182400",
+    "text": "Sales de calcio y reguladores del calcio"
+  },
+  {
+    "id": "51191800",
+    "text": "Sales de potasio"
+  },
+  {
+    "id": "50171900",
+    "text": "Salmuera, salsas y aceitunas"
+  },
+  {
+    "id": "50171800",
+    "text": "Salsas, condimentos y productos para untar"
+  },
+  {
+    "id": "70122000",
+    "text": "Salud animal"
+  },
+  {
+    "id": "53111800",
+    "text": "Sandalias"
+  },
+  {
+    "id": "50192500",
+    "text": "Sandwiches y panecillos con relleno"
+  },
+  {
+    "id": "25151700",
+    "text": "Satélites"
+  },
+  {
+    "id": "11121500",
+    "text": "Savia"
+  },
+  {
+    "id": "23231700",
+    "text": "Secaderos de madera y equipo y accesorios"
+  },
+  {
+    "id": "41104700",
+    "text": "Secadoras para congelación y liofilización de laboratorio"
+  },
+  {
+    "id": "24141500",
+    "text": "Seguridad y protección para embalaje"
+  },
+  {
+    "id": "84131600",
+    "text": "Seguros de vida, salud y accidentes"
+  },
+  {
+    "id": "84131500",
+    "text": "Seguros para estructuras, propiedades y bienes"
+  },
+  {
+    "id": "12163500",
+    "text": "Sellador de pozo petrolero"
+  },
+  {
+    "id": "31181600",
+    "text": "Sellos mecánicos"
+  },
+  {
+    "id": "70141800",
+    "text": "Sembradío de plantaciones y cultivos"
+  },
+  {
+    "id": "32111700",
+    "text": "Semiconductores"
+  },
+  {
+    "id": "10151600",
+    "text": "Semillas de cereales"
+  },
+  {
+    "id": "10152200",
+    "text": "Semillas de cultivos fibrosos y semilleros"
+  },
+  {
+    "id": "10151500",
+    "text": "Semillas y almácigos"
+  },
+  {
+    "id": "10151800",
+    "text": "Semillas y almácigos de especias"
+  },
+  {
+    "id": "10151700",
+    "text": "Semillas y almácigos de hierbas y forraje"
+  },
+  {
+    "id": "10152000",
+    "text": "Semillas y tallos de árboles y arbustos"
+  },
+  {
+    "id": "10151900",
+    "text": "Semillas, bulbos, almácigos y tallos de flores"
+  },
+  {
+    "id": "46111700",
+    "text": "Sensores de rayos infrarrojos"
+  },
+  {
+    "id": "40161700",
+    "text": "Separadores"
+  },
+  {
+    "id": "20142800",
+    "text": "Separadores de producción"
+  },
+  {
+    "id": "80151500",
+    "text": "Servicios comerciales"
+  },
+  {
+    "id": "84111500",
+    "text": "Servicios contables"
+  },
+  {
+    "id": "71161400",
+    "text": "Servicios de administración de construcción del pozo"
+  },
+  {
+    "id": "71151100",
+    "text": "Servicios de administración de datos del campo petrolífero"
+  },
+  {
+    "id": "80161500",
+    "text": "Servicios de apoyo a la gestión"
+  },
+  {
+    "id": "84141500",
+    "text": "Servicios de apoyo financiero del Estado"
+  },
+  {
+    "id": "72101500",
+    "text": "Servicios de apoyo para la construcción"
+  },
+  {
+    "id": "77101700",
+    "text": "Servicios de asesoría medioambiental"
+  },
+  {
+    "id": "90152100",
+    "text": "Servicios de asistencia"
+  },
+  {
+    "id": "85121500",
+    "text": "Servicios de atención primaria"
+  },
+  {
+    "id": "84111600",
+    "text": "Servicios de auditoría"
+  },
+  {
+    "id": "71121000",
+    "text": "Servicios de bombeo de cemento"
+  },
+  {
+    "id": "71121400",
+    "text": "Servicios de brocas de barrena para yacimientos petrolíferos"
+  },
+  {
+    "id": "90101700",
+    "text": "Servicios de cafetería"
+  },
+  {
+    "id": "90101600",
+    "text": "Servicios de comedor y banquetes"
+  },
+  {
+    "id": "80151600",
+    "text": "Servicios de comercio exterior"
+  },
+  {
+    "id": "91111700",
+    "text": "Servicios de compras o trueques para consumo"
+  },
+  {
+    "id": "71151000",
+    "text": "Servicios de comunicación de datos del campo petrolífero"
+  },
+  {
+    "id": "70151800",
+    "text": "Servicios de conservación forestal"
+  },
+  {
+    "id": "80101500",
+    "text": "Servicios de consultoría en gestión de empresas"
+  },
+  {
+    "id": "71122100",
+    "text": "Servicios de control de arena del campo petrolero"
+  },
+  {
+    "id": "71122500",
+    "text": "Servicios de control de gas o agua"
+  },
+  {
+    "id": "80141800",
+    "text": "Servicios de correo"
+  },
+  {
+    "id": "81112000",
+    "text": "Servicios de datos"
+  },
+  {
+    "id": "92121600",
+    "text": "Servicios de detectives"
+  },
+  {
+    "id": "70171800",
+    "text": "Servicios de drenaje"
+  },
+  {
+    "id": "71121800",
+    "text": "Servicios de elevación por presión de gas"
+  },
+  {
+    "id": "71141000",
+    "text": "Servicios de emergencia de control del pozo"
+  },
+  {
+    "id": "73151600",
+    "text": "Servicios de envasado"
+  },
+  {
+    "id": "71131100",
+    "text": "Servicios de estimulación de la matriz"
+  },
+  {
+    "id": "71121200",
+    "text": "Servicios de extracción del núcleo"
+  },
+  {
+    "id": "83111700",
+    "text": "Servicios de fax y telégrafo"
+  },
+  {
+    "id": "71121900",
+    "text": "Servicios de fluido de barreno"
+  },
+  {
+    "id": "86101500",
+    "text": "Servicios de formación agrícola, forestal y de otros recursos naturales"
+  },
+  {
+    "id": "86101600",
+    "text": "Servicios de formación profesional científica"
+  },
+  {
+    "id": "86101700",
+    "text": "Servicios de formación profesional no científica"
+  },
+  {
+    "id": "71131000",
+    "text": "Servicios de fractura del pozo"
+  },
+  {
+    "id": "80131800",
+    "text": "Servicios de gestión inmobiliaria"
+  },
+  {
+    "id": "71121300",
+    "text": "Servicios de herramientas de perfilado o barrenado de pozo"
+  },
+  {
+    "id": "73151900",
+    "text": "Servicios de impresión industrial"
+  },
+  {
+    "id": "71151400",
+    "text": "Servicios de ingeniería del pozo"
+  },
+  {
+    "id": "71151300",
+    "text": "Servicios de interpretación y traducción del campo petrolífero"
+  },
+  {
+    "id": "77101900",
+    "text": "Servicios de investigación de la contaminación"
+  },
+  {
+    "id": "91111500",
+    "text": "Servicios de lavado"
+  },
+  {
+    "id": "76111600",
+    "text": "Servicios de limpieza de componentes de edificios"
+  },
+  {
+    "id": "76111500",
+    "text": "Servicios de limpieza de edificios y oficinas en general"
+  },
+  {
+    "id": "71161300",
+    "text": "Servicios de manejo de proyectos del campo petrolero"
+  },
+  {
+    "id": "78121600",
+    "text": "Servicios de manipulación de materiales"
+  },
+  {
+    "id": "72102900",
+    "text": "Servicios de mantenimiento de terrenos"
+  },
+  {
+    "id": "71122700",
+    "text": "Servicios de mantenimiento del pozo"
+  },
+  {
+    "id": "73152100",
+    "text": "Servicios de mantenimiento y reparación de equipo de fabricación"
+  },
+  {
+    "id": "85131500",
+    "text": "Servicios de medicina experimental"
+  },
+  {
+    "id": "71121500",
+    "text": "Servicios de medida de perforación"
+  },
+  {
+    "id": "84121800",
+    "text": "Servicios de mercados de valores"
+  },
+  {
+    "id": "71161000",
+    "text": "Servicios de modelado del campo petrolífero"
+  },
+  {
+    "id": "71151200",
+    "text": "Servicios de modelo económico y de riesgo del campo petrolífero"
+  },
+  {
+    "id": "73181200",
+    "text": "Servicios de moldeado"
+  },
+  {
+    "id": "71122800",
+    "text": "Servicios de monitor del pozo petrolero"
+  },
+  {
+    "id": "73151500",
+    "text": "Servicios de montaje o ensamble"
+  },
+  {
+    "id": "78141700",
+    "text": "Servicios de navegación"
+  },
+  {
+    "id": "71131200",
+    "text": "Servicios de nitrógeno del campo petrolífero"
+  },
+  {
+    "id": "82111900",
+    "text": "Servicios de noticias"
+  },
+  {
+    "id": "71161500",
+    "text": "Servicios de operación del lugar de la perforación"
+  },
+  {
+    "id": "86141500",
+    "text": "Servicios de orientación educacional"
+  },
+  {
+    "id": "78180200",
+    "text": "Servicios de panel, chapa y pintura"
+  },
+  {
+    "id": "71122200",
+    "text": "Servicios de película oleosa"
+  },
+  {
+    "id": "71122000",
+    "text": "Servicios de perforación de pozo"
+  },
+  {
+    "id": "71112100",
+    "text": "Servicios de perforación de pozos abiertos"
+  },
+  {
+    "id": "71121600",
+    "text": "Servicios de perforación del pozo petrolero"
+  },
+  {
+    "id": "71112000",
+    "text": "Servicios de perforación y explotación de pozos"
+  },
+  {
+    "id": "80111600",
+    "text": "Servicios de personal temporal"
+  },
+  {
+    "id": "71122300",
+    "text": "Servicios de pozo submarino"
+  },
+  {
+    "id": "72103000",
+    "text": "Servicios de preparación de sitios"
+  },
+  {
+    "id": "82131500",
+    "text": "Servicios de procesamiento de películas"
+  },
+  {
+    "id": "71131400",
+    "text": "Servicios de producción del pozo"
+  },
+  {
+    "id": "71122400",
+    "text": "Servicios de pruebas del pozo submarino"
+  },
+  {
+    "id": "83111900",
+    "text": "Servicios de radio"
+  },
+  {
+    "id": "71121700",
+    "text": "Servicios de recuperación en el campo petrolífero"
+  },
+  {
+    "id": "73152000",
+    "text": "Servicios de rellenado"
+  },
+  {
+    "id": "82141600",
+    "text": "Servicios de representación gráfica"
+  },
+  {
+    "id": "72102800",
+    "text": "Servicios de restauración de edificios y estructuras"
+  },
+  {
+    "id": "71141200",
+    "text": "Servicios de restaurar el sitio del pozo"
+  },
+  {
+    "id": "73181100",
+    "text": "Servicios de revestimiento"
+  },
+  {
+    "id": "72102700",
+    "text": "Servicios de revestimiento o pavimentación de suelos"
+  },
+  {
+    "id": "92101900",
+    "text": "Servicios de salvamento"
+  },
+  {
+    "id": "92101500",
+    "text": "Servicios de seguridad y policiales"
+  },
+  {
+    "id": "77111500",
+    "text": "Servicios de seguridad y protección medioambiental"
+  },
+  {
+    "id": "73181900",
+    "text": "Servicios de soldadura"
+  },
+  {
+    "id": "71141100",
+    "text": "Servicios de tapar y abandono del pozo"
+  },
+  {
+    "id": "83112400",
+    "text": "Servicios de telecomunicaciones por circuitos de líneas selectivas y líneas dedicadas arrendadas"
+  },
+  {
+    "id": "83112300",
+    "text": "Servicios de telecomunicaciones por fibra óptica"
+  },
+  {
+    "id": "83112200",
+    "text": "Servicios de telecomunicaciones por redes"
+  },
+  {
+    "id": "83111800",
+    "text": "Servicios de televisión"
+  },
+  {
+    "id": "71122600",
+    "text": "Servicios de terminación del pozo"
+  },
+  {
+    "id": "78141800",
+    "text": "Servicios de terminales o estaciones de carga"
+  },
+  {
+    "id": "84121600",
+    "text": "Servicios de transferencia de fondos, compensación y cambio"
+  },
+  {
+    "id": "73151800",
+    "text": "Servicios de transformación"
+  },
+  {
+    "id": "78102100",
+    "text": "Servicios de trasporte por tuberías"
+  },
+  {
+    "id": "73181300",
+    "text": "Servicios de tratamiento térmico"
+  },
+  {
+    "id": "71121100",
+    "text": "Servicios de tubería adujada o en espiral"
+  },
+  {
+    "id": "94112000",
+    "text": "Servicios denominacionales"
+  },
+  {
+    "id": "85122000",
+    "text": "Servicios dentales"
+  },
+  {
+    "id": "82111800",
+    "text": "Servicios editoriales y de apoyo"
+  },
+  {
+    "id": "72102200",
+    "text": "Servicios eléctricos"
+  },
+  {
+    "id": "83102000",
+    "text": "Servicios funerarios"
+  },
+  {
+    "id": "85101700",
+    "text": "Servicios gerenciales y administrativos para el sector salud"
+  },
+  {
+    "id": "73121800",
+    "text": "Servicios industriales de productos minerales no metálicos"
+  },
+  {
+    "id": "73181000",
+    "text": "Servicios mecanizados de ajustaje"
+  },
+  {
+    "id": "71101600",
+    "text": "Servicios mineros de perforación y voladura"
+  },
+  {
+    "id": "94111900",
+    "text": "Servicios misioneros"
+  },
+  {
+    "id": "81112100",
+    "text": "Servicios para internet"
+  },
+  {
+    "id": "90101800",
+    "text": "Servicios para llevar"
+  },
+  {
+    "id": "78102200",
+    "text": "Servicios postales de pequeños paquetes y mensajería"
+  },
+  {
+    "id": "83101800",
+    "text": "Servicios públicos de suministro de energía eléctrica"
+  },
+  {
+    "id": "83101600",
+    "text": "Servicios públicos de suministro de petróleo y gas"
+  },
+  {
+    "id": "83101500",
+    "text": "Servicios relacionados con el agua"
+  },
+  {
+    "id": "71112300",
+    "text": "Servicios sísmicos"
+  },
+  {
+    "id": "70121900",
+    "text": "Servicios y variedades de pastos"
+  },
+  {
+    "id": "60111100",
+    "text": "Sets de diario mural"
+  },
+  {
+    "id": "60131600",
+    "text": "Sets de instrumentos musicales"
+  },
+  {
+    "id": "23231200",
+    "text": "Sierras circulares y accesorios"
+  },
+  {
+    "id": "23231100",
+    "text": "Sierras de cinta y accesorios"
+  },
+  {
+    "id": "23231400",
+    "text": "Sierras de recorte y accesorios"
+  },
+  {
+    "id": "23232100",
+    "text": "Sierras retestadoras y accesorios"
+  },
+  {
+    "id": "51151700",
+    "text": "Simpatomiméticos o adrenérgicos"
+  },
+  {
+    "id": "42203200",
+    "text": "Simuladores de radioterapia"
+  },
+  {
+    "id": "94101800",
+    "text": "Sindicatos"
+  },
+  {
+    "id": "25174200",
+    "text": "Sistema de dirección"
+  },
+  {
+    "id": "25174000",
+    "text": "Sistema de refrigeración del motor"
+  },
+  {
+    "id": "25172000",
+    "text": "Sistema de suspensión"
+  },
+  {
+    "id": "92101800",
+    "text": "Sistema judicial"
+  },
+  {
+    "id": "42294400",
+    "text": "Sistemas cardiacos y vasculares"
+  },
+  {
+    "id": "46111600",
+    "text": "Sistemas de armas"
+  },
+  {
+    "id": "25201700",
+    "text": "Sistemas de comunicaciones en vuelo"
+  },
+  {
+    "id": "42191600",
+    "text": "Sistemas de construcción de instalaciones médicas"
+  },
+  {
+    "id": "60141300",
+    "text": "Sistemas de construcción y bloques infantiles"
+  },
+  {
+    "id": "25173300",
+    "text": "Sistemas de control principal"
+  },
+  {
+    "id": "25201800",
+    "text": "Sistemas de control principal del avión"
+  },
+  {
+    "id": "25171600",
+    "text": "Sistemas de descarchado y antiniebla"
+  },
+  {
+    "id": "25201900",
+    "text": "Sistemas de emergencia para aviones"
+  },
+  {
+    "id": "25173700",
+    "text": "Sistemas de emisión y de escape"
+  },
+  {
+    "id": "25202000",
+    "text": "Sistemas de energía para aviones"
+  },
+  {
+    "id": "41106000",
+    "text": "Sistemas de etiquetado y detección de ácidos nucleícos"
+  },
+  {
+    "id": "81111900",
+    "text": "Sistemas de extracción de información"
+  },
+  {
+    "id": "25171700",
+    "text": "Sistemas de frenado"
+  },
+  {
+    "id": "26112100",
+    "text": "Sistemas de frenado industriales"
+  },
+  {
+    "id": "23201000",
+    "text": "Sistemas de gas líquido"
+  },
+  {
+    "id": "81111700",
+    "text": "Sistemas de información"
+  },
+  {
+    "id": "20141100",
+    "text": "Sistemas de inyección químicos"
+  },
+  {
+    "id": "25173100",
+    "text": "Sistemas de localización y navegación"
+  },
+  {
+    "id": "46101700",
+    "text": "Sistemas de manipulación de munición"
+  },
+  {
+    "id": "56111600",
+    "text": "Sistemas de paneles"
+  },
+  {
+    "id": "44112000",
+    "text": "Sistemas de planificación"
+  },
+  {
+    "id": "25201600",
+    "text": "Sistemas de posicionamiento y navegación aeroespacial"
+  },
+  {
+    "id": "20102000",
+    "text": "Sistemas de prospección y desarrollo"
+  },
+  {
+    "id": "92121700",
+    "text": "Sistemas de seguridad"
+  },
+  {
+    "id": "42201500",
+    "text": "Sistemas de tomografía computarizada (TAC o CT) médica"
+  },
+  {
+    "id": "42222100",
+    "text": "Sistemas de transporte y suspensión de equipo arterial e intravenoso"
+  },
+  {
+    "id": "25173800",
+    "text": "Sistemas de tren de transmisión"
+  },
+  {
+    "id": "25202200",
+    "text": "Sistemas del aterrizaje y frenado para aviones"
+  },
+  {
+    "id": "60104100",
+    "text": "Sistemas del cuerpo y materiales relacionados"
+  },
+  {
+    "id": "42203300",
+    "text": "Sistemas médicos estereotacticos"
+  },
+  {
+    "id": "43221500",
+    "text": "Sistemas o accesorios de gestión de llamadas"
+  },
+  {
+    "id": "42222200",
+    "text": "Sistemas para inyectar y retirar intravenosos sin aguja"
+  },
+  {
+    "id": "20101800",
+    "text": "Sistemas para soporte en tierra"
+  },
+  {
+    "id": "20101900",
+    "text": "Sistemas secundarios de arranque"
+  },
+  {
+    "id": "41115200",
+    "text": "Sistemas y componentes de radar y sonar"
+  },
+  {
+    "id": "25172800",
+    "text": "Sistemas y componentes hidráulicos"
+  },
+  {
+    "id": "25202400",
+    "text": "Sistemas y depósitos de combustible para aviones"
+  },
+  {
+    "id": "42271700",
+    "text": "Sistemas y dispositivos de terapia de entrega de oxígeno"
+  },
+  {
+    "id": "41105300",
+    "text": "Sistemas y suministros de electroforesis y transferencia para laboratorio"
+  },
+  {
+    "id": "90111700",
+    "text": "Sitios de camping"
+  },
+  {
+    "id": "43232800",
+    "text": "Software de administración de redes"
+  },
+  {
+    "id": "43232700",
+    "text": "Software de aplicaciones de red"
+  },
+  {
+    "id": "43232300",
+    "text": "Software de consultas y gestión de datos"
+  },
+  {
+    "id": "43233400",
+    "text": "Software de controladores de dispositivos y utilidades"
+  },
+  {
+    "id": "43232100",
+    "text": "Software de edición y creación de contenidos"
+  },
+  {
+    "id": "43233000",
+    "text": "Software de entorno operativo"
+  },
+  {
+    "id": "43231500",
+    "text": "Software de gestión"
+  },
+  {
+    "id": "43232200",
+    "text": "Software de gestión de contenidos"
+  },
+  {
+    "id": "43233500",
+    "text": "Software de intercambio de información"
+  },
+  {
+    "id": "43232000",
+    "text": "Software de ocio o juegos de computador"
+  },
+  {
+    "id": "43231600",
+    "text": "Software de planificación de recursos empresariales (ERP) y contabilidad financiera"
+  },
+  {
+    "id": "43233200",
+    "text": "Software de seguridad y protección"
+  },
+  {
+    "id": "43232500",
+    "text": "Software educativo o de referencia"
+  },
+  {
+    "id": "43232600",
+    "text": "Software específico para la industria"
+  },
+  {
+    "id": "43232900",
+    "text": "Software para trabajo en redes"
+  },
+  {
+    "id": "42281600",
+    "text": "Soluciones de desinfectantes y esterilización en frío"
+  },
+  {
+    "id": "47131800",
+    "text": "Soluciones de limpieza y desinfección"
+  },
+  {
+    "id": "42281700",
+    "text": "Soluciones y equipo de limpieza pre-esterilización"
+  },
+  {
+    "id": "12191500",
+    "text": "Solventes hidrocarbonatos"
+  },
+  {
+    "id": "12191600",
+    "text": "Solventes oxigenados"
+  },
+  {
+    "id": "50191500",
+    "text": "Sopas y estofados"
+  },
+  {
+    "id": "43202000",
+    "text": "Soportes de almacenamiento extraíbles"
+  },
+  {
+    "id": "31162500",
+    "text": "Soportes y puntales"
+  },
+  {
+    "id": "43202200",
+    "text": "Subconjuntos para dispositivos electrónicos"
+  },
+  {
+    "id": "11121700",
+    "text": "Subproductos de silvicultura"
+  },
+  {
+    "id": "46121600",
+    "text": "Subsistemas de misiles"
+  },
+  {
+    "id": "53101700",
+    "text": "Suéteres"
+  },
+  {
+    "id": "42143600",
+    "text": "Sujetadores clínicos"
+  },
+  {
+    "id": "60124000",
+    "text": "Suministros de artesanías de corcho y accesorios"
+  },
+  {
+    "id": "60122300",
+    "text": "Suministros de cestería"
+  },
+  {
+    "id": "44121500",
+    "text": "Suministros de correo"
+  },
+  {
+    "id": "53141600",
+    "text": "Suministros de costura variados"
+  },
+  {
+    "id": "45141600",
+    "text": "Suministros de cuarto oscuro"
+  },
+  {
+    "id": "41122100",
+    "text": "Suministros de cultivo de tejido y cribado de alta definición"
+  },
+  {
+    "id": "41123100",
+    "text": "Suministros de diálisis para laboratorio"
+  },
+  {
+    "id": "44111800",
+    "text": "Suministros de dibujo"
+  },
+  {
+    "id": "42281900",
+    "text": "Suministros de envasado y envoltura de esterilización"
+  },
+  {
+    "id": "44121600",
+    "text": "Suministros de escritorio"
+  },
+  {
+    "id": "42272000",
+    "text": "Suministros de intubación"
+  },
+  {
+    "id": "44103500",
+    "text": "Suministros de máquinas de encuadernar"
+  },
+  {
+    "id": "42312100",
+    "text": "Suministros de ostomía y productos no quirúrgicos de drenaje de heridas"
+  },
+  {
+    "id": "42272300",
+    "text": "Suministros de resucitadores"
+  },
+  {
+    "id": "44122100",
+    "text": "Suministros de sujeción"
+  },
+  {
+    "id": "60122400",
+    "text": "Suministros de vidrieras de colores"
+  },
+  {
+    "id": "42152500",
+    "text": "Suministros dentales generales"
+  },
+  {
+    "id": "42261500",
+    "text": "Suministros e instrumentos para disección patológica"
+  },
+  {
+    "id": "42152600",
+    "text": "Suministros específicos para la operatoria dental"
+  },
+  {
+    "id": "42172200",
+    "text": "Suministros médicos de emergencia"
+  },
+  {
+    "id": "60123100",
+    "text": "Suministros para artesanía con fibras vegetales y productos naturales"
+  },
+  {
+    "id": "47131700",
+    "text": "Suministros para aseo"
+  },
+  {
+    "id": "44111600",
+    "text": "Suministros para el manejo de efectivo"
+  },
+  {
+    "id": "42241900",
+    "text": "Suministros para entablillado dinámico"
+  },
+  {
+    "id": "42241500",
+    "text": "Suministros para enyesado y entablillado"
+  },
+  {
+    "id": "23161600",
+    "text": "Suministros para fundición"
+  },
+  {
+    "id": "44103100",
+    "text": "Suministros para impresora, fax y fotocopiadora"
+  },
+  {
+    "id": "42141900",
+    "text": "Suministros para la administración de enema"
+  },
+  {
+    "id": "44102000",
+    "text": "Suministros para plastificado"
+  },
+  {
+    "id": "42295400",
+    "text": "Suministros quirúrgicos auxiliares"
+  },
+  {
+    "id": "42142700",
+    "text": "Suministros urológicos"
+  },
+  {
+    "id": "60124500",
+    "text": "Suministros y accesorios de escultura"
+  },
+  {
+    "id": "60121700",
+    "text": "Suministros y accesorios de grabados"
+  },
+  {
+    "id": "42242100",
+    "text": "Suministros y accesorios de tracción ortopédica"
+  },
+  {
+    "id": "60123800",
+    "text": "Suministros y accesorios de veteado"
+  },
+  {
+    "id": "39121700",
+    "text": "Suministros y accesorios eléctricos"
+  },
+  {
+    "id": "42295300",
+    "text": "Suministros y accesorios para cirugía de corazón abierto y productos relacionados"
+  },
+  {
+    "id": "42231500",
+    "text": "Suministros y equipo de alimentación enteral"
+  },
+  {
+    "id": "42203700",
+    "text": "Suministros y equipo de procesamiento de imágenes"
+  },
+  {
+    "id": "42261600",
+    "text": "Suministros y equipos de autopsia"
+  },
+  {
+    "id": "48102100",
+    "text": "Suministros y equipos de manipulación y almacenamiento"
+  },
+  {
+    "id": "42151500",
+    "text": "Suministros y equipos de odontología cosmética"
+  },
+  {
+    "id": "42142800",
+    "text": "Suministros y equipos para terapia vascular y de compresión"
+  },
+  {
+    "id": "41116200",
+    "text": "Suministros y equipos para tratamiento de enfermos"
+  },
+  {
+    "id": "50181700",
+    "text": "Suministros y mezclas para hacer al horno"
+  },
+  {
+    "id": "11172100",
+    "text": "Super aleaciones de cobalto"
+  },
+  {
+    "id": "11171800",
+    "text": "Super aleaciones de níquel"
+  },
+  {
+    "id": "11171900",
+    "text": "Super aleaciones de níquel"
+  },
+  {
+    "id": "30152100",
+    "text": "Superficies"
+  },
+  {
+    "id": "51191900",
+    "text": "Suplementos dietéticos y productos de terapia alimenticia"
+  },
+  {
+    "id": "12161900",
+    "text": "Surfactantes"
+  },
+  {
+    "id": "12161800",
+    "text": "Suspensión coloidal"
+  },
+  {
+    "id": "51131900",
+    "text": "Sustitutos de plasma sanguíneo, extensores y expansores"
+  },
+  {
+    "id": "42312200",
+    "text": "Sutura y productos relacionados"
+  },
+  {
+    "id": "50211500",
+    "text": "Tabaco y substitutos"
+  },
+  {
+    "id": "44111900",
+    "text": "Tableros o pizarras"
+  },
+  {
+    "id": "39121100",
+    "text": "Tableros y accesorios de control y distribución"
+  },
+  {
+    "id": "92112200",
+    "text": "Tácticas militares"
+  },
+  {
+    "id": "42291700",
+    "text": "Taladros quirúrgicos de mano, escariadores, instrumentos de punzonar, accesorios y productos relacionados"
+  },
+  {
+    "id": "24111800",
+    "text": "Tanques y cilindros"
+  },
+  {
+    "id": "20142900",
+    "text": "Tanques y recipientes"
+  },
+  {
+    "id": "31261600",
+    "text": "Tapas y envolturas"
+  },
+  {
+    "id": "43201400",
+    "text": "Tarjetas de sistema"
+  },
+  {
+    "id": "50182000",
+    "text": "Tartas, empanadas y pastas"
+  },
+  {
+    "id": "85151500",
+    "text": "Tecnología de los alimentos"
+  },
+  {
+    "id": "86141700",
+    "text": "Tecnología educativa"
+  },
+  {
+    "id": "11161700",
+    "text": "Tejidos de algodón"
+  },
+  {
+    "id": "11161500",
+    "text": "Tejidos de seda"
+  },
+  {
+    "id": "11161600",
+    "text": "Tejidos de seda"
+  },
+  {
+    "id": "11162100",
+    "text": "Tejidos especiales"
+  },
+  {
+    "id": "11161800",
+    "text": "Tejidos sintéticos"
+  },
+  {
+    "id": "11162000",
+    "text": "Tejidos vegetales excepto algodón"
+  },
+  {
+    "id": "11162200",
+    "text": "Telas no tejidas"
+  },
+  {
+    "id": "83111500",
+    "text": "Telefonía local y de larga distancia"
+  },
+  {
+    "id": "93171700",
+    "text": "Temas aduaneros"
+  },
+  {
+    "id": "50192100",
+    "text": "Tentempiés"
+  },
+  {
+    "id": "23232000",
+    "text": "Terminadoras de madera y accesorios"
+  },
+  {
+    "id": "11111500",
+    "text": "Tierra y suelo"
+  },
+  {
+    "id": "41103700",
+    "text": "Tinas y bateas de laboratorio"
+  },
+  {
+    "id": "60121800",
+    "text": "Tintas de dibujo e impresión"
+  },
+  {
+    "id": "12171500",
+    "text": "Tinturas"
+  },
+  {
+    "id": "52121700",
+    "text": "Toallas"
+  },
+  {
+    "id": "24112100",
+    "text": "Toneles, cubas y bidones"
+  },
+  {
+    "id": "31161500",
+    "text": "Tornillos"
+  },
+  {
+    "id": "42141500",
+    "text": "Torundas de algodón y aplicadoras de algodón"
+  },
+  {
+    "id": "72101700",
+    "text": "Trabajo en hormigón"
+  },
+  {
+    "id": "53101900",
+    "text": "Trajes"
+  },
+  {
+    "id": "53102800",
+    "text": "Trajes de baño"
+  },
+  {
+    "id": "51141900",
+    "text": "Tranquilizantes y fármacos ansiolíticos y antimaníacos"
+  },
+  {
+    "id": "41112100",
+    "text": "Transductores"
+  },
+  {
+    "id": "73111500",
+    "text": "Transformado y procesado de madera"
+  },
+  {
+    "id": "32111600",
+    "text": "Transistores"
+  },
+  {
+    "id": "26111500",
+    "text": "Transmisión de energía cinética"
+  },
+  {
+    "id": "24101700",
+    "text": "Transportadores y accesorios"
+  },
+  {
+    "id": "78101500",
+    "text": "Transporte aéreo de carga"
+  },
+  {
+    "id": "78111500",
+    "text": "Transporte aéreo de pasajeros"
+  },
+  {
+    "id": "78101900",
+    "text": "Transporte de carga intermodal"
+  },
+  {
+    "id": "78102000",
+    "text": "Transporte de carga por aeronave"
+  },
+  {
+    "id": "78101800",
+    "text": "Transporte de carga por carretera"
+  },
+  {
+    "id": "78101600",
+    "text": "Transporte de carga por ferrocarril"
+  },
+  {
+    "id": "42192400",
+    "text": "Transporte de equipo médico y traslado de productos"
+  },
+  {
+    "id": "78111800",
+    "text": "Transporte de pasajeros por carretera"
+  },
+  {
+    "id": "78111600",
+    "text": "Transporte de pasajeros por ferrocarril"
+  },
+  {
+    "id": "78111900",
+    "text": "Transporte espacial"
+  },
+  {
+    "id": "78101700",
+    "text": "Transporte marítimo de carga"
+  },
+  {
+    "id": "78111700",
+    "text": "Transporte marítimo de pasajeros"
+  },
+  {
+    "id": "47131500",
+    "text": "Trapos y paños de limpieza"
+  },
+  {
+    "id": "76131500",
+    "text": "Tratamiento de desechos y residuos nucleares"
+  },
+  {
+    "id": "42143200",
+    "text": "Tratamiento de la fertilidad y la esterilidad"
+  },
+  {
+    "id": "73151700",
+    "text": "Tratamiento de materiales"
+  },
+  {
+    "id": "76121700",
+    "text": "Tratamiento de residuos líquidos"
+  },
+  {
+    "id": "76121800",
+    "text": "Tratamiento de residuos líquidos"
+  },
+  {
+    "id": "85141600",
+    "text": "Tratamientos con hierbas"
+  },
+  {
+    "id": "52171000",
+    "text": "Tratamientos de pared de baño"
+  },
+  {
+    "id": "30103700",
+    "text": "Trenza"
+  },
+  {
+    "id": "20101700",
+    "text": "Trituradoras, quebrantadoras y amoladores"
+  },
+  {
+    "id": "42232000",
+    "text": "Trituradores de pastillas, cortapastillas y productos relacionados"
+  },
+  {
+    "id": "23231800",
+    "text": "Troceadoras de madera y accesorios"
+  },
+  {
+    "id": "51131700",
+    "text": "Trombolíticos / inhibidores de agregación de plaquetas"
+  },
+  {
+    "id": "40142100",
+    "text": "Tuberías"
+  },
+  {
+    "id": "20122700",
+    "text": "Tuberías para campo petrolero"
+  },
+  {
+    "id": "42221600",
+    "text": "Tuberías, juegos de administración y productos relacionados intravenosos y arteriales"
+  },
+  {
+    "id": "41121700",
+    "text": "Tubos de ensayo"
+  },
+  {
+    "id": "39101700",
+    "text": "Tubos fluorescentes"
+  },
+  {
+    "id": "42231700",
+    "text": "Tubos nasoentéricos"
+  },
+  {
+    "id": "31231300",
+    "text": "Tubos y cañerías"
+  },
+  {
+    "id": "24141700",
+    "text": "Tubos y núcleos para embalaje"
+  },
+  {
+    "id": "31161700",
+    "text": "Tuercas"
+  },
+  {
+    "id": "42181900",
+    "text": "Unidades de control de cuidado intenso y productos relacionados"
+  },
+  {
+    "id": "42181700",
+    "text": "Unidades de electrocardiografía (ECG) y productos relacionados"
+  },
+  {
+    "id": "42183300",
+    "text": "Unidades de examen de otorrinolaringología y productos relacionados"
+  },
+  {
+    "id": "42181600",
+    "text": "Unidades de presión sanguínea y productos relacionados"
+  },
+  {
+    "id": "53102700",
+    "text": "Uniformes"
+  },
+  {
+    "id": "40142400",
+    "text": "Uniones de tubería"
+  },
+  {
+    "id": "86121700",
+    "text": "Universidades"
+  },
+  {
+    "id": "52151600",
+    "text": "Utensilios de cocina domésticos"
+  },
+  {
+    "id": "52151500",
+    "text": "Utensilios de cocina domésticos desechables"
+  },
+  {
+    "id": "60121500",
+    "text": "Utensilios de dibujo, suministros y accesorios"
+  },
+  {
+    "id": "52151900",
+    "text": "Utensilios domésticos para hornear"
+  },
+  {
+    "id": "51201700",
+    "text": "Vacunas aviares"
+  },
+  {
+    "id": "51201600",
+    "text": "Vacunas, antígenos y toxoides"
+  },
+  {
+    "id": "25121600",
+    "text": "Vagones para ferrocarril y tranvía"
+  },
+  {
+    "id": "48101900",
+    "text": "Vajilla y servicio de mesa"
+  },
+  {
+    "id": "40141600",
+    "text": "Válvulas"
+  },
+  {
+    "id": "32141000",
+    "text": "Válvulas electrónicas"
+  },
+  {
+    "id": "30102400",
+    "text": "Varillas"
+  },
+  {
+    "id": "51122100",
+    "text": "Vasodilatadores"
+  },
+  {
+    "id": "20143000",
+    "text": "Vástagos de succión"
+  },
+  {
+    "id": "41106600",
+    "text": "Vectores"
+  },
+  {
+    "id": "11121900",
+    "text": "Vegetales para perfumería"
+  },
+  {
+    "id": "25161500",
+    "text": "Vehículos a pedal"
+  },
+  {
+    "id": "25101700",
+    "text": "Vehículos de emergencia"
+  },
+  {
+    "id": "25101900",
+    "text": "Vehículos especiales y de recreación"
+  },
+  {
+    "id": "25102000",
+    "text": "Vehículos militares"
+  },
+  {
+    "id": "46131500",
+    "text": "Vehículos para lanzamiento de cohetes"
+  },
+  {
+    "id": "25101500",
+    "text": "Vehículos para pasajeros"
+  },
+  {
+    "id": "25101600",
+    "text": "Vehículos para transporte de carga"
+  },
+  {
+    "id": "20102300",
+    "text": "Vehículos subterráneos para minería"
+  },
+  {
+    "id": "60122100",
+    "text": "Velas artesanales"
+  },
+  {
+    "id": "42311500",
+    "text": "Vendas, vendajes y productos relacionados"
+  },
+  {
+    "id": "80131600",
+    "text": "Venta de propiedades o edificios"
+  },
+  {
+    "id": "30171600",
+    "text": "Ventanas"
+  },
+  {
+    "id": "31242000",
+    "text": "Ventanas de láser"
+  },
+  {
+    "id": "25172300",
+    "text": "Ventanas y parabrisas para vehículos"
+  },
+  {
+    "id": "80141600",
+    "text": "Ventas y marketing"
+  },
+  {
+    "id": "40101500",
+    "text": "Ventilación"
+  },
+  {
+    "id": "42272100",
+    "text": "Ventiladores de presión mecánica negativa"
+  },
+  {
+    "id": "42272200",
+    "text": "Ventiladores y accesorios de presión mecánica positiva"
+  },
+  {
+    "id": "50101500",
+    "text": "Verduras"
+  },
+  {
+    "id": "53102000",
+    "text": "Vestidos y faldas"
+  },
+  {
+    "id": "42131600",
+    "text": "Vestuario para el personal médico y artículos relacionados"
+  },
+  {
+    "id": "42131500",
+    "text": "Vestuario para pacientes"
+  },
+  {
+    "id": "30101700",
+    "text": "Vigas"
+  },
+  {
+    "id": "70171600",
+    "text": "Vigilancia de recursos hidráulicos"
+  },
+  {
+    "id": "70101600",
+    "text": "Vigilancia pesquera"
+  },
+  {
+    "id": "80161600",
+    "text": "Vigilancia y seguridad de instalaciones empresariales"
+  },
+  {
+    "id": "50171700",
+    "text": "Vinagres y vinos de cocinar"
+  },
+  {
+    "id": "11191700",
+    "text": "Virutas"
+  },
+  {
+    "id": "30111700",
+    "text": "Yesos"
+  },
+  {
+    "id": "53111900",
+    "text": "Zapatillas"
+  },
+  {
+    "id": "53111700",
+    "text": "Zapatillas de descanso"
+  },
+  {
+    "id": "53111600",
+    "text": "Zapatos"
+  },
+  {
+    "id": "92112000",
+    "text": "Zonas militares"
+  }
+]
