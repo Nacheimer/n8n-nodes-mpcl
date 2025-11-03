@@ -1,0 +1,123 @@
+{
+  "name": "MP Licitaciones Eventos Cordillera",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-trigger",
+      "name": "When clicking 'Execute workflow'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1040,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "companyName",
+              "name": "companyName",
+              "value": "Eventos Cordillera",
+              "type": "string"
+            },
+            {
+              "id": "companyEmail",
+              "name": "companyEmail",
+              "value": "contacto@eventoscordillera.cl",
+              "type": "string"
+            },
+            {
+              "id": "sector",
+              "name": "sector",
+              "value": "maquinaria_servicios",
+              "type": "string"
+            },
+            {
+              "id": "tags",
+              "name": "tags",
+              "value": "catering,banquetería,eventos,coffee break,almuerzos",
+              "type": "string"
+            },
+            {
+              "id": "ruburos",
+              "name": "ruburos",
+              "value": "90101600, 90101700",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-client-data",
+      "name": "Set Client Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -896,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "webSearch",
+        "idOrden": 3,
+        "rubros": "={{ $json.rubros }}"
+      },
+      "id": "search-tenders",
+      "name": "Search Tenders",
+      "type": "n8n-nodes-mpcl.mercadoPublico",
+      "typeVersion": 1,
+      "position": [
+        -608,
+        -128
+      ],
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format tender data for LLM analysis\\nconst items = $input.all();\\n\\nif (!items || items.length === 0) {\\n  return [{ json: { count: 0, tenders: [], markdown: '', hasData: false }}];\\n}\\n\\nconst formattedTenders = items.map((item, index) => {\\n  const t = item.json;\\n  let montoValue = 0;\\n  if (t.monto) {\\n    if (typeof t.monto === 'string') { montoValue = parseInt(t.monto.replace(/\\\\./g, ''), 10) || 0; }\\n    else { montoValue = t.monto; }\\n  }\\n  return {\\n    numero: index + 1,\\n    codigo: t.id || 'N/A',\\n    nombre: t.title || 'Sin título',\\n    descripcion: t.description || 'Sin descripción',\\n    monto_estimado: montoValue,\\n    fecha_publicacion: t.fechaPublicacion || 'N/A',\\n    fecha_cierre: t.fechaCierre || 'N/A',\\n    tipo: t.tipo || 'N/A',\\n    estado: t.estado || 'N/A',\\n    organismo: t.organismo || 'N/A',\\n    link: t.link || ''\\n  };\\n});\\n\\nconst markdown = formattedTenders.map(t => `\\n---\\nCÓDIGO: ${t.codigo}\\nNOMBRE: ${t.nombre}\\nDESCRIPCIÓN: ${t.descripcion.substring(0,400)}...\\n`).join('');\\n\\nreturn [{ json: { count: formattedTenders.length, tenders: formattedTenders, markdown, hasData: true }}];"
+      },
+      "id": "format-for-llm",
+      "name": "Format Tenders for LLM",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -464,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4-turbo",
+          "mode": "list",
+          "cachedResultName": "gpt-4-turbo"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "Eres un experto en análisis de licitaciones públicas. Tu tarea es identificar qué licitaciones son relevantes para un cliente basándote en sus palabras clave de interés.\\n\\n📋 INSTRUCCIONES:\\n\\n1. ANALIZAR las palabras clave del cliente (pueden estar separadas por comas o espacios)\\n2. REVISAR cada licitación en la lista buscando coincidencias en NOMBRE y DESCRIPCIÓN\\n3. ACEPTAR coincidencias directas Y semánticas:\\n   - Palabras exactas\\n   - Sinónimos y términos relacionados del sector\\n   - Variaciones ortográficas\\n\\n4. Para CADA licitación relevante:\\n   - COPIAR su código EXACTAMENTE como aparece después de \\\"CÓDIGO:\\\"\\n   - Máximo 10 licitaciones\\n\\n5. Si NO encuentras licitaciones relevantes → devolver {\\\"matching_ids\\\": []}\\n\\n⚠️ IMPORTANTE: \\n- SOLO devuelve códigos que aparezcan LITERALMENTE en la lista proporcionada\\n- NUNCA inventes códigos nuevos\\n- Los códigos tienen formato como \\\"2735-144-LR25\\\", \\\"425-90-LQ25\\\", etc.\\n- SÉ INCLUSIVO: acepta sinónimos, términos relacionados y variaciones del sector\\n\\nRESPUESTA (formato JSON):\\n{\\n  \\\"matching_ids\\\": [\\\"codigo-1\\\", \\\"codigo-2\\\", ...]\\n}",
+              "role": "system"
+            },
+            {
+              "content": "📚 SECTOR: SERVICIOS PARA EVENTOS Y CATERING\\n\\nSinónimos clave:\\n- catering = banquetería = banquetes = colaciones = coffee break = alimentación para eventos\\n- eventos = ceremonias = congresos = seminarios = reuniones corporativas\\n- logística de eventos = montaje = arriendo de menaje = garzones = producción de eventos\\n\\nTérminos aceptados:\\n- Servicios de alimentación para eventos, coffee break, almuerzos, box lunch, coctelería, banquetería, menús especiales, dietas\\n- Servicios asociados: arriendo de menaje, montaje, personal de servicio, transporte y distribución de alimentos\\n\\nREGLAS:\\n- Considera coincidencias en nombre/descripcion que apunten a catering o servicios para eventos corporativos.",
+              "role": "user"
+            }
+          ]
+        }
+      },
+      "id": "llm-filter",
+      "name": "LLM Filter",
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 4,
+      "position": [
+        -320,
+        -128
+      ]
+    }
+  ],
+  "pinData": {}
+}

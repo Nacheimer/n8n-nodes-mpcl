@@ -1,0 +1,340 @@
+{
+  "name": "MP Licitaciones Transportes Test",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "578b2ead-32ed-48e2-af44-57dab58c4215",
+      "name": "When clicking 'Execute workflow'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1408,
+        -64
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "bed8d402-8f6a-4062-953a-7ced913ec339",
+              "name": "companyName",
+              "value": "Transportes Test",
+              "type": "string"
+            },
+            {
+              "id": "4c2e5ff9-3d76-4cd7-a0b6-ef8a39bdb4b2",
+              "name": "companyEmail",
+              "value": "eduardomellaramirez@gmail.com",
+              "type": "string"
+            },
+            {
+              "id": "3a274f29-c85f-4636-9f1f-a054b3e3b9b5",
+              "name": "sector",
+              "value": "transporte",
+              "type": "string"
+            },
+            {
+              "id": "3a274f29-c85f-4636-9f1f-a054b3e3b9b6",
+              "name": "tags",
+              "value": "transporte,viajes,pasajeros,furgón,colectivo,traslado,escolares,adultos mayores,turismo,excursiones,rutas,movilidad,servicio privado,transfer,giras,estudiantiles",
+              "type": "string"
+            },
+            {
+              "id": "38e1da9d-0e09-4f69-ab3b-4860e0e56cbf",
+              "name": "ruburos",
+              "value": "78111800, 78101800",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "57cc3d99-884a-4aba-b2b0-dbcd63cb0d54",
+      "name": "Set Client Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -896,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 📋 Valores Válidos para Campo SECTOR\n\nEn el nodo \"Set Client Data\", el campo **sector** acepta los siguientes valores:\n\n- `agricultura_materias_primas`\n- `metales_aleaciones`\n- `quimicos`\n- `caucho_resinas`\n- `papel`\n- `combustibles`\n- `mineria`\n- `maquinaria_agricola`\n- `maquinaria_industrial`\n- `maquinaria_servicios`\n- `software`\n- `salud`\n- `construccion`\n- `transporte`\n- `materiales_construccion`\n- `vehiculos_transporte`\n- `componentes_electricos`\n\n**Importante**: Escribir el valor exacto (copiar/pegar)",
+        "height": 464,
+        "width": 391,
+        "color": 4
+      },
+      "id": "sticky-note-sector-help",
+      "name": "Sticky Note",
+      "typeVersion": 1,
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1280,
+        -320
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "webSearch",
+        "idOrden": 3,
+        "rubros": "={{ $json.rubros }}"
+      },
+      "id": "eaecee26-0b68-431f-a1a2-86cc451afb86",
+      "name": "Search Tenders",
+      "type": "n8n-nodes-mpcl.mercadoPublico",
+      "typeVersion": 1,
+      "position": [
+        -608,
+        -128
+      ],
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format tender data for LLM analysis\nconst items = $input.all();\n\nconsole.log('=== FORMAT TENDERS FOR LLM ===');\nconsole.log('Items received from Search Tenders:', items.length);\n\nif (!items || items.length === 0) {\n  console.warn('WARNING: No items received from Search Tenders');\n  return [{ json: { \n    count: 0,\n    tenders: [],\n    markdown: '',\n    hasData: false\n  }}];\n}\n\nif (items.length > 0) {\n  console.log('First item keys:', Object.keys(items[0].json));\n  console.log('First item sample:', JSON.stringify(items[0].json, null, 2).substring(0, 500));\n}\n\nconst formattedTenders = items.map((item, index) => {\n  const t = item.json;\n\n  let montoValue = 0;\n  if (t.monto) {\n    if (typeof t.monto === 'string') {\n      montoValue = parseInt(t.monto.replace(/\\./g, ''), 10) || 0;\n    } else {\n      montoValue = t.monto;\n    }\n  }\n\n  return {\n    numero: index + 1,\n    codigo: t.id || 'N/A',\n    nombre: t.title || 'Sin título',\n    descripcion: t.description || 'Sin descripción',\n    monto_estimado: montoValue,\n    fecha_publicacion: t.fechaPublicacion || 'N/A',\n    fecha_cierre: t.fechaCierre || 'N/A',\n    tipo: t.tipo || 'N/A',\n    estado: t.estado || 'N/A',\n    organismo: t.organismo || 'N/A',\n    link: t.link || ''\n  };\n});\n\nconsole.log('Formatted tenders count:', formattedTenders.length);\nconsole.log('First formatted tender:', formattedTenders[0]);\n\n// Generate Markdown string for the LLM (truncate descriptions to 400 chars)\nconst markdown = formattedTenders.map(t => `\n---\nCÓDIGO: ${t.codigo}\nNOMBRE: ${t.nombre}\nDESCRIPCIÓN: ${t.descripcion.substring(0,400)}...\n`).join('');\n\nreturn [{\n  json: {\n    count: formattedTenders.length,\n    tenders: formattedTenders,\n    markdown: markdown,\n    hasData: true\n  }\n}];"
+      },
+      "id": "71729e55-e690-4b71-a466-09e8cb526663",
+      "name": "Format Tenders for LLM",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -464,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4-turbo",
+          "mode": "list",
+          "cachedResultName": "gpt-4-turbo"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "Eres un experto en análisis de licitaciones públicas. Tu tarea es identificar qué licitaciones son relevantes para un cliente basándote en sus palabras clave de interés.\n\n📋 INSTRUCCIONES:\n\n1. ANALIZAR las palabras clave del cliente (pueden estar separadas por comas o espacios)\n2. REVISAR cada licitación en la lista buscando coincidencias en NOMBRE y DESCRIPCIÓN\n3. ACEPTAR coincidencias directas Y semánticas:\n   - Palabras exactas\n   - Sinónimos y términos relacionados del sector\n   - Variaciones ortográficas\n\n4. Para CADA licitación relevante:\n   - COPIAR su código EXACTAMENTE como aparece después de \"CÓDIGO:\"\n   - Máximo 10 licitaciones\n\n5. Si NO encuentras licitaciones relevantes → devolver {\"matching_ids\": []}\n\n⚠️ IMPORTANTE: \n- SOLO devuelve códigos que aparezcan LITERALMENTE en la lista proporcionada\n- NUNCA inventes códigos nuevos\n- Los códigos tienen formato como \"2735-144-LR25\", \"425-90-LQ25\", etc.\n- SÉ INCLUSIVO: acepta sinónimos, términos relacionados y variaciones del sector\n\nRESPUESTA (formato JSON):\n{\n  \"matching_ids\": [\"codigo-1\", \"codigo-2\", ...]\n}",
+              "role": "system"
+            },
+            {
+              "content": "={{ $('Set Client Data').item.json.sector === 'agricultura_materias_primas' ? '📚 SECTOR: AGRICULTURA Y MATERIAS PRIMAS\\n\\nSinónimos clave:\\n- agricultura = agrícola = agropecuario = cultivo = producción agrícola = explotación agrícola\\n- ganadería = ganado = pecuario = crianza = producción animal = explotación ganadera\\n- materias primas = insumos agrícolas = productos agrícolas = recursos naturales\\n\\nTérminos aceptados del catálogo oficial:\\n- Animales: ganado, aves de corral, peces, animales domésticos, animales salvajes, insectos, mariscos, moluscos, crustáceos, mascotas\\n- Alimentos para animales: alimento para ganado, aves, peces, perros, gatos, roedores, reptiles\\n- Plantas y cultivos: árboles, arbustos, flores, plantas con flor, plantas sin flor, productos vegetales, semillas, almácigos, bulbos, tallos\\n- Semillas: cereales, hierbas, forraje, especias, flores, cultivos fibrosos, semilleros\\n- Insumos agrícolas: abonos orgánicos, abonos químicos, fertilizantes, pesticidas, herbicidas, repelentes de plagas, dispositivos para control de plagas\\n- Infraestructura animal: cobertizos, refugios, hábitats para animales, artículos de talabartería, arneses\\n- Residuos: residuos vegetales no alimentarios\\n- Servicios: administración agrícola, estudios de suelos y cultivos, economía agraria, catastros, derechos de aguas\\n- Veterinaria: accesorios y tratamientos para mascotas, productos veterinarios\\n\\nRubros específicos identificados:\\n- 10101500: Animales domésticos\\n- 10121500: Alimento para ganado\\n- 10161500: Árboles y arbustos\\n- 10171500: Abonos orgánicos\\n- 10171600: Abonos químicos\\n- 10171700: Herbicidas\\n- 10191500: Pesticidas o repelentes de plagas\\n- 10151500: Semillas y almácigos' : $('Set Client Data').item.json.sector === 'metales_aleaciones' ? '📚 SECTOR: METALES, ALEACIONES Y MATERIAS PRIMAS INDUSTRIALES\\n\\nSinónimos clave:\\n- metales = metal = aleación = aleaciones = metalúrgico = siderúrgico\\n- acero = aceros = acería = productos siderúrgicos = estructuras metálicas\\n- minerales = mineral = minería = materias primas = recursos mineros = extracción\\n\\nTérminos aceptados del catálogo oficial:\\n- Aceros: aceros básicos, aceros rápidos, aceros especiales, estructuras de acero\\n- Metales base: hierro, aluminio, cobre, zinc, plomo, estaño, níquel\\n- Metales preciosos: oro, plata, platino, paladio\\n- Aleaciones: aleaciones ferrosas, aleaciones no ferrosas, bronces, latones\\n- Minerales: minerales metálicos, minerales no metálicos, tierras y suelos\\n- Productos metálicos: barras, perfiles, chapas, láminas, tubos, cañerías metálicas\\n- Materias primas: cuero, pieles, subproductos animales, tejidos naturales\\n- Textiles: tejidos de algodón, tejidos de seda, tejidos sintéticos, tejidos vegetales, tejidos especiales, telas no tejidas\\n- Desperdicios: desechos metálicos, desechos no metálicos, desperdicios orgánicos, chatarra, reciclaje de metales\\n- Cuerpos sólidos: lingotes, bloques, tochos, barras, perfiles estructurales\\n\\nRubros específicos identificados:\\n- 11171500: Aceros básicos\\n- 11171700: Aceros rápidos\\n- 11101600: Metales\\n- 11101700: Metales base\\n- 11101800: Metales preciosos\\n- 11101500: Minerales\\n- 11191500: Cuerpos sólidos de metal\\n- 11141600: Desechos no metálicos\\n- 11141700: Desperdicios orgánicos y de tabaco\\n- 11131500: Cuero, pieles y subproductos animales' : $('Set Client Data').item.json.sector === 'quimicos' ? '📚 SECTOR: QUÍMICOS Y PRODUCTOS QUÍMICOS\\n\\nSinónimos clave:\\n- químicos = productos químicos = sustancias químicas = compuestos químicos = reactivos\\n- aditivos = aditivos químicos = aditivos industriales = mejoradores = estabilizadores\\n- explosivos = pirotecnia = materiales explosivos = pólvoras = detonantes\\n\\nTérminos aceptados del catálogo oficial:\\n- Aceites: aceites industriales, aceites lubricantes, aceites hidráulicos, aceites sintéticos\\n- Aditivos: aditivos para alimentos, aditivos para fármacos, aditivos para carburante, aditivos para pérdida de fluido\\n- Anti-productos: anti-sedimentos, anti-oxidantes, anti-congelantes, anti-corrosivos\\n- Compuestos: compuestos aromáticos, compuestos alifáticos, compuestos de colores, dispersiones, derivados orgánicos\\n- Explosivos: explosivos civiles, explosivos militares, pólvoras, detonantes, pirotecnia\\n- Gases: gases industriales, gases comprimidos, gases licuados, gases inertes, gases especiales\\n- Metales químicos: óxido de metales, óxido de metales raros, metales alcalinos, metales de transición\\n- Pinturas: pinturas industriales, recubrimientos, esmaltes, barnices, tintes, colorantes\\n- Productos químicos: ácidos, bases, sales, solventes, reactivos, catalizadores\\n- Polímeros: resinas, plásticos, elastómeros, polímeros sintéticos\\n- Productos de limpieza: detergentes industriales, desinfectantes, limpiadores químicos\\n- Tratamientos: tratamientos de agua, tratamientos de superficie, agentes de curado\\n\\nRubros específicos identificados:\\n- 12181600: Aceites\\n- 12164500: Aditivos para alimentos y fármacos\\n- 12162700: Aditivos para pérdida de fluido\\n- 12163100: Anti sedimentos\\n- 12162200: Anti-oxidantes\\n- 12352000: Compuestos aromáticos y alifáticos\\n- 12171700: Compuestos de colores y dispersiones\\n- 12131500: Explosivos\\n- 12141500: Óxido de metales\\n- 12141600: Óxido de metales raros' : $('Set Client Data').item.json.sector === 'software' ? '📚 SECTOR: SOFTWARE Y TECNOLOGÍA\\n\\nSinónimos clave:\\n- software = licencias = sistemas = aplicaciones = programas = plataformas = soluciones informáticas\\n\\nTérminos aceptados del catálogo oficial:\\n- Servicios TI: desarrollo, mantención, soporte, mantenimiento, implementación, consultoría TI, arquitectura de software, integración, capacitación, asesoría técnica\\n- Productos software: licencias, Microsoft Office, Adobe, VMware, Red Hat, Oracle, SAP, AutoCAD, bases de datos, servidores, antivirus, firewalls\\n- Infraestructura: cloud, ciberseguridad, infraestructura TI, redes, telecomunicaciones, data centers, virtualización, almacenamiento\\n- Desarrollo: ingeniería de software, desarrollo web, desarrollo móvil, apps, portales, sistemas de información, ERP, CRM\\n- Actividades: instalación, configuración, actualización, migración, integración, parametrización, puesta en marcha\\n- Hardware relacionado: computadores, servidores, equipamiento informático, periféricos, impresoras, escáneres, monitores\\n- Gestión: administración de sistemas, gestión de proyectos TI, service desk, mesa de ayuda, soporte técnico\\n- Seguridad: ciberseguridad, seguridad informática, respaldo, backup, recuperación de desastres, protección de datos\\n- Comunicaciones: telecomunicaciones, telefonía IP, videoconferencia, redes, conectividad, cableado estructurado\\n\\nRubros específicos identificados:\\n- 81111800: Administración de sistemas\\n- 81112200: Licenciamiento de software\\n- 43231500: Software de aplicación\\n- 43232300: Software de desarrollo\\n- 81141500: Contratistas en tecnologías de la información\\n- 81101500 - 81102300: Servicios informáticos diversos\\n- 82111500 - 82111700: Telecomunicaciones\\n- 80111800: Consultorías TI' : $('Set Client Data').item.json.sector === 'salud' ? '📚 SECTOR: SALUD\\n\\nSinónimos clave:\\n- hospital = centro de salud = establecimiento de salud = consultorio = CESFAM = clínica = servicio de salud = centro médico = centro asistencial\\n\\nTérminos aceptados del catálogo oficial:\\n- Establecimientos: hospitales, clínicas, consultorios, CESFAM, SAR, SAPU, centro de salud ambulatoria, policlínicos, postas, unidades de emergencia\\n- Servicios médicos: atención médica, prestaciones de salud, servicios clínicos, atención primaria, atención secundaria, atención terciaria, emergencias, urgencias, telemedicina, teleradiología\\n- Equipamiento médico: electrocardiógrafo, electrocardiógrafo, rayos X, ecógrafo, tomógrafo, resonador, monitores médicos, desfibrilador, ventilador, camillas, camas clínicas, instrumental quirúrgico\\n- Diagnóstico: exámenes, laboratorio clínico, imagenología, radiología, rayos X, ecografía, tomografía, resonancia magnética, electrocardiografía\\n- Insumos: medicamentos, fármacos, drogas, material clínico, insumos hospitalarios, dispositivos médicos, jeringas, gasas, vendajes, guantes, mascarillas\\n- Personal: médicos, enfermeras, técnicos paramédicos, matronas, kinesiólogos, nutricionistas, psicólogos, terapeutas\\n- Especialidades: medicina interna, cirugía, pediatría, ginecología, obstetricia, traumatología, oftalmología, cardiología, neurología\\n- Procedimientos: cirugías, intervenciones, tratamientos, terapias, rehabilitación, diagnóstico, atención, consultas\\n- Servicios de apoyo: aseo hospitalario, alimentación hospitalaria, lavandería hospitalaria, esterilización, manejo de residuos hospitalarios\\n- Infraestructura: construcción hospitales, equipamiento hospitalar, mobiliario clínico, sistemas de gases medicinales\\n\\nRubros específicos identificados:\\n- 42xxxxxx: Instrumental y equipamiento médico\\n- 51xxxxxx: Medicamentos y productos farmacéuticos\\n- 85101500: Edificación de centros de atención de salud\\n- 85122200: Evaluación de salud\\n- 85131500: Mantenimiento de servicios de salud\\n- 85131600: Mantenimiento hospitalario\\n- 85121600 - 85122200: Servicios clínicos diversos\\n- 93131700: Limpieza de hospitales y servicios de salud' : $('Set Client Data').item.json.sector === 'construccion' ? '📚 SECTOR: CONSTRUCCIÓN E INFRAESTRUCTURA\\n\\nSinónimos clave:\\n- construcción = edificación = obra = ejecución = proyecto = levantamiento = desarrollo de obra\\n\\nTérminos aceptados del catálogo oficial:\\n- Actividades: construcción, edificación, mejoramiento, habilitación, reposición, ampliación, remodelación, reparación, restauración, mantención, conservación, rehabilitación, normalización, terminación, instalación, montaje\\n- Obras civiles: puentes, túneles, viaductos, pasos sobre nivel, pasos bajo nivel, muros de contención, defensas fluviales\\n- Vialidad: carreteras, caminos, calles, avenidas, pasajes, veredas, aceras, bermas, ciclovías, pavimentación, carpeta asfáltica, hormigón, adoquines\\n- Edificaciones: edificios públicos, colegios, hospitales, consultorios, comisarías, cuarteles, oficinas, sedes sociales, gimnasios, estadios, multicanchas\\n- Infraestructura deportiva: estadios, gimnasios, multicanchas, canchas, piscinas, áreas deportivas, graderías, camarines, iluminación deportiva\\n- Infraestructura comunitaria: plazas, parques, áreas verdes, juegos infantiles, mobiliario urbano, bancas, luminarias\\n- Urbanización: loteos, urbanizaciones, habilitación de terrenos, movimiento de tierras, explanaciones, nivelación\\n- Instalaciones: eléctricas, sanitarias, agua potable, alcantarillado, drenaje, aguas lluvias, gas, telecomunicaciones\\n- Arquitectura: diseño arquitectónico, proyectos de arquitectura, planos, especificaciones técnicas, estudios de mecánica de suelos\\n- Especialidades: estructuras, fundaciones, muros, techumbres, cubiertas, terminaciones, revestimientos, pinturas, cerámicas, pisos\\n- Accesibilidad: accesibilidad universal, rampas, barandas, señalética, demarcación, vados peatonales\\n\\nRubros específicos identificados:\\n- 72xxxxxx: Servicios de edificación, construcción de instalaciones y mantenimiento\\n- 30xxxxxx: Componentes y suministros estructurales y de construcción\\n- 76xxxxxx: Servicios de limpieza, descontaminación y tratamiento de residuos\\n- 72131700: Construcción de edificios\\n- 72101900: Acabados de interiores\\n- 30222400: Componentes y sistemas para el techo\\n- 30222700: Estructuras y componentes de edificios' : $('Set Client Data').item.json.sector === 'transporte' ? '📚 SECTOR: TRANSPORTE Y LOGÍSTICA\\n\\nSinónimos clave:\\n- transporte = traslado = movilización = servicio de transporte = arriendo de vehículos = servicio de movilización\\n\\nTérminos aceptados del catálogo oficial:\\n- Servicios de transporte: traslado, movilización, conducción, arriendo, servicios de transporte, transporte privado, transporte público, transporte escolar\\n- Tipos de pasajeros: escolares, estudiantes, adultos mayores, personal, funcionarios, trabajadores, pacientes, turistas, visitantes\\n- Modalidades: excursiones, giras, paseos, turismo, transfer, rutas, recorridos, itinerarios, circuitos, tours\\n- Personal: choferes, conductores, pilotos, operadores, despachadores, coordinadores de flota\\n- Vehículos pasajeros: buses, minibuses, furgones, vans, microbuses, colectivos, taxibuses, vehículos, móviles, automóviles\\n- Vehículos carga: camiones, camionetas, furgones de carga, tracto-camiones, remolques, semi-remolques\\n- Logística: distribución, despacho, reparto, entrega, envío, transporte de mercancías\\n- Carga: mercancía, fletes, carga, bultos, paquetes, encomiendas, mudanzas, traslado de equipos\\n- Gestión: administración de flotas, control de flota, seguimiento vehicular, GPS, telemetría, gestión de rutas\\n- Mantenimiento: mantención vehicular, reparación, servicio técnico, revisión técnica, cambio de aceite, neumáticos\\n- Combustibles: bencina, petróleo diesel, gas, combustible, abastecimiento, suministro\\n- Seguros: seguros vehiculares, SOAP, pólizas, coberturas\\n\\nRubros específicos identificados:\\n- 78101800: Servicios de transporte de pasajeros por carretera\\n- 78111800: Servicios de transporte escolar\\n- 78141500: Servicios de arriendo de vehículos\\n- 25xxxxxx: Vehículos comerciales, militares y particulares\\n- 24xxxxxx: Maquinaria y accesorios para manejo, acondicionamiento y almacenaje de materiales' : 'Por favor selecciona un sector válido en la configuración del workflow.' }}"
+            },
+            {
+              "content": "PALABRAS CLAVE DEL CLIENTE:\n{{ $('Set Client Data').item.json.tags }}\n\nLICITACIONES DISPONIBLES:\n{{ $('Format Tenders for LLM').item.json.markdown }}\n\nAnaliza las licitaciones y devuelve los códigos de las que coincidan."
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {
+          "temperature": 0.2
+        }
+      },
+      "id": "23ceb63d-eb27-455d-9720-2f5132d78605",
+      "name": "Find Matching Tender IDs",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -320,
+        -128
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "omq5BU8Tn3sj3tSp",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extraer IDs de licitaciones coincidentes del primer LLM\nconst items = $input.all();\nconsole.log('=== EXTRAER IDS COINCIDENTES ===');\n\nif (!items || items.length === 0) {\n  console.error('ERROR: No se recibieron items del LLM de IDs');\n  return [{ json: { matching_ids: [], matching_tenders: [], total_tenders: 0 } }];\n}\n\nconst response = items[0].json;\nconsole.log('Response structure:', JSON.stringify(response, null, 2).substring(0, 500));\n\nlet matchingIds = [];\n\n// Extraer matching_ids de la respuesta\nif (response.message && response.message.content) {\n  // Si content es un objeto (jsonOutput: true)\n  if (typeof response.message.content === 'object' && response.message.content.matching_ids) {\n    matchingIds = response.message.content.matching_ids || [];\n    console.log('Extracted matching_ids from object content:', matchingIds);\n  } else if (typeof response.message.content === 'string') {\n    // Si content es string, parsearlo\n    try {\n      const parsed = JSON.parse(response.message.content);\n      matchingIds = parsed.matching_ids || [];\n      console.log('Extracted matching_ids from string content:', matchingIds);\n    } catch (e) {\n      console.error('Error al procesar matching_ids:', e);\n    }\n  }\n} else if (response.matching_ids) {\n  matchingIds = response.matching_ids;\n  console.log('Extracted matching_ids from root:', matchingIds);\n}\n\nconsole.log('IDs coincidentes encontrados:', matchingIds);\nconsole.log('Tipo de matchingIds:', Array.isArray(matchingIds), 'Longitud:', matchingIds.length);\n\n// Obtener datos originales de licitaciones del nodo Formatear para LLM\nconst tenderData = $('Format Tenders for LLM').first().json.tenders || [];\nconsole.log('Total licitaciones originales:', tenderData.length);\n\nif (tenderData.length > 0) {\n  console.log('Primer tender codigo:', tenderData[0].codigo);\n}\n\n// Extraer solo las licitaciones coincidentes (más eficiente que eliminar no coincidentes)\nconst matchingTenders = tenderData.filter(tender => {\n  const matches = matchingIds.includes(tender.codigo);\n  if (matches) {\n    console.log('Match found:', tender.codigo);\n  }\n  return matches;\n});\n\nconsole.log('Licitaciones coincidentes extraídas:', matchingTenders.length);\n\nreturn [{\n  json: {\n    matching_ids: matchingIds,\n    matching_tenders: matchingTenders,\n    total_tenders: tenderData.length\n  }\n}];"
+      },
+      "id": "d7d8222c-c0e8-4bc2-98df-c59fef38fe8d",
+      "name": "Filter Matching Tenders",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -48,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get all tender items from the filtered results\nconst tenders = $input.all();\n\nconsole.log('=== CONVERT TO HTML TABLE ===');\nconsole.log('Tenders received:', tenders.length);\n\nif (tenders.length > 0) {\n  console.log('First tender structure:', Object.keys(tenders[0].json));\n  console.log('First tender sample:', tenders[0].json);\n}\n\n// Check if we have results\nconst hasResults = tenders.length > 0 && tenders[0].json && tenders[0].json.matching_tenders && tenders[0].json.matching_tenders.length > 0;\nconsole.log('Has valid results:', hasResults);\n\nif (!hasResults) {\n  console.log('INFO: No valid results - returning empty state');\n  return [{\n    json: {\n      htmlTable: null,\n      tenderCount: 0,\n      hasResults: false\n    }\n  }];\n}\n\n// Get the matching tenders from the filter results\nconst matchingTenders = tenders[0].json.matching_tenders || [];\nconsole.log('Matching tenders to process:', matchingTenders.length);\n\n// Helper function to escape HTML\nconst escapeHtml = (str) => {\n  if (!str) return '';\n  return String(str)\n    .replace(/&/g, '&amp;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n    .replace(/\"/g, '&quot;')\n    .replace(/'/g, '&#039;');\n};\n\n// Helper to format currency\nconst formatCurrency = (amount) => {\n  if (!amount && amount !== 0) return 'N/A';\n  return new Intl.NumberFormat('es-CL', {\n    style: 'currency',\n    currency: 'CLP',\n    maximumFractionDigits: 0\n  }).format(amount);\n};\n\n// Build HTML table\nlet tableHtml = `\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;\">\n  <thead>\n    <tr style=\"background-color: #f0f0f0;\">\n      <th>Código</th>\n      <th>Nombre</th>\n      <th>Descripción</th>\n      <th>Monto Estimado</th>\n      <th>Fecha Publicación</th>\n      <th>Fecha Cierre</th>\n      <th>Link</th>\n    </tr>\n  </thead>\n  <tbody>\n`;\n\nmatchingTenders.forEach((tender) => {\n  tableHtml += `\n    <tr>\n      <td>${escapeHtml(tender.codigo)}</td>\n      <td>${escapeHtml(tender.nombre)}</td>\n      <td>${escapeHtml(tender.descripcion)}</td>\n      <td>${formatCurrency(tender.monto_estimado)}</td>\n      <td>${escapeHtml(tender.fecha_publicacion)}</td>\n      <td>${escapeHtml(tender.fecha_cierre)}</td>\n      <td><a href=\"${escapeHtml(tender.link)}\" target=\"_blank\">Ver licitación</a></td>\n    </tr>\n  `;\n});\n\ntableHtml += `\n  </tbody>\n</table>\n`;\n\nconsole.log('SUCCESS: Generated HTML table with', matchingTenders.length, 'rows');\n\nreturn [{\n  json: {\n    htmlTable: tableHtml,\n    tenderCount: matchingTenders.length,\n    hasResults: true\n  }\n}];"
+      },
+      "id": "237dbe6f-8a1a-4dc1-bcfc-53c8bb7f4404",
+      "name": "Convert to HTML Table",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        96,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Get client data and HTML table\nconst clientData = $('Set Client Data').first().json;\nconst tableData = $input.first().json;\n\nconsole.log('=== COMPOSE EMAIL ===');\nconsole.log('Table data received:', tableData);\n\nconst companyName = clientData.companyName || 'Estimado cliente';\nconst companyEmail = clientData.companyEmail || '';\nconst tenderCount = tableData.tenderCount || 0;\nconst hasResults = tableData.hasResults !== false;\n\nconsole.log('Company:', companyName);\nconsole.log('Email:', companyEmail);\nconsole.log('Tender count:', tenderCount);\nconsole.log('Has results:', hasResults);\n\n// Compose email\nconst subject = `Licitaciones recomendadas para ${companyName}`;\n\nlet htmlBody;\nlet textBody;\n\nif (!hasResults || tenderCount === 0) {\n  console.log('INFO: Composing NO RESULTS email');\n  // No results - simple message\n  htmlBody = `\n<div style=\"font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto;\">\n  <h2>Hola ${companyName},</h2>\n  \n  <p>Le informamos que en esta oportunidad no hemos encontrado licitaciones que se ajusten a los criterios de búsqueda de su empresa.</p>\n  \n  <p>Seguiremos monitoreando las publicaciones y le avisaremos cuando encontremos oportunidades relevantes.</p>\n  \n  <br>\n  <p>Saludos cordiales,<br>\n  <strong>ACME Consulting</strong></p>\n</div>\n`;\n\n  textBody = `\nHola ${companyName},\n\nLe informamos que en esta oportunidad no hemos encontrado licitaciones que se ajusten a los criterios de búsqueda de su empresa.\n\nSeguiremos monitoreando las publicaciones y le avisaremos cuando encontremos oportunidades relevantes.\n\nSaludos cordiales,\nACME Consulting\n`;\n} else {\n  console.log('INFO: Composing email WITH RESULTS');\n  // With results - show table\n  const htmlTable = tableData.htmlTable;\n  console.log('HTML table length:', htmlTable ? htmlTable.length : 0);\n  \n  htmlBody = `\n<div style=\"font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto;\">\n  <h2>Hola ${companyName},</h2>\n  \n  <p>Le informamos que hemos encontrado <strong>${tenderCount} ${tenderCount === 1 ? 'licitación' : 'licitaciones'}</strong> que recomendamos para su empresa:</p>\n  \n  ${htmlTable}\n  \n  <br>\n  <p>Saludos cordiales,<br>\n  <strong>ACME Consulting</strong></p>\n</div>\n`;\n\n  textBody = `\nHola ${companyName},\n\nLe informamos que hemos encontrado ${tenderCount} ${tenderCount === 1 ? 'licitación' : 'licitaciones'} que recomendamos para su empresa.\n\nPara ver los detalles, por favor revise el correo en formato HTML.\n\nSaludos cordiales,\nACME Consulting\n`;\n}\n\nconsole.log('Email composed - HTML body length:', htmlBody.length);\nconsole.log('Subject:', subject);\n\nreturn [{\n  json: {\n    to: companyEmail,\n    subject: subject,\n    html: htmlBody,\n    text: textBody\n  }\n}];"
+      },
+      "id": "6501b4d1-9183-4573-a6aa-6043995e8053",
+      "name": "Compose Email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "eduardo@attitude.cl",
+        "toEmail": "={{ $json.to }}",
+        "subject": "={{ $json.subject }}",
+        "emailFormat": "both",
+        "text": "={{ $json.text }}",
+        "html": "={{ $json.html }}",
+        "options": {}
+      },
+      "id": "5ed1ff87-d762-45d9-9f72-607fbb3f5dcb",
+      "name": "Send Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        384,
+        -128
+      ],
+      "webhookId": "5ea5e3e7-3519-44ec-9438-d58fc149a267",
+      "credentials": {
+        "smtp": {
+          "id": "UB4BWxwhDGzwlgTr",
+          "name": "SMTP account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse ruburos from comma-separated string to array\nconst items = $input.all();\n\nconsole.log('=== PARSE RUBUROS ===');\nconsole.log('Items received:', items.length);\n\nif (!items || items.length === 0) {\n  console.log('No items received, returning empty rubros array');\n  return [{\n    json: {\n      rubros: []\n    }\n  }];\n}\n\nconst clientData = items[0].json;\nconsole.log('Client data:', clientData);\n\n// Parse ruburos if present\nlet rubros = [];\nif (clientData.ruburos && typeof clientData.ruburos === 'string') {\n  // Remove spaces and split by comma\n  rubros = clientData.ruburos\n    .split(',')\n    .map(r => r.trim())\n    .filter(r => r !== '' && /^\\d+$/.test(r)); // Only keep numeric codes\n  \n  console.log('Parsed rubros:', rubros);\n  console.log('Rubros count:', rubros.length);\n} else {\n  console.log('No ruburos found or invalid format');\n}\n\n// Return the same data but with parsed rubros as array\nreturn [{\n  json: {\n    ...clientData,\n    rubros: rubros\n  }\n}];"
+      },
+      "id": "be6e21cd-ccd3-446e-b986-3121978ac22e",
+      "name": "Parse Rubros",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -752,
+        -128
+      ]
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking 'Execute workflow'": {
+      "main": [
+        [
+          {
+            "node": "Set Client Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Client Data": {
+      "main": [
+        [
+          {
+            "node": "Parse Rubros",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search Tenders": {
+      "main": [
+        [
+          {
+            "node": "Format Tenders for LLM",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Tenders for LLM": {
+      "main": [
+        [
+          {
+            "node": "Find Matching Tender IDs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find Matching Tender IDs": {
+      "main": [
+        [
+          {
+            "node": "Filter Matching Tenders",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Matching Tenders": {
+      "main": [
+        [
+          {
+            "node": "Convert to HTML Table",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to HTML Table": {
+      "main": [
+        [
+          {
+            "node": "Compose Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Compose Email": {
+      "main": [
+        [
+          {
+            "node": "Send Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Rubros": {
+      "main": [
+        [
+          {
+            "node": "Search Tenders",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "6673b619-9437-458d-864f-7adbdda5c59d",
+  "meta": {
+    "instanceId": "c4d6fe24465d4cccbc0cf10ead0f9debe8c95c1bfcff090b3524c815bff1e4ef"
+  },
+  "id": "LC96x3FSUEkiq2WA",
+  "tags": []
+}
