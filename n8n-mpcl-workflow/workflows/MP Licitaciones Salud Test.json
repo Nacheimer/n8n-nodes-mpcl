@@ -1,15 +1,31 @@
 {
-  "name": "MP Licitaciones Transportes Test",
+  "name": "MP Licitaciones Analysis",
   "nodes": [
     {
       "parameters": {},
-      "id": "578b2ead-32ed-48e2-af44-57dab58c4215",
+      "id": "5c210a8a-a52d-4089-b829-e641ad098848",
       "name": "When clicking 'Execute workflow'",
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        -1408,
-        -64
+        -1040,
+        -128
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 📋 Valores Válidos para Campo SECTOR\n\nEn el nodo \"Set Client Data\", el campo **sector** acepta los siguientes valores:\n\n- `agricultura_materias_primas`\n- `metales_aleaciones`\n- `quimicos`\n- `caucho_resinas`\n- `papel`\n- `combustibles`\n- `mineria`\n- `maquinaria_agricola`\n- `maquinaria_industrial`\n- `maquinaria_servicios`\n- `software`\n- `salud`\n- `construccion`\n- `transporte`\n- `materiales_construccion`\n- `vehiculos_transporte`\n- `componentes_electricos`\n\n**Importante**: Escribir el valor exacto (copiar/pegar)",
+        "height": 464,
+        "width": 391,
+        "color": 4
+      },
+      "id": "sticky-note-sector-help",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1280,
+        -320
       ]
     },
     {
@@ -19,7 +35,7 @@
             {
               "id": "bed8d402-8f6a-4062-953a-7ced913ec339",
               "name": "companyName",
-              "value": "Transportes Test",
+              "value": "Salud Test",
               "type": "string"
             },
             {
@@ -31,19 +47,19 @@
             {
               "id": "3a274f29-c85f-4636-9f1f-a054b3e3b9b5",
               "name": "sector",
-              "value": "transporte",
+              "value": "salud",
               "type": "string"
             },
             {
               "id": "3a274f29-c85f-4636-9f1f-a054b3e3b9b6",
               "name": "tags",
-              "value": "transporte,viajes,pasajeros,furgón,colectivo,traslado,escolares,adultos mayores,turismo,excursiones,rutas,movilidad,servicio privado,transfer,giras,estudiantiles",
+              "value": "salud,hospitales,atención médica,clínicas,equipamiento médico,licitaciones salud pública,medicamentos,insumos hospitalarios,emergencias,atención primaria",
               "type": "string"
             },
             {
               "id": "38e1da9d-0e09-4f69-ab3b-4860e0e56cbf",
               "name": "ruburos",
-              "value": "78111800, 78101800",
+              "value": "93131700, 85131500, 85122200",
               "type": "string"
             }
           ]
@@ -57,22 +73,6 @@
       "position": [
         -896,
         -128
-      ]
-    },
-    {
-      "parameters": {
-        "content": "## 📋 Valores Válidos para Campo SECTOR\n\nEn el nodo \"Set Client Data\", el campo **sector** acepta los siguientes valores:\n\n- `agricultura_materias_primas`\n- `metales_aleaciones`\n- `quimicos`\n- `caucho_resinas`\n- `papel`\n- `combustibles`\n- `mineria`\n- `maquinaria_agricola`\n- `maquinaria_industrial`\n- `maquinaria_servicios`\n- `software`\n- `salud`\n- `construccion`\n- `transporte`\n- `materiales_construccion`\n- `vehiculos_transporte`\n- `componentes_electricos`\n\n**Importante**: Escribir el valor exacto (copiar/pegar)",
-        "height": 464,
-        "width": 391,
-        "color": 4
-      },
-      "id": "sticky-note-sector-help",
-      "name": "Sticky Note",
-      "typeVersion": 1,
-      "type": "n8n-nodes-base.stickyNote",
-      "position": [
-        -1280,
-        -320
       ]
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "parameters": {
-        "jsCode": "// Get all tender items from the filtered results\nconst tenders = $input.all();\n\nconsole.log('=== CONVERT TO HTML TABLE ===');\nconsole.log('Tenders received:', tenders.length);\n\nif (tenders.length > 0) {\n  console.log('First tender structure:', Object.keys(tenders[0].json));\n  console.log('First tender sample:', tenders[0].json);\n}\n\n// Check if we have results\nconst hasResults = tenders.length > 0 && tenders[0].json && tenders[0].json.matching_tenders && tenders[0].json.matching_tenders.length > 0;\nconsole.log('Has valid results:', hasResults);\n\nif (!hasResults) {\n  console.log('INFO: No valid results - returning empty state');\n  return [{\n    json: {\n      htmlTable: null,\n      tenderCount: 0,\n      hasResults: false\n    }\n  }];\n}\n\n// Get the matching tenders from the filter results\nconst matchingTenders = tenders[0].json.matching_tenders || [];\nconsole.log('Matching tenders to process:', matchingTenders.length);\n\n// Helper function to escape HTML\nconst escapeHtml = (str) => {\n  if (!str) return '';\n  return String(str)\n    .replace(/&/g, '&amp;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n    .replace(/\"/g, '&quot;')\n    .replace(/'/g, '&#039;');\n};\n\n// Helper to format currency\nconst formatCurrency = (amount) => {\n  if (!amount && amount !== 0) return 'N/A';\n  return new Intl.NumberFormat('es-CL', {\n    style: 'currency',\n    currency: 'CLP',\n    maximumFractionDigits: 0\n  }).format(amount);\n};\n\n// Build HTML table\nlet tableHtml = `\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;\">\n  <thead>\n    <tr style=\"background-color: #f0f0f0;\">\n      <th>Código</th>\n      <th>Nombre</th>\n      <th>Descripción</th>\n      <th>Monto Estimado</th>\n      <th>Fecha Publicación</th>\n      <th>Fecha Cierre</th>\n      <th>Link</th>\n    </tr>\n  </thead>\n  <tbody>\n`;\n\nmatchingTenders.forEach((tender) => {\n  tableHtml += `\n    <tr>\n      <td>${escapeHtml(tender.codigo)}</td>\n      <td>${escapeHtml(tender.nombre)}</td>\n      <td>${escapeHtml(tender.descripcion)}</td>\n      <td>${formatCurrency(tender.monto_estimado)}</td>\n      <td>${escapeHtml(tender.fecha_publicacion)}</td>\n      <td>${escapeHtml(tender.fecha_cierre)}</td>\n      <td><a href=\"${escapeHtml(tender.link)}\" target=\"_blank\">Ver licitación</a></td>\n    </tr>\n  `;\n});\n\ntableHtml += `\n  </tbody>\n</table>\n`;\n\nconsole.log('SUCCESS: Generated HTML table with', matchingTenders.length, 'rows');\n\nreturn [{\n  json: {\n    htmlTable: tableHtml,\n    tenderCount: matchingTenders.length,\n    hasResults: true\n  }\n}];"
+        "jsCode": "// Get all tender items from the filtered results\nconst tenders = $input.all();\n\nconsole.log('=== CONVERT TO HTML TABLE ===');\nconsole.log('Tenders received:', tenders.length);\n\nif (tenders.length > 0) {\n  console.log('First tender structure:', Object.keys(tenders[0].json));\n  console.log('First tender sample:', tenders[0].json);\n}\n\n// Check if we have results\nconst hasResults = tenders.length > 0 && tenders[0].json && tenders[0].json.matching_tenders && tenders[0].json.matching_tenders.length > 0;\nconsole.log('Has valid results:', hasResults);\n\nif (!hasResults) {\n  console.log('INFO: No valid results - returning empty state');\n  return [{\n    json: {\n      htmlTable: null,\n      tenderCount: 0,\n      hasResults: false\n    }\n  }];\n}\n\n// Get the matching tenders from the filter results\nconst matchingTenders = tenders[0].json.matching_tenders || [];\nconsole.log('Matching tenders to process:', matchingTenders.length);\n\n// Helper function to escape HTML\nconst escapeHtml = (str) => {\n  if (!str) return '';\n  return String(str)\n    .replace(/&/g, '&amp;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n    .replace(/\"/g, '&quot;')\n    .replace(/'/g, '&#039;');\n};\n\n// Helper to format currency\nconst formatCurrency = (amount) => {\n  if (!amount && amount !== 0) return 'N/A';\n  if (amount === 0) return 'Sin monto especificado';\n  return new Intl.NumberFormat('es-CL', {\n    style: 'currency',\n    currency: 'CLP',\n    maximumFractionDigits: 0\n  }).format(amount);\n};\n\n// Build HTML table\nlet tableHtml = `\n<table border=\"1\" cellpadding=\"8\" cellspacing=\"0\" style=\"border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;\">\n  <thead>\n    <tr style=\"background-color: #f0f0f0;\">\n      <th>Código</th>\n      <th>Nombre</th>\n      <th>Descripción</th>\n      <th>Monto Estimado</th>\n      <th>Fecha Publicación</th>\n      <th>Fecha Cierre</th>\n      <th>Link</th>\n    </tr>\n  </thead>\n  <tbody>\n`;\n\nmatchingTenders.forEach((tender) => {\n  tableHtml += `\n    <tr>\n      <td>${escapeHtml(tender.codigo)}</td>\n      <td>${escapeHtml(tender.nombre)}</td>\n      <td>${escapeHtml(tender.descripcion)}</td>\n      <td>${formatCurrency(tender.monto_estimado)}</td>\n      <td>${escapeHtml(tender.fecha_publicacion)}</td>\n      <td>${escapeHtml(tender.fecha_cierre)}</td>\n      <td><a href=\"${escapeHtml(tender.link)}\" target=\"_blank\">Ver licitación</a></td>\n    </tr>\n  `;\n});\n\ntableHtml += `\n  </tbody>\n</table>\n`;\n\nconsole.log('SUCCESS: Generated HTML table with', matchingTenders.length, 'rows');\n\nreturn [{\n  json: {\n    htmlTable: tableHtml,\n    tenderCount: matchingTenders.length,\n    hasResults: true\n  }\n}];"
       },
       "id": "237dbe6f-8a1a-4dc1-bcfc-53c8bb7f4404",
       "name": "Convert to HTML Table",
